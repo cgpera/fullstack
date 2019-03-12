@@ -14,14 +14,21 @@ nav {
     font-size: 16px;
 }
 
+#footer {
+    font-style: italic;
+}
+
+aside {
+    float: left;
+}
 /*img {
     display: block;
     float: left;
-}*/
-
-#titulo {
+}
+*/
+/*#titulo {
     height: 100;
     width: 100;
-/*    display: block;
-    float: inherit;*/
-}
+    display: block;
+    float: inherit;
+}*/
