@@ -17,47 +17,42 @@
 }
 
 #links {
-/*    background-color: lavender;
-*/    text-align: center;
-    width: auto;
-    font-style: normal;
-/*    margin-left: 200px;
-    padding-left: 20px;
-*/}
+  text-align: center;
+  width: auto;
+  font-style: normal;
+}
 
 #links a {
-    padding: 20px;
+  padding: 20px;
 }
 
-#metas {
-    overflow: auto;
+section {
+  float: right;
+  margin: 0 1.5%;
+  width: 63%;
 }
 
-#metas h2 {
-    text-align: center;
+aside {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
 }
 
-#lado {
-/*    display: block;
-    align: left;*/
-    float: left;
-    margin-left: 10px;
-    margin-right: 0px;
-    margin-top: 40px;
-    margin-bottom: 0px;
+aside img {
+  margin-top: 50px;
+  border: 1px solid black;
+  height: 400px;
 }
 
-#footer {
+section h2 {
+  text-align: center;
+}
+
+/*footer {
+  clear: both;
+}
+
+footer {
     text-align: left;
 }
-
-p {
-/*    font-family: "Times New Roman", Times, serif;*/
-    font-family: "Georgia", serif;
-}
-
-/*.center {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}*/
+*/
