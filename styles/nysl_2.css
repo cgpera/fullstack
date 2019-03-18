@@ -1,0 +1,69 @@
+.encabezado {
+    background-image: url(../images/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-color: lavender;
+    background-size: cover;
+    border-radius: 8px;
+    color: #fff;
+    display: block;
+/*    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+*/    padding: 24px 15px;
+    text-align: center;
+  }
+  
+  .encabezado:before,
+  .encabezado:after {
+    content: "";
+    display: table;
+  }
+  .encabezado:after {
+    clear: both;
+  }
+  .encabezado {
+    clear: both;
+    *zoom: 1;
+  }
+  
+  
+  .encabezado img {
+      float: right;
+      height: 150px;
+      width: 150px;
+      position: relative;
+      top: 50px;
+      right: 150px;;
+  }
+  
+  section {
+      float: left;
+      margin: 0 1.5%;
+      width: 30%;
+  }
+
+  section h2 {
+    text-align: center;
+  }
+  
+  section li {
+    text-align: left;
+  }
+  .primary-footer small {
+    float: left;
+  }
+  
+  .primary-footer {
+    padding-bottom: 14px;
+    padding-top: 14px;
+    clear: both;
+    background:#2db34a /* cadetblue*/;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+  /*  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;*/
+  }
+
+  .enlaces {
+    text-align: right;
+  }
