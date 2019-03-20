@@ -1,8 +1,8 @@
 .encabezado {
-  background-image: url(../images/design1_image1.jpg);
+  background-image: url(../images/design2_image1.jpg);
   background-repeat: no-repeat;
   background-color: lavender;
-  background-size: inherit;
+  background-size: cover;
   border-radius: 12px;
   color: #fff;
   display: block;
@@ -10,7 +10,6 @@
   text-align: center;
 }
 
-/* clearfix */
 .encabezado:before,
 .encabezado:after {
 content: "";
@@ -49,32 +48,28 @@ font-family: 'Roboto', sans-serif;
   float: left;
 }
 
-/*.enlaces {
-  position: absolute;
-  align-content: flex-start;
-  float: right;
-  padding-right: 0px;
-  padding-top: 0px;
-}*/
-
 .enlaces {
-/*  border-top: 4px solid #fff;
-  padding: 40px 0 22px 0;*/
   float: right;
   margin-right: 40px;
   margin-top: 60px;
 }
 
+.enlaces_footer {
+    float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+
 .nav {
   background-color: #a6a3c7;
   border: 2px solid blue;
-  padding: 10px;
+  padding: 7px;
 }
 
-#middle {
+.middle {
   background-color: #51b472;
   border: 2px solid blue;
-  padding: 10px;
+  padding: 7px;
 }
 
 section {
@@ -102,5 +97,4 @@ aside {
   border-radius: 3px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  /*display: block;*/
 }

@@ -1,13 +1,17 @@
 .encabezado {
-  background:/* #2db34a verde*/ cadetblue;
-  border-radius: 8px;
-  color: #fff;
-  display: block;
-  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-  padding: 24px 15px;
-  text-align: center;
-}
-
+    background-image: url(../images/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-color: lavender;
+    background-size: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: #fff;
+    display: block;
+    padding: 24px 15px;
+    text-align: center;
+  }
+  
+/* clearfix */
 .encabezado:before,
 .encabezado:after {
   content: "";
@@ -16,66 +20,57 @@
 .encabezado:after {
   clear: both;
 }
+
 .encabezado {
   clear: both;
   *zoom: 1;
 }
 
-
 .encabezado img {
-    float: left;
-    height: 100px;
-    width: 100px;
-    position: relative;
-    top: 50px;
-    left: 30px;;
-/*    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-*/}
-
-#links {
-  text-align: center;
-  width: auto;
-  font-family: 18px "Lato", sans-serif; 
-  /*font-style: normal;*/
-}
-
-#links a {
-  padding: 20px;
-}
-
-/*
-.primary-footer:link {
-  text-align: right;
-}*/
-
-section {
   float: right;
-  margin: 0 1.5%;
-  width: 60%;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: 60px;
+  right: 150px;;
+}
+
+.titulo2 {
+  text-align: center;
+  background-color: #a6a3c7;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 aside {
   float: left;
-  margin: 0 1.5%;
-  /*width: 30%;*/
+  width: 35%;
 }
 
-aside img {
-  margin-top: 50px;
-  border: 2px solid black;
-  border-radius: 8px;
-  height: 400px;
+section {
+    float: left;
+    margin: 0;
+    width: 65%;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 section h2 {
   text-align: center;
 }
 
+.links li {
+  float: center;
+  margin: 10px;
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+}
+section li {
+  text-align: left;
+}
 .primary-footer small {
   float: left;
 }
@@ -84,23 +79,17 @@ section h2 {
   padding-bottom: 14px;
   padding-top: 14px;
   clear: both;
-  background:#2db34a /* cadetblue*/;
+  background:#2db34a;
   border-radius: 2px;
   color: #fff;
   display: block;
-/*  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-  padding: 24px 15px;
-  text-align: center;*/
 }
 
 .enlaces {
   text-align: right;
+  font-family: 'Roboto', sans-serif;
 }
-.enlaces li {
-  display: inline-block;
-  margin: 0 20px;
-  vertical-align: top;
-}
-.enlaces li:last-child {
-  margin-right: 10;
+
+.titulo {
+  text-align: center;
 }
