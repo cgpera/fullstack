@@ -1,0 +1,35 @@
+h4 {
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+/*  line-height: 2em;*/
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+/*ul {
+  padding-block-start: 0.5em;
+}*/
+
+li {
+  font-size: 0.9em;
+  padding-left: 10px;
+  padding-block-end: 0.5em;
+  padding-block-start: 0.5em;
+}
+/*.reglas {
+  font-family: "Lato", sans-serif; 
+}*/
+
+ol, ul {
+  padding-inline-start: 20px;
+}
+
+header {
+  text-align: center;
+}
