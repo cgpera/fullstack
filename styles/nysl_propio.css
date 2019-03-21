@@ -84,6 +84,7 @@ aside img {
   border: 2px solid black;
   border-radius: 8px;
   height: 400px;
+  width: auto;
 }
 
 section h2 {
@@ -122,4 +123,75 @@ section h2 {
 heading {
   text-align: center;
   font-family: "Lato", sans-serif; 
+}
+
+/* rules.css */
+h4 {
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+/*  line-height: 2em;*/
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+/*ul {
+  padding-block-start: 0.5em;
+}*/
+
+li {
+  font-size: 0.9em;
+  padding-left: 10px;
+  padding-block-end: 0.5em;
+  padding-block-start: 0.5em;
+}
+/*.reglas {
+  font-family: "Lato", sans-serif; 
+}*/
+
+ol, ul {
+  padding-inline-start: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+.email {
+  float: right;
+  width: 40%;
+  text-align: right;
+  padding-right: 15px;
+  }
+
+.phone {
+  float: left;
+  width: 40%;
+  padding-left: 30px;
+  }
+
+.bold {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: none; /*1px solid #cecfd5;*/
+  padding: 10px 15px;
+}
+
+.data {
+  clear: both;
+}
+
+.datos {
+  width: 100%;
 }

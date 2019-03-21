@@ -33,3 +33,27 @@ ol, ul {
 header {
   text-align: center;
 }
+
+.email {
+  float: right;
+  width: 50%;
+  text-align: right;
+  }
+
+.phone {
+  float: left;
+  width: 50%;
+  }
+
+.bold {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: none; /*1px solid #cecfd5;*/
+  padding: 10px 15px;
+}
