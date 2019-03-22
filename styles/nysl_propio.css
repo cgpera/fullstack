@@ -203,9 +203,17 @@ td {
 }
 
 .datos {
-  border: 1px solid #cecfd5;
+  border: none;
+  border-bottom: #2db34a;
+/*  border: 1px solid #848dc0;*/
   border-radius: 6px;
   padding: 24px 30px;
-  width: 500px;
-  text-align: right;
+}
+
+#first_name, #last_name {
+  border: none;
+  border-bottom: 1px solid #2db34a;
+  height: 20px;
+  width: 350px;
+  margin: 3px;
 }
