@@ -191,4 +191,21 @@ td {
 
 .formulario {
   float: left;
+  width: 30%;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.descripcion {
+  float: left;
+  width: 40%;
+  padding-block-start: 10px;
+}
+
+.datos {
+  border: 1px solid #cecfd5;
+  border-radius: 6px;
+  padding: 24px 30px;
+  width: 500px;
+  text-align: right;
 }
