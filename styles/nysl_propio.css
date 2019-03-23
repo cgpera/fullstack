@@ -189,31 +189,63 @@ td {
   float: bottom;
 }
 
-.formulario {
-  float: left;
-  width: 30%;
-  text-align: right;
-  padding-right: 30px;
-}
-
-.descripcion {
-  float: left;
-  width: 40%;
-  padding-block-start: 10px;
-}
-
 .datos {
   border: none;
-  border-bottom: #2db34a;
-/*  border: 1px solid #848dc0;*/
-  border-radius: 6px;
-  padding: 24px 30px;
+  border-bottom: 1px solid #848dc0;
+  margin: 3px;
+  height: 20px;
+}
+
+.etiquetas {
+  padding-left: 30px;
+  padding-bottom: 4px;
+  padding-top: 4px;
 }
 
 #first_name, #last_name {
-  border: none;
-  border-bottom: 1px solid #2db34a;
-  height: 20px;
+  width: 380px;
+}
+
+#address {
+  width: 780px;
+}
+#city {
   width: 350px;
-  margin: 3px;
+}
+#zip {
+  width: 350px;
+}
+#birdthdate {
+  width: 300px;
+}
+#gender {
+  width: 50px;
+}
+#parent {
+  width: 800px;
+}
+#phone {
+  width: 330px;
+}
+#email {
+  width: 400px;
+}
+
+#school1 {
+  width: 300px;
+  height: 100px;
+  float: left;
+  vertical-align: top;
+}
+#school2 {
+  width: 300px;
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 100px;
+  display: inline;
+}
+
+#pos_play {
+  width: 300px;
+  float: left;
 }

@@ -10,25 +10,82 @@
 </head>
 
 <body>
-
+  <h2 align="center">Registration Form</h2>
   <form action="show_data.html" method="GET">
-    <fieldset class="datos">
-      <label for="Nombre">First Name:</label>
-      <input type="text" name="first_name" id="first_name">
-      <label for="last_name">Last Name:</label>
-      <input type="text" name="last_name" id="last_name">
+    <fieldset>
+      <label for="first_name" class="etiquetas">First Name :</label>
+      <input type="text" name="first_name" id="first_name" class="datos">
+      <label for="last_name" class="etiquetas">Last Name :</label>
+      <input type="text" name="last_name" id="last_name" class="datos">
       <br>
-      <label for="address">Address</label>
-      <input type="text" name="address" id="address">
-      <label for="city">City</label>
-      <input type="text" name="city" id="city">
-      <label for="zip">Zip Code</label>
-      <input type="number" name="zip" id="zip">
-      <label for="birthdate">Birth Date</label>
-      <input type="date" name="birthdate" id="birthdate">
-      <label for="parent">Parent/Guardian</label>
-      <input type="text" name="parent" id="parent">
+      <label for="address" class="etiquetas">Street Address :</label>
+      <input type="text" name="address" id="address" class="datos">
+      <br>
+      <label for="city" class="etiquetas">City :</label>
+      <input type="text" name="city" id="city" class="datos">
+      <label for="zip" class="etiquetas">Zip Code :</label>
+      <input type="number" name="zip" id="zip" class="datos">
+      <br>
+      <label for="birthdate" class="etiquetas">Birth Date (mm/dd/yyyy) :</label>
+      <input type="date" name="birthdate" id="birthdate" class="datos">
+      <label for="gender" class="etiquetas">Gender :</label>
+      <input type="radio" name="gender" value="male" checked id="gender"> Male
+      <input type="radio" name="gender" value="female" id="gender"> Female
+      <br>
+      <label for="grade" class="etiquetas">Grade</label>
+      <input type="radio" name="grade" value="preschool" checked id="grade"> Pre-School
+      <input type="radio" name="grade" value="1st" id="grade"> 1st
+      <input type="radio" name="grade" value="2nd" id="grade"> 2nd
+      <input type="radio" name="grade" value="3rd" id="grade"> 3rd
+      <input type="radio" name="grade" value="4th" id="grade"> 4th
+      <input type="radio" name="grade" value="5th" id="grade"> 5th
+      <br>
+      <label for="parent" class="etiquetas">Parent/Guardian :</label>
+      <input type="text" name="parent" id="parent" class="datos">
+      <br>
+      <label for="phone" class="etiquetas">Contact Phone :</label>
+      <input type="tel" name="phone" id="phone" class="datos">
+      <label for="email" class="etiquetas">Contact Email :</label>
+      <input type="email" name="email" id="email" class="datos">
 
+      <p class="bold">Which elementary schools do you live near?</p>
+        <div id="school1">
+          <label for="1school" class="etiquetas">
+            <h4>First closest school :</h4>
+          </label>
+          <select name="1school">
+            <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+            <option value="Marjorie P Hart">Marjorie P Hart</option>
+            <option value="Greenbay">Greenbay</option>
+            <option value="North Elementary">North Elementary</option>
+            <option value="Howard A Yeager">Howard A Yeager</option>
+            <option value="South Elementary">South Elementary</option>
+          </select>
+        </div>
+        <div id="school2">
+          <label for="2school" class="etiquetas">
+            <h4>Second closest school :</h4>
+          </label>
+          <select name="2school">
+            <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+            <option value="Marjorie P Hart">Marjorie P Hart</option>
+            <option value="Greenbay">Greenbay</option>
+            <option value="North Elementary">North Elementary</option>
+            <option value="Howard A Yeager">Howard A Yeager</option>
+            <option value="South Elementary">South Elementary</option>
+          </select>
+        </div>
+      
+      <br>
+      <div id="pos_play">
+        <p><span class="bold"> What position(s) do you want to play? </span>(check all that apply)</p>
+        <label for="posit_play" class="etiquetas"><span class="bold">Positions : </span><br></label>
+      <input type="checkbox" name="posit_play" value="Forward" id="posit_play"> Forward
+      <input type="checkbox" name="posit_play" value="Defensor" id="posit_play"> Defensor<br>
+      <input type="checkbox" name="posit_play" value="Midfield" id="posit_play"> Midfield
+      <input type="checkbox" name="posit_play" value="Golkeeper" id="posit_play"> Golkeeper
+      <br>
+      </div>
     </fieldset>
     <fieldset>
       <button name="submit">
@@ -37,4 +94,5 @@
     </fieldset>
   </form>
 </body>
+
 </html>
