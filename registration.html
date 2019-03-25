@@ -10,9 +10,10 @@
 </head>
 
 <body>
-  <h2 align="center">Registration Form</h2>
+  <h2 class="form_tit">Registration Form</h2>
   <form action="show_data.html" method="GET">
     <fieldset>
+      <p class="bold">Main Data</p>
       <label for="first_name" class="etiquetas">First Name :</label>
       <input type="text" name="first_name" id="first_name" class="datos">
       <label for="last_name" class="etiquetas">Last Name :</label>
@@ -27,64 +28,231 @@
       <input type="number" name="zip" id="zip" class="datos">
       <br>
       <label for="birthdate" class="etiquetas">Birth Date (mm/dd/yyyy) :</label>
-      <input type="date" name="birthdate" id="birthdate" class="datos">
-      <label for="gender" class="etiquetas">Gender :</label>
-      <input type="radio" name="gender" value="male" checked id="gender"> Male
-      <input type="radio" name="gender" value="female" id="gender"> Female
+      <input type="date" name="birthdate" class="datos" id="birthdate">
+      <label>
+        <input type="radio" name="gender" checked> Male
+      </label>
+      <label>
+        <input type="radio" name="gender"> Female
+      </label>
       <br>
-      <label for="grade" class="etiquetas">Grade</label>
-      <input type="radio" name="grade" value="preschool" checked id="grade"> Pre-School
-      <input type="radio" name="grade" value="1st" id="grade"> 1st
-      <input type="radio" name="grade" value="2nd" id="grade"> 2nd
-      <input type="radio" name="grade" value="3rd" id="grade"> 3rd
-      <input type="radio" name="grade" value="4th" id="grade"> 4th
-      <input type="radio" name="grade" value="5th" id="grade"> 5th
+      <label class="etiquetas">Grade</label>
+      <input type="radio" name="grade" value="preschool" checked id="preschool"> Pre-School
+      <input type="radio" name="grade" value="1st" id="1st"> 1st
+      <input type="radio" name="grade" value="2nd" id="2st"> 2nd
+      <input type="radio" name="grade" value="3rd" id="3st"> 3rd
+      <input type="radio" name="grade" value="4th" id="4st"> 4th
+      <input type="radio" name="grade" value="5th" id="5st"> 5th
       <br>
-      <label for="parent" class="etiquetas">Parent/Guardian :</label>
+      <label class="etiquetas">Parent/Guardian :</label>
       <input type="text" name="parent" id="parent" class="datos">
       <br>
-      <label for="phone" class="etiquetas">Contact Phone :</label>
+      <label class="etiquetas">Contact Phone :</label>
       <input type="tel" name="phone" id="phone" class="datos">
-      <label for="email" class="etiquetas">Contact Email :</label>
+      <label class="etiquetas">Contact Email :</label>
       <input type="email" name="email" id="email" class="datos">
 
+      <br>
+      <br>
+
       <p class="bold">Which elementary schools do you live near?</p>
-        <div id="school1">
-          <label for="1school" class="etiquetas">
-            <h4>First closest school :</h4>
-          </label>
-          <select name="1school">
-            <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
-            <option value="Marjorie P Hart">Marjorie P Hart</option>
-            <option value="Greenbay">Greenbay</option>
-            <option value="North Elementary">North Elementary</option>
-            <option value="Howard A Yeager">Howard A Yeager</option>
-            <option value="South Elementary">South Elementary</option>
-          </select>
-        </div>
-        <div id="school2">
-          <label for="2school" class="etiquetas">
-            <h4>Second closest school :</h4>
-          </label>
-          <select name="2school">
-            <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
-            <option value="Marjorie P Hart">Marjorie P Hart</option>
-            <option value="Greenbay">Greenbay</option>
-            <option value="North Elementary">North Elementary</option>
-            <option value="Howard A Yeager">Howard A Yeager</option>
-            <option value="South Elementary">South Elementary</option>
-          </select>
-        </div>
-      
+      <div id="school1">
+        <label>
+          First closest school :
+        </label>
+        <select name="1school">
+          <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+          <option value="Marjorie P Hart">Marjorie P Hart</option>
+          <option value="Greenbay">Greenbay</option>
+          <option value="North Elementary">North Elementary</option>
+          <option value="Howard A Yeager">Howard A Yeager</option>
+          <option value="South Elementary">South Elementary</option>
+        </select>
+      </div>
+      <div id="school2">
+        <label>
+          Second closest school :
+        </label>
+        <select name="2school">
+          <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+          <option value="Marjorie P Hart">Marjorie P Hart</option>
+          <option value="Greenbay">Greenbay</option>
+          <option value="North Elementary">North Elementary</option>
+          <option value="Howard A Yeager">Howard A Yeager</option>
+          <option value="South Elementary">South Elementary</option>
+        </select>
+      </div>
+
+      <br>
       <br>
       <div id="pos_play">
+        <p><span class="bold"> What position(s) do you normally play? </span>(check all that apply)</p>
+        <label class="etiquetas"><span class="bold">Positions : </span><br></label>
+        <input type="checkbox" name="posit_play" value="Forward" id="forward"> Forward
+        <input type="checkbox" name="posit_play" value="Defensor" id="defensor"> Defensor<br>
+        <input type="checkbox" name="posit_play" value="Midfield" id="midfield"> Midfield
+        <input type="checkbox" name="posit_play" value="Goalkeeper" id="goalkeeper"> Goalkeeper
+        <br>
+        <br>
+      </div>
+      <div id="pos_desired">
         <p><span class="bold"> What position(s) do you want to play? </span>(check all that apply)</p>
-        <label for="posit_play" class="etiquetas"><span class="bold">Positions : </span><br></label>
-      <input type="checkbox" name="posit_play" value="Forward" id="posit_play"> Forward
-      <input type="checkbox" name="posit_play" value="Defensor" id="posit_play"> Defensor<br>
-      <input type="checkbox" name="posit_play" value="Midfield" id="posit_play"> Midfield
-      <input type="checkbox" name="posit_play" value="Golkeeper" id="posit_play"> Golkeeper
-      <br>
+        <label class="etiquetas"><span class="bold">Positions : </span><br></label>
+        <input type="checkbox" name="want_play" value="Forward" id="forward-1"> Forward
+        <input type="checkbox" name="want_play" value="Defensor" id="defensor-1"> Defensor<br>
+        <input type="checkbox" name="want_play" value="Midfield" id="midfield-1"> Midfield
+        <input type="checkbox" name="want_play" value="Goalkeeper" id="goalkeeper-1"> Goalkeeper
+        <br>
+      </div>
+      <br><br>
+      <div id="have_uniform">
+        <input type="checkbox" name="have"><strong> Already Have an Uniform</strong>
+        <!--            <label for="have_uniform" class="etiquetas"><span class="bold"><p class="bold"> Already Have an Uniform</p></span><br></label>
+            <input type="checkbox" name="have_uniform" value="have_uniform" id="have_uniform"> <p class="bold"> Already Have an Uniform</p>-->
+      </div>
+      <div class="no_uniform">
+        <div class="jersey">
+          <label class="tam">
+            Jersey Size :
+          </label>
+          <table>
+            <tr>
+              <td class="tam">
+                <input type="radio" name="jersey_size" value="y_sm" id="y_sm"></td>
+              <td class="tam">
+                Youth Small
+              </td>
+              <td class="tam">
+                <input type="radio" name="jersey_size" value="y_md" id="y_md"></td>
+              <td class="tam">
+                Medium
+              </td>
+            </tr>
+            <tr>
+              <td class="tam">
+                <input type="radio" name="jersey_size" value="y_lg" id="y_lg"></td>
+              <td class="tam">
+                Youth Large
+              </td>
+              <td class="tam">
+                <input type="radio" name="jersey_size" value="sm" id="sm"></td>
+              <td class="tam">
+                Youth Small
+              </td>
+            </tr>
+            <tr>
+              <td class="tam">
+                <input type="radio" name="jersey_size" value="md" id="md"></td>
+              <td class="tam">
+                Medium
+              </td>
+              <td class="tam">
+                <input type="radio" name="jersey_size" value="lg" id="lg"></td>
+              <td class="tam">
+                Large
+              </td>
+            </tr>
+            <tr>
+              <td class="tam">
+                <input type="radio" name="jersey_size" value="xl" id="xl"></td>
+              <td class="tam">
+                Extra Large
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+
+
+
+        <div class="short">
+          <label class="tam">
+            Short Size :
+          </label>
+          <table>
+            <tr>
+              <td class="tam">
+                <input type="radio" name="short_size" value="y_sm" id="short_ysm"></td>
+              <td class="tam">
+                Youth Small
+              </td>
+              <td class="tam">
+                <input type="radio" name="short_size" value="y_md" id="short_ymd"></td>
+              <td class="tam">
+                Youth Medium
+              </td>
+            </tr>
+            <tr>
+              <td class="tam">
+                <input type="radio" name="short_size" value="y_lg" id="short_ylg"></td>
+              <td class="tam">
+                Youth Large
+              </td>
+              <td class="tam">
+                <input type="radio" name="short_size" value="sm" id="short_sm"></td>
+              <td class="tam">
+                Small
+              </td>
+            </tr>
+            <tr>
+              <td class="tam">
+                <input type="radio" name="short_size" value="md" id="short_md"></td>
+              <td class="tam">
+                Medium
+              </td>
+              <td class="tam">
+                <input type="radio" name="short_size" value="lg" id="short_lg"></td>
+              <td class="tam">
+                Large
+              </td>
+            </tr>
+            <tr>
+              <td class="tam">
+                <input type="radio" name="short_size" value="xl" id="short_xl"></td>
+              <td class="tam">
+                Extra Large
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <br>
+      </div>
+      <div class="conditions">
+        <p class="bold">Permission to Play</p>
+        <p><small>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+            the
+            rules of the Northside Youth
+            Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in
+            consideration for the “League”
+            accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or
+            otherwise
+            indemnify NYSL, their
+            employees and associated personnel and volunteers, including the facilities used for practices and games,
+            against any claim by or
+            on behalf of the registrant as a result of the registrant’s participation in the program and/or being
+            transported to or from NYSL
+            sponsored activities, which transportation.
+            By entering your name below, I hereby agree and authorize the above. In addition, by signing below, I also
+            acknowledge
+            that I have read the
+            cancellation policy and agree to its terms.</small>
+        </p>
+
+        <fieldset>
+          <p class="bold">Signature Data</p>
+          <div id="izq" class="datos">
+            <label><small>Parent/Guardian Signature:</small></label>
+            <input type="text" name="name_sign" id="name_sign">
+          </div>
+          <div class="der">
+            <label><small>Date :</small></label>
+            <input type="date" name="date_sign" id="date_sign">
+          </div>
+          <br>
+        </fieldset>
       </div>
     </fieldset>
     <fieldset>

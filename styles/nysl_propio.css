@@ -184,6 +184,13 @@ td {
   width: 100%;
 }
 
+
+/* formulario */
+
+.form_tit {
+  text-align: center;
+}
+
 .enviar_form {
   clear: both;
   float: bottom;
@@ -197,23 +204,20 @@ td {
 }
 
 .etiquetas {
-  padding-left: 30px;
-  padding-bottom: 4px;
-  padding-top: 4px;
+  padding-left: 60px;
 }
 
 #first_name, #last_name {
   width: 380px;
 }
-
 #address {
-  width: 780px;
+  width: 800px;
 }
 #city {
-  width: 350px;
+  width: 400px;
 }
 #zip {
-  width: 350px;
+  width: 400px;
 }
 #birdthdate {
   width: 300px;
@@ -234,18 +238,51 @@ td {
 #school1 {
   width: 300px;
   height: 100px;
+  padding-left: 20px;
   float: left;
   vertical-align: top;
 }
 #school2 {
   width: 300px;
-  margin-bottom: 0;
-  margin-top: 0;
   height: 100px;
-  display: inline;
+  float: left;
+/*  display: inline;*/
+  }
+
+#pos_play {
+  width: 500px;
+  clear: both;
+/*  float: left;*/
 }
 
 #pos_play {
+  width: 500px;
+  /*clear: both;
+  float: left;*/
+}
+
+.jersey, .short {
   width: 300px;
+  /*float: left;*/
+  display: inline-block;
+}
+
+#short_size, #jersey_size {
+  margin-left: 10px;
+}
+
+.tam {
+  padding: 0px 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.der {
+  float:left;
+  width: 30%;
+  text-align: right;
+}
+#izq {
+  width: 500px;
   float: left;
 }
