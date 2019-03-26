@@ -277,24 +277,12 @@ td {
   margin-bottom: 5px;
 }
 
-#sign {
-  width: 500px;
+.der {
+  float:left;
+  width: 30%;
+  text-align: right;
 }
-
-.box_name_sign {
-  width: auto;
+#izq {
+  width: 500px;
   float: left;
 }
-
-.box_date_sign {
-  float: right;
-  margin-right: 40px;
-}
-/*
-#date_sign {
-  float: right;
-  width: 200px;
-  text-align: right;
-  display: block;
-}
-*/
