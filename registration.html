@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles/nysl_propio.css">
-  <title>Document</title>
+  <title>Registration Form</title>
 </head>
 
 <body>
@@ -243,22 +243,27 @@
 
         <fieldset>
           <p class="bold">Signature Data</p>
-          <div id="izq" class="datos">
-            <label><small>Parent/Guardian Signature:</small></label>
-            <input type="text" name="name_sign" id="name_sign">
-          </div>
-          <div class="der">
-            <label><small>Date :</small></label>
-            <input type="date" name="date_sign" id="date_sign">
-          </div>
-          <br>
+      
+            <div class="box_name_sign">
+              <label><small>Parent/Guardian Signature:</small></label>
+              <input type="text" name="name_sign" id="sign" class="datos">
+            </div>
+            <div class="box_date_sign">
+              <label><small>Date :</small></label>
+              <input type="date" name="date_sign" id="date_sign" class="datos">
+            </div>
         </fieldset>
       </div>
+     
     </fieldset>
     <fieldset>
       <button name="submit">
         <strong>Send Form</strong>
       </button>
+      <button type="reset">
+        <strong>Reset</strong>
+      </button>
+      <button><a href="about.html">Main Page</a></button>
     </fieldset>
   </form>
 </body>
