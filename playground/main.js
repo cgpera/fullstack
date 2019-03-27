@@ -26,3 +26,77 @@ else if (ageDiff < 0) {
 else {
   console.log("You have the same age than ignasi")
 }
+// arrays
+// ej 1
+var clase = ["Agus", "Andrea Briceño", "Claudio Pera", "Camila G", "David Cosio", "Diego Weinmann", "Gaston Gonzalez",
+"Valeria Fernandez"];
+claseord = clase.sort();
+console.log(claseord)
+// ej 2
+var edades = [12, 45, 32, 27, 32, 46, 57, 33];
+
+for(var i = 0; i < edades.length; i++) {
+  console.log(edades[i])
+}
+console.log(i)
+console.log("---------------------")
+
+var i = 0
+while(i < edades.length) {
+  console.log(edades[i])
+  if(edades[i]%2 == 0) {
+    console.log(edades[i])
+  }
+  i++
+}
+
+// ej 3
+
+var f = (array) => {
+  array.sort()
+  return array[0]
+}
+
+console.log("\n\nEdad mínima es: ", f(edades))
+
+
+// ej 4
+
+var fmax = (array) => {
+  array.sort(function(a, b) {return(b - a)})
+  return array[0]
+}
+
+console.log("\n\nEdad máxima es: ", fmax(edades))
+
+// o bien 
+
+var f2max = (array) => {
+  array.sort()
+  return array[array.length - 1]
+}
+
+console.log("\n\nEdad máxima es: ", f2max(edades))
+
+// ej 5
+
+function f5(array, index) {
+  if(index >= array.length) {
+    return -1
+  }
+  else {
+    return array[index]
+  }
+}
+
+console.log("\n\n", f5(clase, 9))
+
+
+// ej 6
+
+var array = [3,6,67,6,23,11,100,8,93,0,17,24,7,1,33,45,28,33,23,12,99,100];
+
+array2 = array.unique()
+function f6(arreglo) {
+  arreglo.sort(function(a, b) {return (a - b)})
+}
