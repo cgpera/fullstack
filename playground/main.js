@@ -75,6 +75,7 @@ var f2max = (array) => {
   array.sort()
   return array[array.length - 1]
 }
+// o array.reverse()
 
 console.log("\n\nEdad máxima es: ", f2max(edades))
 
