@@ -96,8 +96,15 @@ console.log("\n\n", f5(clase, 9))
 // ej 6
 
 var array = [3,6,67,6,23,11,100,8,93,0,17,24,7,1,33,45,28,33,23,12,99,100];
+var result = []
+var i = 0
 
-array2 = array.unique()
-function f6(arreglo) {
-  arreglo.sort(function(a, b) {return (a - b)})
-}
+array.sort(function(a, b) {return (a - b)})
+console.log(array)
+array.map(function(x, i, result) {
+  console.log(x[i], x[i+1])
+  if(x[i] === x[i+1]) 
+  {
+    result.push(x[i])
+  }
+})
