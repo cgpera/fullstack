@@ -148,3 +148,4 @@ var numero = parseInt(number.toString().split("").reverse().join(""))
 console.log(numero, typeof(numero))
 
 //str ej 2
+ 
