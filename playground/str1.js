@@ -2,6 +2,7 @@
 var number = 32443
 
 var numero = parseInt(number.toString().split("").reverse().join(""))
+//alert(numero)
 console.log(numero, typeof (numero))
 
 //ej 2
