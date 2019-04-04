@@ -4845,21 +4845,24 @@ var data = {
   ]
 }
 
-var encab = "<table id='senate-data'>" + "<tr>" +
-      "<th scope='col'>First Name</th>" +
-      "<th scope='col'>Mid Name</th>" +
+// escribir en la página
+
+var encab = '<table id="senate-data">' + '<tr>' +
+      '<th scope="col">First Name</th>' +
+      '<th scope="col">Mid Name</th>' +
       '<th scope="col">Last Name</th>' +
       '<th scope="col">Party</th>' +
       '<th scope="col">State</th>' +
       '<th scope="col">Seniority</th>' +
-      '<th scope="col">Votes w/Party</th>' +
-    '</tr>'
+      '<th scope="col">Votes w/Party</th>' + '</tr>'
 //var display = data.results[0].members.map(make_table(data.results[0].members)).join("")
-    function make_table(array) {
+/*    function make_table(array) {
       return "<tr><td>array.first_name</td><td>array.middle_name</td><td>array.last_name</td><td>array.party</td><td>array.state</td><td>array.seniority</td><td>array.votes_with_party_pct</td></tr>"
-    }
-    var pie = '<tr>' + '</tr>' + '</table>'
-var cuerpo_tabla = data.results[0].members.map(function (array) {return "<tr><td>" +array.first_name + "</td><td>" +array.middle_name + "</td><td>" + array.last_name + "</td><td>" + array.party + "</td><td>" + array.state + "</td><td>" + array.seniority + "</td><td>" + array.votes_with_party_pct + "</td></tr>"})
+    }*/
+//    var pie = '<tr>' + '</tr>' + '</table>'
+var cuerpo_tabla = data.results[0].members.map(function (array) {return "<tr><td>" +array.first_name + "</td><td>" +((array.middle_name == null)?"":array.middle_name) + "</td><td>" + array.last_name + "</td><td>" + array.party + "</td><td>" + array.state + "</td><td>" + array.seniority + "</td><td>" + array.votes_with_party_pct + " % </td></tr>"})
 //document.write(encab+cuerpo_tabla)
-document.getElementById("senate-data").innerHTML = enc + cuerpo_tabla + pie
+document.getElementById("senate-data").innerHTML = encab
+document.getElementById("senate-data").innerHTML = cuerpo_tabla
+
 //console.log(encab + cuerpo_tabla + pie)

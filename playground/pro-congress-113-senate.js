@@ -4844,6 +4844,3 @@ var data = {
      }
   ]
 }
-
-//console.log(data.results[0])
-console.log(data.results[0].members[0].first_name)
