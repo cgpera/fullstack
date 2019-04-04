@@ -4861,8 +4861,12 @@ var encab = '<table id="senate-data">' + '<tr>' +
     }*/
 //    var pie = '<tr>' + '</tr>' + '</table>'
 var cuerpo_tabla = data.results[0].members.map(function (array) {return "<tr><td>" +array.first_name + "</td><td>" +((array.middle_name == null)?"":array.middle_name) + "</td><td>" + array.last_name + "</td><td>" + array.party + "</td><td>" + array.state + "</td><td>" + array.seniority + "</td><td>" + array.votes_with_party_pct + " % </td></tr>"})
-//document.write(encab+cuerpo_tabla)
+//document.write(encab+cuerpo_tabla[0])
 document.getElementById("senate-data").innerHTML = encab
-document.getElementById("senate-data").innerHTML = cuerpo_tabla
+/*for(var i = 0; i < cuerpo_tabla.length; i++) {
+  document.getElementById("senate-data").innerHTML += cuerpo_tabla[i]
+}*/
 
-//console.log(encab + cuerpo_tabla + pie)
+document.getElementById("senate-data").innerHTML += cuerpo_tabla
+
+console.log(document.getElementById("senate-data").innerHTML)
