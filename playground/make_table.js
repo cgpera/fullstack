@@ -13,7 +13,7 @@ var encab = '<table id="senate-data">' +
     }*/
 var pie = '</tbody></table>'
 //"<tr><td>" + (index+1) + <a href={array.api_uri}>array.first_name + " " + (array.middle_name || "") + " " + array.last_name</a> + "</td><td>" + array.party + "</td><td>" + array.state + "</td><td>" + array.seniority + "</td><td>" + array.votes_with_party_pct + " % </td></tr>"
-var cuerpo_tabla = data.results[0].members.map(function (array, index) {return ("<tr><td>" + (index+1) + "</td> " + "<td><a href=#array.url>" + array.first_name + " " + (array.middle_name || "") + " " + array.last_name + "</a>" + "</td><td>" + array.party + "</td><td>" + array.state + "</td><td>" + array.seniority + "</td><td>" + array.votes_with_party_pct + " % </td></tr>")})
+var cuerpo_tabla = data.results[0].members.map(function (array, index) {return ("<tr><td>" + (index+1) + "</td> " + "<td><a href=array.url>" + array.first_name + " " + (array.middle_name || "") + " " + array.last_name + "</a>" + "</td><td>" + array.party + "</td><td>" + array.state + "</td><td>" + array.seniority + "</td><td>" + array.votes_with_party_pct + " % </td></tr>")})
 //document.write(encab+cuerpo_tabla)
 document.getElementById("senate-data").innerHTML = encab
 document.getElementById("senate-data").innerHTML += '<tbody>'

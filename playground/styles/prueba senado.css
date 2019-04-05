@@ -1,5 +1,6 @@
 .linkext {
   display: inline-block;
+  margin-top: 10px;
 }
 .linkext li {
   display: inline-block;
@@ -7,12 +8,11 @@
   align-content: center;
   margin: 10px 10px;
 }
-
+/*
 .linkint {
   text-align: left;
   width: auto;
   font-family: "Lato", sans-serif; 
-  /*font-style: normal;*/
 }
 
 .linkint li {
@@ -28,18 +28,19 @@
 .linkint a:hover {
   background: rgb(99, 181, 185);
   box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
-}∫
+}
+*/
 
 /*
 #links a {
   padding: 20px;
-}*/
+}
 
 .primary-footer {
   padding-bottom: 14px;
   padding-top: 14px;
   clear: both;
-  background:#2db34a /* cadetblue*/;
+  background:#2db34a;
   border-radius: 2px;
   color: #fff;
   display: block;
@@ -61,7 +62,7 @@ table {
 }
 th,
 td {
-  border: none; /*1px solid #cecfd5;*/
+  border: none; 
   padding: 10px 15px;
 }
 
@@ -69,3 +70,4 @@ td {
   clear: both;
   width: 100%;
 }
+*/
