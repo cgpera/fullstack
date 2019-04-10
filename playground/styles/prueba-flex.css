@@ -1,0 +1,53 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  flex-basis: 100%;
+}
+
+.contenedor {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  background-color: lightgray;
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.contenido {
+  background-color: white;
+  width: 25%;
+  height: 300px;
+  border: 1px solid gray;
+  flex-grow: 0.6;
+  
+}
+
+.lateral {
+  background-color: beige;
+  width: 70%;
+  height: 300px;
+  flex-grow: 1;
+  margin-left: 40px;
+  justify-content: center;
+  align-self: center; 
+}
+

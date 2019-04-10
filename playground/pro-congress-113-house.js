@@ -5,6 +5,8 @@ var data = {
      {
         "congress": "113",
         "chamber": "House",
+        
+        
         "num_results": 450,
         "offset": 0,
         "members": [
@@ -42,7 +44,7 @@ var data = {
                 "total_votes": 48,
                 "missed_votes": 2,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:11 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:12",
                 "office": null,
                 "phone": null,
@@ -88,7 +90,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 110,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:08 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:al/cd:4",
                 "office": null,
                 "phone": null,
@@ -98,7 +100,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0104"
                 ,"missed_votes_pct": 9.23,
-                "votes_with_party_pct": 93.99
+                "votes_with_party_pct": 94.17
               },
                           {
                 "id": "A000361",
@@ -134,7 +136,7 @@ var data = {
                 "total_votes": 490,
                 "missed_votes": 12,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:40 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:la/cd:5",
                 "office": null,
                 "phone": null,
@@ -144,7 +146,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2205"
                 ,"missed_votes_pct": 2.45,
-                "votes_with_party_pct": 92.47
+                "votes_with_party_pct": 92.66
               },
                           {
                 "id": "A000367",
@@ -180,7 +182,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 0,
                 "total_present": 2,
-                "last_updated": "2019-01-06 15:21:08 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:3",
                 "office": null,
                 "phone": null,
@@ -190,7 +192,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2603"
                 ,"missed_votes_pct": 0.00,
-                "votes_with_party_pct": 77.01
+                "votes_with_party_pct": 77.14
               },
                           {
                 "id": "A000369",
@@ -226,7 +228,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 95,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:09 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nv/cd:2",
                 "office": null,
                 "phone": null,
@@ -236,7 +238,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3202"
                 ,"missed_votes_pct": 7.97,
-                "votes_with_party_pct": 94.17
+                "votes_with_party_pct": 94.34
               },
                           {
                 "id": "A000210",
@@ -272,7 +274,7 @@ var data = {
                 "total_votes": 692,
                 "missed_votes": 10,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:59 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:1",
                 "office": null,
                 "phone": null,
@@ -282,7 +284,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3401"
                 ,"missed_votes_pct": 1.45,
-                "votes_with_party_pct": 90.32
+                "votes_with_party_pct": 90.59
               },
                           {
                 "id": "B001256",
@@ -318,7 +320,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 96,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:50 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mn/cd:6",
                 "office": null,
                 "phone": null,
@@ -328,7 +330,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2706"
                 ,"missed_votes_pct": 8.05,
-                "votes_with_party_pct": 93.89
+                "votes_with_party_pct": 94.06
               },
                           {
                 "id": "B000013",
@@ -364,7 +366,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 31,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:11:54 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:al/cd:6",
                 "office": null,
                 "phone": null,
@@ -374,7 +376,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0106"
                 ,"missed_votes_pct": 2.60,
-                "votes_with_party_pct": 92.94
+                "votes_with_party_pct": 93.10
               },
                           {
                 "id": "B001279",
@@ -410,7 +412,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 33,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:11:56 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:az/cd:2",
                 "office": null,
                 "phone": null,
@@ -420,7 +422,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0402"
                 ,"missed_votes_pct": 2.77,
-                "votes_with_party_pct": 75.50
+                "votes_with_party_pct": 75.63
               },
                           {
                 "id": "B001269",
@@ -456,7 +458,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 27,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:22 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:11",
                 "office": null,
                 "phone": null,
@@ -466,7 +468,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4211"
                 ,"missed_votes_pct": 2.27,
-                "votes_with_party_pct": 93.56
+                "votes_with_party_pct": 93.72
               },
                           {
                 "id": "B001282",
@@ -502,7 +504,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 5,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:14 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ky/cd:6",
                 "office": null,
                 "phone": null,
@@ -512,7 +514,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2106"
                 ,"missed_votes_pct": 0.42,
-                "votes_with_party_pct": 94.86
+                "votes_with_party_pct": 95.02
               },
                           {
                 "id": "B001252",
@@ -548,7 +550,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 0,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:24 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:12",
                 "office": null,
                 "phone": null,
@@ -558,7 +560,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1312"
                 ,"missed_votes_pct": 0.00,
-                "votes_with_party_pct": 67.70
+                "votes_with_party_pct": 67.82
               },
                           {
                 "id": "B000213",
@@ -594,7 +596,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 76,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:29 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:6",
                 "office": null,
                 "phone": null,
@@ -604,7 +606,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4806"
                 ,"missed_votes_pct": 6.38,
-                "votes_with_party_pct": 94.27
+                "votes_with_party_pct": 94.43
               },
                           {
                 "id": "B001270",
@@ -640,7 +642,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 139,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:06 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:37",
                 "office": null,
                 "phone": null,
@@ -650,7 +652,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0637"
                 ,"missed_votes_pct": 11.66,
-                "votes_with_party_pct": 93.45
+                "votes_with_party_pct": 93.63
               },
                           {
                 "id": "B001281",
@@ -686,7 +688,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 23,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:15 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:3",
                 "office": null,
                 "phone": null,
@@ -696,7 +698,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3903"
                 ,"missed_votes_pct": 1.93,
-                "votes_with_party_pct": 96.07
+                "votes_with_party_pct": 96.23
               },
                           {
                 "id": "B000287",
@@ -732,7 +734,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 40,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:09 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:34",
                 "office": null,
                 "phone": null,
@@ -742,7 +744,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0634"
                 ,"missed_votes_pct": 3.36,
-                "votes_with_party_pct": 95.57
+                "votes_with_party_pct": 95.74
               },
                           {
                 "id": "B001271",
@@ -778,7 +780,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 35,
                 "total_present": 2,
-                "last_updated": "2018-07-08 18:12:47 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:1",
                 "office": null,
                 "phone": null,
@@ -788,7 +790,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2601"
                 ,"missed_votes_pct": 2.94,
-                "votes_with_party_pct": 90.32
+                "votes_with_party_pct": 90.48
               },
                           {
                 "id": "B001280",
@@ -824,7 +826,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:48 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:11",
                 "office": null,
                 "phone": null,
@@ -834,7 +836,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2611"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 91.40
+                "votes_with_party_pct": 91.55
               },
                           {
                 "id": "B001287",
@@ -870,7 +872,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:12 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:7",
                 "office": null,
                 "phone": null,
@@ -880,7 +882,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0607"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 88.53
+                "votes_with_party_pct": 88.68
               },
                           {
                 "id": "B001257",
@@ -916,7 +918,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 22,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:07 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:12",
                 "office": null,
                 "phone": null,
@@ -926,7 +928,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1212"
                 ,"missed_votes_pct": 1.85,
-                "votes_with_party_pct": 95.38
+                "votes_with_party_pct": 95.55
               },
                           {
                 "id": "B001250",
@@ -962,7 +964,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 78,
                 "total_present": 0,
-                "last_updated": "2019-01-04 09:25:40 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ut/cd:1",
                 "office": null,
                 "phone": null,
@@ -972,7 +974,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4901"
                 ,"missed_votes_pct": 6.54,
-                "votes_with_party_pct": 94.34
+                "votes_with_party_pct": 94.51
               },
                           {
                 "id": "B001242",
@@ -1008,7 +1010,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 10,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:03 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:1",
                 "office": null,
                 "phone": null,
@@ -1018,7 +1020,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3601"
                 ,"missed_votes_pct": 0.84,
-                "votes_with_party_pct": 91.46
+                "votes_with_party_pct": 91.61
               },
                           {
                 "id": "B000490",
@@ -1054,7 +1056,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 74,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:08 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:2",
                 "office": null,
                 "phone": null,
@@ -1064,7 +1066,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1302"
                 ,"missed_votes_pct": 6.21,
-                "votes_with_party_pct": 85.87
+                "votes_with_party_pct": 86.02
               },
                           {
                 "id": "B001273",
@@ -1100,7 +1102,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 16,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:28 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tn/cd:6",
                 "office": null,
                 "phone": null,
@@ -1110,7 +1112,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4706"
                 ,"missed_votes_pct": 1.34,
-                "votes_with_party_pct": 97.02
+                "votes_with_party_pct": 97.19
               },
                           {
                 "id": "B001243",
@@ -1146,7 +1148,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 27,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:07 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tn/cd:7",
                 "office": null,
                 "phone": null,
@@ -1156,7 +1158,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4707"
                 ,"missed_votes_pct": 2.27,
-                "votes_with_party_pct": 96.22
+                "votes_with_party_pct": 96.39
               },
                           {
                 "id": "B000574",
@@ -1192,7 +1194,7 @@ var data = {
                 "total_votes": 1185,
                 "missed_votes": 59,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:08 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:or/cd:3",
                 "office": null,
                 "phone": null,
@@ -1202,7 +1204,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4103"
                 ,"missed_votes_pct": 4.98,
-                "votes_with_party_pct": 93.52
+                "votes_with_party_pct": 93.68
               },
                           {
                 "id": "B000589",
@@ -1238,7 +1240,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 1165,
                 "total_present": 0,
-                "last_updated": "2016-06-14 16:26:00 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:8",
                 "office": null,
                 "phone": null,
@@ -1248,7 +1250,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3908"
                 ,"missed_votes_pct": 97.73,
-                "votes_with_party_pct": 88.89
+                "votes_with_party_pct": 96.00
               },
                           {
                 "id": "B001278",
@@ -1284,7 +1286,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 1,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:09 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:or/cd:1",
                 "office": null,
                 "phone": null,
@@ -1294,7 +1296,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4101"
                 ,"missed_votes_pct": 0.08,
-                "votes_with_party_pct": 95.97
+                "votes_with_party_pct": 96.13
               },
                           {
                 "id": "B001244",
@@ -1330,7 +1332,7 @@ var data = {
                 "total_votes": 447,
                 "missed_votes": 33,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:11:52 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:al/cd:1",
                 "office": null,
                 "phone": null,
@@ -1340,7 +1342,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0101"
                 ,"missed_votes_pct": 7.38,
-                "votes_with_party_pct": 92.03
+                "votes_with_party_pct": 92.25
               },
                           {
                 "id": "B001245",
@@ -1422,7 +1424,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 8,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:38 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:la/cd:3",
                 "office": null,
                 "phone": null,
@@ -1432,7 +1434,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2203"
                 ,"missed_votes_pct": 0.67,
-                "votes_with_party_pct": 95.35
+                "votes_with_party_pct": 95.52
               },
                           {
                 "id": "B001227",
@@ -1468,7 +1470,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 20,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:23 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:1",
                 "office": null,
                 "phone": null,
@@ -1478,7 +1480,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4201"
                 ,"missed_votes_pct": 1.68,
-                "votes_with_party_pct": 93.77
+                "votes_with_party_pct": 93.93
               },
                           {
                 "id": "B000755",
@@ -1514,7 +1516,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 52,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:08 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:8",
                 "office": null,
                 "phone": null,
@@ -1524,7 +1526,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4808"
                 ,"missed_votes_pct": 4.36,
-                "votes_with_party_pct": 95.70
+                "votes_with_party_pct": 95.87
               },
                           {
                 "id": "B001259",
@@ -1560,7 +1562,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:35 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ia/cd:1",
                 "office": null,
                 "phone": null,
@@ -1570,7 +1572,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1901"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 90.41
+                "votes_with_party_pct": 90.57
               },
                           {
                 "id": "B001290",
@@ -1606,7 +1608,7 @@ var data = {
                 "total_votes": 48,
                 "missed_votes": 1,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:41 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:7",
                 "office": null,
                 "phone": null,
@@ -1652,7 +1654,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 12,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:17 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ok/cd:1",
                 "office": null,
                 "phone": null,
@@ -1662,7 +1664,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4001"
                 ,"missed_votes_pct": 1.01,
-                "votes_with_party_pct": 92.29
+                "votes_with_party_pct": 92.44
               },
                           {
                 "id": "B001284",
@@ -1698,7 +1700,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 2,
-                "last_updated": "2019-01-06 15:21:09 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:in/cd:5",
                 "office": null,
                 "phone": null,
@@ -1708,7 +1710,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1805"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 95.62
+                "votes_with_party_pct": 95.78
               },
                           {
                 "id": "B001274",
@@ -1744,7 +1746,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 11,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:06 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:al/cd:5",
                 "office": null,
                 "phone": null,
@@ -1754,7 +1756,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0105"
                 ,"missed_votes_pct": 0.92,
-                "votes_with_party_pct": 92.63
+                "votes_with_party_pct": 92.79
               },
                           {
                 "id": "B001262",
@@ -1790,7 +1792,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 36,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:25 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:10",
                 "office": null,
                 "phone": null,
@@ -1800,7 +1802,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1310"
                 ,"missed_votes_pct": 3.02,
-                "votes_with_party_pct": 82.44
+                "votes_with_party_pct": 82.58
               },
                           {
                 "id": "B000911",
@@ -1836,7 +1838,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 68,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:22 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:5",
                 "office": null,
                 "phone": null,
@@ -1846,7 +1848,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1205"
                 ,"missed_votes_pct": 5.70,
-                "votes_with_party_pct": 95.02
+                "votes_with_party_pct": 95.19
               },
                           {
                 "id": "B001285",
@@ -1882,7 +1884,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 4,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:17 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:26",
                 "office": null,
                 "phone": null,
@@ -1892,7 +1894,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0626"
                 ,"missed_votes_pct": 0.34,
-                "votes_with_party_pct": 91.16
+                "votes_with_party_pct": 91.32
               },
                           {
                 "id": "B001260",
@@ -1928,7 +1930,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 45,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:07 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:16",
                 "office": null,
                 "phone": null,
@@ -1938,7 +1940,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1216"
                 ,"missed_votes_pct": 3.78,
-                "votes_with_party_pct": 94.68
+                "votes_with_party_pct": 94.85
               },
                           {
                 "id": "B001275",
@@ -1974,7 +1976,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 16,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:06 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:in/cd:8",
                 "office": null,
                 "phone": null,
@@ -1984,7 +1986,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1808"
                 ,"missed_votes_pct": 1.34,
-                "votes_with_party_pct": 95.66
+                "votes_with_party_pct": 95.83
               },
                           {
                 "id": "B001248",
@@ -2020,7 +2022,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 24,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:07 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:26",
                 "office": null,
                 "phone": null,
@@ -2030,7 +2032,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4826"
                 ,"missed_votes_pct": 2.01,
-                "votes_with_party_pct": 90.15
+                "votes_with_party_pct": 90.31
               },
                           {
                 "id": "B001286",
@@ -2066,7 +2068,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 21,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:12 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:17",
                 "office": null,
                 "phone": null,
@@ -2076,7 +2078,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1717"
                 ,"missed_votes_pct": 1.76,
-                "votes_with_party_pct": 87.45
+                "votes_with_party_pct": 87.60
               },
                           {
                 "id": "B001251",
@@ -2112,7 +2114,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 53,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:07 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:1",
                 "office": null,
                 "phone": null,
@@ -2122,7 +2124,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3701"
                 ,"missed_votes_pct": 4.45,
-                "votes_with_party_pct": 93.68
+                "votes_with_party_pct": 93.84
               },
                           {
                 "id": "B001289",
@@ -2158,7 +2160,7 @@ var data = {
                 "total_votes": 550,
                 "missed_votes": 33,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:19 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:al/cd:1",
                 "office": null,
                 "phone": null,
@@ -2204,7 +2206,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 17,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:06 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:42",
                 "office": null,
                 "phone": null,
@@ -2214,7 +2216,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0642"
                 ,"missed_votes_pct": 1.43,
-                "votes_with_party_pct": 94.04
+                "votes_with_party_pct": 94.20
               },
                           {
                 "id": "C000071",
@@ -2250,7 +2252,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 21,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:49 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:4",
                 "office": null,
                 "phone": null,
@@ -2260,7 +2262,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2604"
                 ,"missed_votes_pct": 1.76,
-                "votes_with_party_pct": 95.82
+                "votes_with_party_pct": 95.98
               },
                           {
                 "id": "C001064",
@@ -2296,7 +2298,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 525,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:01 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:45",
                 "office": null,
                 "phone": null,
@@ -2306,7 +2308,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0645"
                 ,"missed_votes_pct": 44.04,
-                "votes_with_party_pct": 94.15
+                "votes_with_party_pct": 94.44
               },
                           {
                 "id": "C001046",
@@ -2342,7 +2344,7 @@ var data = {
                 "total_votes": 1108,
                 "missed_votes": 81,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:40 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:7",
                 "office": null,
                 "phone": null,
@@ -2352,7 +2354,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5107"
                 ,"missed_votes_pct": 7.31,
-                "votes_with_party_pct": 94.84
+                "votes_with_party_pct": 95.02
               },
                           {
                 "id": "C001047",
@@ -2388,7 +2390,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 61,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:05 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wv/cd:2",
                 "office": null,
                 "phone": null,
@@ -2398,7 +2400,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5402"
                 ,"missed_votes_pct": 5.12,
-                "votes_with_party_pct": 94.34
+                "votes_with_party_pct": 94.51
               },
                           {
                 "id": "C001036",
@@ -2434,7 +2436,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:11 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:24",
                 "office": null,
                 "phone": null,
@@ -2444,7 +2446,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0624"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 95.00
+                "votes_with_party_pct": 95.16
               },
                           {
                 "id": "C001037",
@@ -2480,7 +2482,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 71,
                 "total_present": 3,
-                "last_updated": "2018-07-08 18:12:45 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:7",
                 "office": null,
                 "phone": null,
@@ -2490,7 +2492,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2507"
                 ,"missed_votes_pct": 5.96,
-                "votes_with_party_pct": 91.26
+                "votes_with_party_pct": 91.42
               },
                           {
                 "id": "C001097",
@@ -2526,7 +2528,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 63,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:17 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:29",
                 "office": null,
                 "phone": null,
@@ -2536,7 +2538,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0629"
                 ,"missed_votes_pct": 5.29,
-                "votes_with_party_pct": 93.27
+                "votes_with_party_pct": 93.43
               },
                           {
                 "id": "C001083",
@@ -2572,7 +2574,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 65,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:15 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:de/cd:1",
                 "office": null,
                 "phone": null,
@@ -2582,7 +2584,7 @@ var data = {
                 "at_large": true,
                 "geoid": "1000"
                 ,"missed_votes_pct": 5.45,
-                "votes_with_party_pct": 93.97
+                "votes_with_party_pct": 94.13
               },
                           {
                 "id": "C001072",
@@ -2618,7 +2620,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 19,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:03 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:in/cd:7",
                 "office": null,
                 "phone": null,
@@ -2628,7 +2630,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1807"
                 ,"missed_votes_pct": 1.59,
-                "votes_with_party_pct": 93.18
+                "votes_with_party_pct": 93.34
               },
                           {
                 "id": "C001051",
@@ -2664,7 +2666,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 62,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:04 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:31",
                 "office": null,
                 "phone": null,
@@ -2674,7 +2676,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4831"
                 ,"missed_votes_pct": 5.20,
-                "votes_with_party_pct": 95.04
+                "votes_with_party_pct": 95.21
               },
                           {
                 "id": "C001090",
@@ -2710,7 +2712,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 7,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:12 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:17",
                 "office": null,
                 "phone": null,
@@ -2720,7 +2722,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4217"
                 ,"missed_votes_pct": 0.59,
-                "votes_with_party_pct": 94.94
+                "votes_with_party_pct": 95.10
               },
                           {
                 "id": "C001075",
@@ -2756,7 +2758,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 70,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:39 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:la/cd:6",
                 "office": null,
                 "phone": null,
@@ -2766,7 +2768,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2206"
                 ,"missed_votes_pct": 5.87,
-                "votes_with_party_pct": 95.01
+                "votes_with_party_pct": 95.18
               },
                           {
                 "id": "C001066",
@@ -2802,7 +2804,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 62,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:16 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:14",
                 "office": null,
                 "phone": null,
@@ -2812,7 +2814,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1214"
                 ,"missed_votes_pct": 5.20,
-                "votes_with_party_pct": 93.72
+                "votes_with_party_pct": 93.88
               },
                           {
                 "id": "C001091",
@@ -2848,7 +2850,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 37,
                 "total_present": 3,
-                "last_updated": "2019-01-06 15:21:16 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:20",
                 "office": null,
                 "phone": null,
@@ -2858,7 +2860,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4820"
                 ,"missed_votes_pct": 3.10,
-                "votes_with_party_pct": 94.89
+                "votes_with_party_pct": 95.06
               },
                           {
                 "id": "C000266",
@@ -2894,7 +2896,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 1,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:05 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:1",
                 "office": null,
                 "phone": null,
@@ -2904,7 +2906,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3901"
                 ,"missed_votes_pct": 0.08,
-                "votes_with_party_pct": 95.47
+                "votes_with_party_pct": 95.63
               },
                           {
                 "id": "C001076",
@@ -2940,7 +2942,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 74,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:38 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ut/cd:3",
                 "office": null,
                 "phone": null,
@@ -2950,7 +2952,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4903"
                 ,"missed_votes_pct": 6.21,
-                "votes_with_party_pct": 93.56
+                "votes_with_party_pct": 93.73
               },
                           {
                 "id": "C000380",
@@ -3032,7 +3034,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 49,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:03 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:27",
                 "office": null,
                 "phone": null,
@@ -3042,7 +3044,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0627"
                 ,"missed_votes_pct": 4.11,
-                "votes_with_party_pct": 94.31
+                "votes_with_party_pct": 94.48
               },
                           {
                 "id": "C001084",
@@ -3078,7 +3080,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:03 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ri/cd:1",
                 "office": null,
                 "phone": null,
@@ -3088,7 +3090,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4401"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 95.94
+                "votes_with_party_pct": 96.11
               },
                           {
                 "id": "C001101",
@@ -3124,7 +3126,7 @@ var data = {
                 "total_votes": 555,
                 "missed_votes": 28,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:19 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:5",
                 "office": null,
                 "phone": null,
@@ -3134,7 +3136,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2505"
                 ,"missed_votes_pct": 5.05,
-                "votes_with_party_pct": 95.26
+                "votes_with_party_pct": 95.44
               },
                           {
                 "id": "C001067",
@@ -3170,7 +3172,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 62,
                 "total_present": 2,
-                "last_updated": "2019-01-06 15:21:04 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:9",
                 "office": null,
                 "phone": null,
@@ -3180,7 +3182,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3609"
                 ,"missed_votes_pct": 5.20,
-                "votes_with_party_pct": 92.21
+                "votes_with_party_pct": 92.38
               },
                           {
                 "id": "C001102",
@@ -3216,7 +3218,7 @@ var data = {
                 "total_votes": 209,
                 "missed_votes": 1,
                 "total_present": 0,
-                "last_updated": "2017-01-02 13:54:28 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:19",
                 "office": null,
                 "phone": null,
@@ -3262,7 +3264,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 77,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:05 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mo/cd:1",
                 "office": null,
                 "phone": null,
@@ -3272,7 +3274,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2901"
                 ,"missed_votes_pct": 6.46,
-                "votes_with_party_pct": 94.98
+                "votes_with_party_pct": 95.15
               },
                           {
                 "id": "C001061",
@@ -3308,7 +3310,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 114,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:04 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mo/cd:5",
                 "office": null,
                 "phone": null,
@@ -3318,7 +3320,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2905"
                 ,"missed_votes_pct": 9.56,
-                "votes_with_party_pct": 95.27
+                "votes_with_party_pct": 95.45
               },
                           {
                 "id": "C000537",
@@ -3354,7 +3356,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 66,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:05 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:sc/cd:6",
                 "office": null,
                 "phone": null,
@@ -3364,7 +3366,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4506"
                 ,"missed_votes_pct": 5.54,
-                "votes_with_party_pct": 92.98
+                "votes_with_party_pct": 93.15
               },
                           {
                 "id": "C000556",
@@ -3400,7 +3402,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 174,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:08 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:6",
                 "office": null,
                 "phone": null,
@@ -3410,7 +3412,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3706"
                 ,"missed_votes_pct": 14.60,
-                "votes_with_party_pct": 95.97
+                "votes_with_party_pct": 96.16
               },
                           {
                 "id": "C001077",
@@ -3446,7 +3448,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 9,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:13 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:co/cd:6",
                 "office": null,
                 "phone": null,
@@ -3456,7 +3458,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0806"
                 ,"missed_votes_pct": 0.76,
-                "votes_with_party_pct": 91.80
+                "votes_with_party_pct": 91.96
               },
                           {
                 "id": "C001068",
@@ -3492,7 +3494,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 2,
-                "last_updated": "2019-01-06 15:21:04 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tn/cd:9",
                 "office": null,
                 "phone": null,
@@ -3502,7 +3504,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4709"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 93.49
+                "votes_with_party_pct": 93.65
               },
                           {
                 "id": "C001053",
@@ -3538,7 +3540,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 50,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:04 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ok/cd:4",
                 "office": null,
                 "phone": null,
@@ -3548,7 +3550,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4004"
                 ,"missed_votes_pct": 4.19,
-                "votes_with_party_pct": 93.08
+                "votes_with_party_pct": 93.25
               },
                           {
                 "id": "C001092",
@@ -3584,7 +3586,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:13 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:27",
                 "office": null,
                 "phone": null,
@@ -3594,7 +3596,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3627"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 95.54
+                "votes_with_party_pct": 95.71
               },
                           {
                 "id": "C001093",
@@ -3630,7 +3632,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 49,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:11 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:9",
                 "office": null,
                 "phone": null,
@@ -3640,7 +3642,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1309"
                 ,"missed_votes_pct": 4.11,
-                "votes_with_party_pct": 93.53
+                "votes_with_party_pct": 93.69
               },
                           {
                 "id": "C001062",
@@ -3676,7 +3678,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 17,
                 "total_present": 2,
-                "last_updated": "2019-01-06 15:21:04 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:11",
                 "office": null,
                 "phone": null,
@@ -3686,7 +3688,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4811"
                 ,"missed_votes_pct": 1.43,
-                "votes_with_party_pct": 93.53
+                "votes_with_party_pct": 93.69
               },
                           {
                 "id": "C001078",
@@ -3722,7 +3724,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 9,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:03 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:11",
                 "office": null,
                 "phone": null,
@@ -3732,7 +3734,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5111"
                 ,"missed_votes_pct": 0.76,
-                "votes_with_party_pct": 91.89
+                "votes_with_party_pct": 92.04
               },
                           {
                 "id": "C000714",
@@ -3768,7 +3770,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 51,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:46 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:13",
                 "office": null,
                 "phone": null,
@@ -3778,7 +3780,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2613"
                 ,"missed_votes_pct": 4.28,
-                "votes_with_party_pct": 91.94
+                "votes_with_party_pct": 92.10
               },
                           {
                 "id": "C001094",
@@ -3814,7 +3816,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:13 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:8",
                 "office": null,
                 "phone": null,
@@ -3824,7 +3826,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0608"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 95.08
+                "votes_with_party_pct": 95.24
               },
                           {
                 "id": "C000754",
@@ -3860,7 +3862,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 21,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:26 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tn/cd:5",
                 "office": null,
                 "phone": null,
@@ -3870,7 +3872,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4705"
                 ,"missed_votes_pct": 1.76,
-                "votes_with_party_pct": 87.36
+                "votes_with_party_pct": 87.51
               },
                           {
                 "id": "C001059",
@@ -3906,7 +3908,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 66,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:01 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:16",
                 "office": null,
                 "phone": null,
@@ -3916,7 +3918,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0616"
                 ,"missed_votes_pct": 5.54,
-                "votes_with_party_pct": 74.87
+                "votes_with_party_pct": 75.00
               },
                           {
                 "id": "C001095",
@@ -3952,7 +3954,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 12,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:12 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ar/cd:4",
                 "office": null,
                 "phone": null,
@@ -3962,7 +3964,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0504"
                 ,"missed_votes_pct": 1.01,
-                "votes_with_party_pct": 93.31
+                "votes_with_party_pct": 93.46
               },
                           {
                 "id": "C001069",
@@ -3998,7 +4000,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 27,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:03 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ct/cd:2",
                 "office": null,
                 "phone": null,
@@ -4008,7 +4010,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0902"
                 ,"missed_votes_pct": 2.27,
-                "votes_with_party_pct": 93.05
+                "votes_with_party_pct": 93.21
               },
                           {
                 "id": "C001096",
@@ -4044,7 +4046,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 61,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:13 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nd/cd:1",
                 "office": null,
                 "phone": null,
@@ -4054,7 +4056,7 @@ var data = {
                 "at_large": true,
                 "geoid": "3800"
                 ,"missed_votes_pct": 5.12,
-                "votes_with_party_pct": 93.81
+                "votes_with_party_pct": 93.98
               },
                           {
                 "id": "C001087",
@@ -4090,7 +4092,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 84,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:03 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ar/cd:1",
                 "office": null,
                 "phone": null,
@@ -4100,7 +4102,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0501"
                 ,"missed_votes_pct": 7.05,
-                "votes_with_party_pct": 94.04
+                "votes_with_party_pct": 94.21
               },
                           {
                 "id": "C001045",
@@ -4136,7 +4138,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 32,
                 "total_present": 0,
-                "last_updated": "2019-01-04 09:25:49 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:4",
                 "office": null,
                 "phone": null,
@@ -4146,7 +4148,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1204"
                 ,"missed_votes_pct": 2.68,
-                "votes_with_party_pct": 93.36
+                "votes_with_party_pct": 93.52
               },
                           {
                 "id": "C001038",
@@ -4182,7 +4184,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 31,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:08 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:14",
                 "office": null,
                 "phone": null,
@@ -4192,7 +4194,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3614"
                 ,"missed_votes_pct": 2.60,
-                "votes_with_party_pct": 93.54
+                "votes_with_party_pct": 93.70
               },
                           {
                 "id": "C001063",
@@ -4228,7 +4230,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 2,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:04 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:28",
                 "office": null,
                 "phone": null,
@@ -4238,7 +4240,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4828"
                 ,"missed_votes_pct": 0.17,
-                "votes_with_party_pct": 78.32
+                "votes_with_party_pct": 78.45
               },
                           {
                 "id": "C001048",
@@ -4274,7 +4276,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 112,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:29 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:7",
                 "office": null,
                 "phone": null,
@@ -4284,7 +4286,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4807"
                 ,"missed_votes_pct": 9.40,
-                "votes_with_party_pct": 94.26
+                "votes_with_party_pct": 94.43
               },
                           {
                 "id": "C000984",
@@ -4320,7 +4322,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 30,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:05 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:md/cd:7",
                 "office": null,
                 "phone": null,
@@ -4330,7 +4332,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2407"
                 ,"missed_votes_pct": 2.52,
-                "votes_with_party_pct": 95.27
+                "votes_with_party_pct": 95.43
               },
                           {
                 "id": "D000618",
@@ -4366,7 +4368,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 10,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:11 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mt/cd:1",
                 "office": null,
                 "phone": null,
@@ -4376,7 +4378,7 @@ var data = {
                 "at_large": true,
                 "geoid": "3000"
                 ,"missed_votes_pct": 0.84,
-                "votes_with_party_pct": 94.25
+                "votes_with_party_pct": 94.41
               },
                           {
                 "id": "D000096",
@@ -4412,7 +4414,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 81,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:14 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:7",
                 "office": null,
                 "phone": null,
@@ -4422,7 +4424,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1707"
                 ,"missed_votes_pct": 6.80,
-                "votes_with_party_pct": 94.96
+                "votes_with_party_pct": 95.13
               },
                           {
                 "id": "D000598",
@@ -4458,7 +4460,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 29,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:15 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:53",
                 "office": null,
                 "phone": null,
@@ -4468,7 +4470,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0653"
                 ,"missed_votes_pct": 2.43,
-                "votes_with_party_pct": 95.70
+                "votes_with_party_pct": 95.87
               },
                           {
                 "id": "D000619",
@@ -4504,7 +4506,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 29,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:14 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:13",
                 "office": null,
                 "phone": null,
@@ -4514,7 +4516,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1713"
                 ,"missed_votes_pct": 2.43,
-                "votes_with_party_pct": 89.77
+                "votes_with_party_pct": 89.92
               },
                           {
                 "id": "D000191",
@@ -4550,7 +4552,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 32,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:02 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:or/cd:4",
                 "office": null,
                 "phone": null,
@@ -4560,7 +4562,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4104"
                 ,"missed_votes_pct": 2.68,
-                "votes_with_party_pct": 90.60
+                "votes_with_party_pct": 90.76
               },
                           {
                 "id": "D000197",
@@ -4596,7 +4598,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 67,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:02 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:co/cd:1",
                 "office": null,
                 "phone": null,
@@ -4606,7 +4608,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0801"
                 ,"missed_votes_pct": 5.62,
-                "votes_with_party_pct": 96.00
+                "votes_with_party_pct": 96.17
               },
                           {
                 "id": "D000620",
@@ -4642,7 +4644,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 26,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:42 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:md/cd:6",
                 "office": null,
                 "phone": null,
@@ -4652,7 +4654,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2406"
                 ,"missed_votes_pct": 2.18,
-                "votes_with_party_pct": 91.94
+                "votes_with_party_pct": 92.10
               },
                           {
                 "id": "D000216",
@@ -4688,7 +4690,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 44,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:02 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ct/cd:3",
                 "office": null,
                 "phone": null,
@@ -4698,7 +4700,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0903"
                 ,"missed_votes_pct": 3.69,
-                "votes_with_party_pct": 95.91
+                "votes_with_party_pct": 96.07
               },
                           {
                 "id": "D000617",
@@ -4734,7 +4736,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 9,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:09 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:1",
                 "office": null,
                 "phone": null,
@@ -4744,7 +4746,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5301"
                 ,"missed_votes_pct": 0.76,
-                "votes_with_party_pct": 92.81
+                "votes_with_party_pct": 92.97
               },
                           {
                 "id": "D000612",
@@ -4780,7 +4782,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:03 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:10",
                 "office": null,
                 "phone": null,
@@ -4790,7 +4792,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0610"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 90.24
+                "votes_with_party_pct": 90.39
               },
                           {
                 "id": "D000604",
@@ -4826,7 +4828,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 4,
                 "total_present": 2,
-                "last_updated": "2018-07-08 18:13:20 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:15",
                 "office": null,
                 "phone": null,
@@ -4836,7 +4838,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4215"
                 ,"missed_votes_pct": 0.34,
-                "votes_with_party_pct": 89.39
+                "votes_with_party_pct": 89.54
               },
                           {
                 "id": "D000621",
@@ -4872,7 +4874,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 4,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:20 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:6",
                 "office": null,
                 "phone": null,
@@ -4882,7 +4884,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1206"
                 ,"missed_votes_pct": 0.34,
-                "votes_with_party_pct": 92.93
+                "votes_with_party_pct": 93.09
               },
                           {
                 "id": "D000616",
@@ -4918,7 +4920,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 153,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:28 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tn/cd:4",
                 "office": null,
                 "phone": null,
@@ -4928,7 +4930,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4704"
                 ,"missed_votes_pct": 12.84,
-                "votes_with_party_pct": 94.42
+                "votes_with_party_pct": 94.60
               },
                           {
                 "id": "D000610",
@@ -4964,7 +4966,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 39,
                 "total_present": 3,
-                "last_updated": "2019-01-06 15:21:02 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:21",
                 "office": null,
                 "phone": null,
@@ -4974,7 +4976,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1221"
                 ,"missed_votes_pct": 3.27,
-                "votes_with_party_pct": 95.75
+                "votes_with_party_pct": 95.92
               },
                           {
                 "id": "D000600",
@@ -5010,7 +5012,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 69,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:02 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:25",
                 "office": null,
                 "phone": null,
@@ -5020,7 +5022,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1225"
                 ,"missed_votes_pct": 5.79,
-                "votes_with_party_pct": 91.63
+                "votes_with_party_pct": 91.79
               },
                           {
                 "id": "D000355",
@@ -5056,7 +5058,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 112,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:45 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:12",
                 "office": null,
                 "phone": null,
@@ -5066,7 +5068,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2612"
                 ,"missed_votes_pct": 9.40,
-                "votes_with_party_pct": 93.52
+                "votes_with_party_pct": 93.69
               },
                           {
                 "id": "D000399",
@@ -5102,7 +5104,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 17,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:02 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:35",
                 "office": null,
                 "phone": null,
@@ -5112,7 +5114,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4835"
                 ,"missed_votes_pct": 1.43,
-                "votes_with_party_pct": 93.87
+                "votes_with_party_pct": 94.03
               },
                           {
                 "id": "D000482",
@@ -5148,7 +5150,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 72,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:02 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:14",
                 "office": null,
                 "phone": null,
@@ -5158,7 +5160,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4214"
                 ,"missed_votes_pct": 6.04,
-                "votes_with_party_pct": 94.82
+                "votes_with_party_pct": 94.99
               },
                           {
                 "id": "D000622",
@@ -5194,7 +5196,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 78,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:15 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:8",
                 "office": null,
                 "phone": null,
@@ -5204,7 +5206,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1708"
                 ,"missed_votes_pct": 6.54,
-                "votes_with_party_pct": 89.41
+                "votes_with_party_pct": 89.57
               },
                           {
                 "id": "D000614",
@@ -5240,7 +5242,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 62,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:01 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wi/cd:7",
                 "office": null,
                 "phone": null,
@@ -5250,7 +5252,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5507"
                 ,"missed_votes_pct": 5.20,
-                "votes_with_party_pct": 92.74
+                "votes_with_party_pct": 92.91
               },
                           {
                 "id": "D000615",
@@ -5286,7 +5288,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 2,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:01 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:sc/cd:3",
                 "office": null,
                 "phone": null,
@@ -5296,7 +5298,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4503"
                 ,"missed_votes_pct": 0.17,
-                "votes_with_party_pct": 91.18
+                "votes_with_party_pct": 91.33
               },
                           {
                 "id": "D000533",
@@ -5332,7 +5334,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 11,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:26 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tn/cd:2",
                 "office": null,
                 "phone": null,
@@ -5342,7 +5344,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4702"
                 ,"missed_votes_pct": 0.92,
-                "votes_with_party_pct": 86.54
+                "votes_with_party_pct": 86.68
               },
                           {
                 "id": "E000290",
@@ -5378,7 +5380,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 41,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:42 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:md/cd:4",
                 "office": null,
                 "phone": null,
@@ -5388,7 +5390,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2404"
                 ,"missed_votes_pct": 3.44,
-                "votes_with_party_pct": 93.05
+                "votes_with_party_pct": 93.21
               },
                           {
                 "id": "E000288",
@@ -5424,7 +5426,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 51,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:50 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mn/cd:5",
                 "office": null,
                 "phone": null,
@@ -5434,7 +5436,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2705"
                 ,"missed_votes_pct": 4.28,
-                "votes_with_party_pct": 92.90
+                "votes_with_party_pct": 93.06
               },
                           {
                 "id": "E000291",
@@ -5470,7 +5472,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 17,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:10 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:2",
                 "office": null,
                 "phone": null,
@@ -5480,7 +5482,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3702"
                 ,"missed_votes_pct": 1.43,
-                "votes_with_party_pct": 94.47
+                "votes_with_party_pct": 94.63
               },
                           {
                 "id": "E000172",
@@ -5516,7 +5518,7 @@ var data = {
                 "total_votes": 25,
                 "missed_votes": 13,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:54 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mo/cd:8",
                 "office": null,
                 "phone": null,
@@ -5526,7 +5528,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2908"
                 ,"missed_votes_pct": 52.00,
-                "votes_with_party_pct": 83.33
+                "votes_with_party_pct": 90.91
               },
                           {
                 "id": "E000179",
@@ -5562,7 +5564,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 55,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:01 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:16",
                 "office": null,
                 "phone": null,
@@ -5572,7 +5574,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3616"
                 ,"missed_votes_pct": 4.61,
-                "votes_with_party_pct": 95.16
+                "votes_with_party_pct": 95.33
               },
                           {
                 "id": "E000292",
@@ -5608,7 +5610,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 33,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:30 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:12",
                 "office": null,
                 "phone": null,
@@ -5618,7 +5620,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1712"
                 ,"missed_votes_pct": 2.77,
-                "votes_with_party_pct": 88.52
+                "votes_with_party_pct": 88.68
               },
                           {
                 "id": "E000215",
@@ -5654,7 +5656,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 30,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:01 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:18",
                 "office": null,
                 "phone": null,
@@ -5664,7 +5666,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0618"
                 ,"missed_votes_pct": 2.52,
-                "votes_with_party_pct": 95.27
+                "votes_with_party_pct": 95.43
               },
                           {
                 "id": "E000293",
@@ -5700,7 +5702,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 20,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:14 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ct/cd:5",
                 "office": null,
                 "phone": null,
@@ -5710,7 +5712,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0905"
                 ,"missed_votes_pct": 1.68,
-                "votes_with_party_pct": 93.34
+                "votes_with_party_pct": 93.50
               },
                           {
                 "id": "F000010",
@@ -5792,7 +5794,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 4,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:33 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:27",
                 "office": null,
                 "phone": null,
@@ -5802,7 +5804,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4827"
                 ,"missed_votes_pct": 0.34,
-                "votes_with_party_pct": 94.95
+                "votes_with_party_pct": 95.11
               },
                           {
                 "id": "F000030",
@@ -5838,7 +5840,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 41,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:08 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:20",
                 "office": null,
                 "phone": null,
@@ -5848,7 +5850,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0620"
                 ,"missed_votes_pct": 3.44,
-                "votes_with_party_pct": 94.09
+                "votes_with_party_pct": 94.26
               },
                           {
                 "id": "F000043",
@@ -5884,7 +5886,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 51,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:23 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:2",
                 "office": null,
                 "phone": null,
@@ -5894,7 +5896,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4202"
                 ,"missed_votes_pct": 4.28,
-                "votes_with_party_pct": 95.27
+                "votes_with_party_pct": 95.43
               },
                           {
                 "id": "F000458",
@@ -5930,7 +5932,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 57,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:28 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tn/cd:8",
                 "office": null,
                 "phone": null,
@@ -5940,7 +5942,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4708"
                 ,"missed_votes_pct": 4.78,
-                "votes_with_party_pct": 95.59
+                "votes_with_party_pct": 95.76
               },
                           {
                 "id": "F000451",
@@ -5976,7 +5978,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 23,
                 "total_present": 0,
-                "last_updated": "2019-01-04 09:25:58 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:8",
                 "office": null,
                 "phone": null,
@@ -5986,7 +5988,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4208"
                 ,"missed_votes_pct": 1.93,
-                "votes_with_party_pct": 84.17
+                "votes_with_party_pct": 84.32
               },
                           {
                 "id": "F000459",
@@ -6022,7 +6024,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:00 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tn/cd:3",
                 "office": null,
                 "phone": null,
@@ -6032,7 +6034,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4703"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 96.60
+                "votes_with_party_pct": 96.77
               },
                           {
                 "id": "F000456",
@@ -6068,7 +6070,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 2,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:39 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:la/cd:4",
                 "office": null,
                 "phone": null,
@@ -6078,7 +6080,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2204"
                 ,"missed_votes_pct": 0.17,
-                "votes_with_party_pct": 94.03
+                "votes_with_party_pct": 94.19
               },
                           {
                 "id": "F000461",
@@ -6114,7 +6116,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:00 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:17",
                 "office": null,
                 "phone": null,
@@ -6124,7 +6126,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4817"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 93.74
+                "votes_with_party_pct": 93.91
               },
                           {
                 "id": "F000445",
@@ -6160,7 +6162,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:40 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:4",
                 "office": null,
                 "phone": null,
@@ -6170,7 +6172,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5104"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 94.34
+                "votes_with_party_pct": 94.51
               },
                           {
                 "id": "F000449",
@@ -6206,7 +6208,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 41,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:01 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ne/cd:1",
                 "office": null,
                 "phone": null,
@@ -6216,7 +6218,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3101"
                 ,"missed_votes_pct": 3.44,
-                "votes_with_party_pct": 92.27
+                "votes_with_party_pct": 92.43
               },
                           {
                 "id": "F000454",
@@ -6252,7 +6254,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:12 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:11",
                 "office": null,
                 "phone": null,
@@ -6262,7 +6264,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1711"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 89.73
+                "votes_with_party_pct": 89.88
               },
                           {
                 "id": "F000450",
@@ -6298,7 +6300,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 3,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:09 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:5",
                 "office": null,
                 "phone": null,
@@ -6308,7 +6310,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3705"
                 ,"missed_votes_pct": 0.25,
-                "votes_with_party_pct": 92.26
+                "votes_with_party_pct": 92.42
               },
                           {
                 "id": "F000462",
@@ -6344,7 +6346,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:12 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:22",
                 "office": null,
                 "phone": null,
@@ -6354,7 +6356,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1222"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 95.42
+                "votes_with_party_pct": 95.59
               },
                           {
                 "id": "F000448",
@@ -6390,7 +6392,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 52,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:11:55 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:az/cd:8",
                 "office": null,
                 "phone": null,
@@ -6400,7 +6402,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0408"
                 ,"missed_votes_pct": 4.36,
-                "votes_with_party_pct": 94.91
+                "votes_with_party_pct": 95.08
               },
                           {
                 "id": "F000372",
@@ -6436,7 +6438,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 10,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:59 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:11",
                 "office": null,
                 "phone": null,
@@ -6446,7 +6448,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3411"
                 ,"missed_votes_pct": 0.84,
-                "votes_with_party_pct": 91.71
+                "votes_with_party_pct": 91.86
               },
                           {
                 "id": "F000455",
@@ -6482,7 +6484,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 60,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:00 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:11",
                 "office": null,
                 "phone": null,
@@ -6492,7 +6494,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3911"
                 ,"missed_votes_pct": 5.03,
-                "votes_with_party_pct": 92.93
+                "votes_with_party_pct": 93.10
               },
                           {
                 "id": "G000571",
@@ -6528,7 +6530,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 37,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:11 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:hi/cd:2",
                 "office": null,
                 "phone": null,
@@ -6538,7 +6540,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1502"
                 ,"missed_votes_pct": 3.10,
-                "votes_with_party_pct": 91.95
+                "votes_with_party_pct": 92.11
               },
                           {
                 "id": "G000572",
@@ -6574,7 +6576,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 22,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:34 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:23",
                 "office": null,
                 "phone": null,
@@ -6584,7 +6586,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4823"
                 ,"missed_votes_pct": 1.85,
-                "votes_with_party_pct": 80.68
+                "votes_with_party_pct": 80.82
               },
                           {
                 "id": "G000559",
@@ -6620,7 +6622,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:59 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:3",
                 "office": null,
                 "phone": null,
@@ -6630,7 +6632,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0603"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 89.80
+                "votes_with_party_pct": 89.96
               },
                           {
                 "id": "G000573",
@@ -6666,7 +6668,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 42,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:21 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:26",
                 "office": null,
                 "phone": null,
@@ -6676,7 +6678,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1226"
                 ,"missed_votes_pct": 3.52,
-                "votes_with_party_pct": 84.52
+                "votes_with_party_pct": 84.67
               },
                           {
                 "id": "G000562",
@@ -6712,7 +6714,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 24,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:59 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:co/cd:4",
                 "office": null,
                 "phone": null,
@@ -6722,7 +6724,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0804"
                 ,"missed_votes_pct": 2.01,
-                "votes_with_party_pct": 92.29
+                "votes_with_party_pct": 92.45
               },
                           {
                 "id": "G000548",
@@ -6758,7 +6760,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 17,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:58 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:5",
                 "office": null,
                 "phone": null,
@@ -6768,7 +6770,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3405"
                 ,"missed_votes_pct": 1.43,
-                "votes_with_party_pct": 91.40
+                "votes_with_party_pct": 91.56
               },
                           {
                 "id": "G000549",
@@ -6804,7 +6806,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 29,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:19 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:6",
                 "office": null,
                 "phone": null,
@@ -6814,7 +6816,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4206"
                 ,"missed_votes_pct": 2.43,
-                "votes_with_party_pct": 90.20
+                "votes_with_party_pct": 90.35
               },
                           {
                 "id": "G000563",
@@ -6850,7 +6852,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:59 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:7",
                 "office": null,
                 "phone": null,
@@ -6860,7 +6862,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3907"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 95.92
+                "votes_with_party_pct": 96.09
               },
                           {
                 "id": "G000564",
@@ -6896,7 +6898,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:05 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:19",
                 "office": null,
                 "phone": null,
@@ -6906,7 +6908,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3619"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 72.84
+                "votes_with_party_pct": 72.96
               },
                           {
                 "id": "G000550",
@@ -6942,7 +6944,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 129,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:23 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:11",
                 "office": null,
                 "phone": null,
@@ -6952,7 +6954,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1311"
                 ,"missed_votes_pct": 10.82,
-                "votes_with_party_pct": 94.36
+                "votes_with_party_pct": 94.53
               },
                           {
                 "id": "G000552",
@@ -6988,7 +6990,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 79,
                 "total_present": 13,
-                "last_updated": "2019-01-06 15:21:00 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:1",
                 "office": null,
                 "phone": null,
@@ -6998,7 +7000,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4801"
                 ,"missed_votes_pct": 6.63,
-                "votes_with_party_pct": 88.23
+                "votes_with_party_pct": 88.39
               },
                           {
                 "id": "G000289",
@@ -7034,7 +7036,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:42 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:6",
                 "office": null,
                 "phone": null,
@@ -7044,7 +7046,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5106"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 95.42
+                "votes_with_party_pct": 95.58
               },
                           {
                 "id": "G000565",
@@ -7080,7 +7082,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 159,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:59 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:az/cd:4",
                 "office": null,
                 "phone": null,
@@ -7090,7 +7092,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0404"
                 ,"missed_votes_pct": 13.34,
-                "votes_with_party_pct": 91.77
+                "votes_with_party_pct": 91.95
               },
                           {
                 "id": "G000566",
@@ -7126,7 +7128,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 19,
                 "total_present": 2,
-                "last_updated": "2018-07-08 18:13:25 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:sc/cd:4",
                 "office": null,
                 "phone": null,
@@ -7136,7 +7138,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4504"
                 ,"missed_votes_pct": 1.59,
-                "votes_with_party_pct": 94.03
+                "votes_with_party_pct": 94.19
               },
                           {
                 "id": "G000377",
@@ -7172,7 +7174,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 59,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:00 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:12",
                 "office": null,
                 "phone": null,
@@ -7182,7 +7184,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4812"
                 ,"missed_votes_pct": 4.95,
-                "votes_with_party_pct": 95.85
+                "votes_with_party_pct": 96.02
               },
                           {
                 "id": "G000546",
@@ -7218,7 +7220,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 75,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:14 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mo/cd:6",
                 "office": null,
                 "phone": null,
@@ -7228,7 +7230,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2906"
                 ,"missed_votes_pct": 6.29,
-                "votes_with_party_pct": 93.38
+                "votes_with_party_pct": 93.54
               },
                           {
                 "id": "G000560",
@@ -7264,7 +7266,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 17,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:59 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:14",
                 "office": null,
                 "phone": null,
@@ -7274,7 +7276,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1314"
                 ,"missed_votes_pct": 1.43,
-                "votes_with_party_pct": 92.09
+                "votes_with_party_pct": 92.24
               },
                           {
                 "id": "G000556",
@@ -7310,7 +7312,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 35,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:18 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:9",
                 "office": null,
                 "phone": null,
@@ -7320,7 +7322,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1209"
                 ,"missed_votes_pct": 2.94,
-                "votes_with_party_pct": 93.43
+                "votes_with_party_pct": 93.59
               },
                           {
                 "id": "G000410",
@@ -7356,7 +7358,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 51,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:37 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:29",
                 "office": null,
                 "phone": null,
@@ -7366,7 +7368,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4829"
                 ,"missed_votes_pct": 4.28,
-                "votes_with_party_pct": 83.09
+                "votes_with_party_pct": 83.23
               },
                           {
                 "id": "G000553",
@@ -7402,7 +7404,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 72,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:59 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:9",
                 "office": null,
                 "phone": null,
@@ -7412,7 +7414,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4809"
                 ,"missed_votes_pct": 6.04,
-                "votes_with_party_pct": 92.77
+                "votes_with_party_pct": 92.93
               },
                           {
                 "id": "G000567",
@@ -7448,7 +7450,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:11:57 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ar/cd:2",
                 "office": null,
                 "phone": null,
@@ -7458,7 +7460,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0502"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 93.57
+                "votes_with_party_pct": 93.73
               },
                           {
                 "id": "G000568",
@@ -7494,7 +7496,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 9,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:59 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:9",
                 "office": null,
                 "phone": null,
@@ -7504,7 +7506,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5109"
                 ,"missed_votes_pct": 0.76,
-                "votes_with_party_pct": 89.86
+                "votes_with_party_pct": 90.01
               },
                           {
                 "id": "G000551",
@@ -7540,7 +7542,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 122,
                 "total_present": 2,
-                "last_updated": "2019-01-06 15:21:00 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:az/cd:3",
                 "office": null,
                 "phone": null,
@@ -7550,7 +7552,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0403"
                 ,"missed_votes_pct": 10.23,
-                "votes_with_party_pct": 92.24
+                "votes_with_party_pct": 92.42
               },
                           {
                 "id": "G000569",
@@ -7586,7 +7588,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 87,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:04 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:11",
                 "office": null,
                 "phone": null,
@@ -7596,7 +7598,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3611"
                 ,"missed_votes_pct": 7.30,
-                "votes_with_party_pct": 88.60
+                "votes_with_party_pct": 88.76
               },
                           {
                 "id": "G000558",
@@ -7632,7 +7634,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 12,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:16 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ky/cd:2",
                 "office": null,
                 "phone": null,
@@ -7642,7 +7644,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2102"
                 ,"missed_votes_pct": 1.01,
-                "votes_with_party_pct": 96.27
+                "votes_with_party_pct": 96.43
               },
                           {
                 "id": "G000535",
@@ -7678,7 +7680,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 208,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:31 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:4",
                 "office": null,
                 "phone": null,
@@ -7688,7 +7690,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1704"
                 ,"missed_votes_pct": 17.45,
-                "votes_with_party_pct": 93.90
+                "votes_with_party_pct": 94.09
               },
                           {
                 "id": "H001063",
@@ -7724,7 +7726,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 7,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:04 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:44",
                 "office": null,
                 "phone": null,
@@ -7734,7 +7736,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0644"
                 ,"missed_votes_pct": 0.59,
-                "votes_with_party_pct": 94.85
+                "votes_with_party_pct": 95.01
               },
                           {
                 "id": "H000067",
@@ -7770,7 +7772,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 89,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:38 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:4",
                 "office": null,
                 "phone": null,
@@ -7780,7 +7782,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4804"
                 ,"missed_votes_pct": 7.47,
-                "votes_with_party_pct": 93.84
+                "votes_with_party_pct": 94.01
               },
                           {
                 "id": "H001050",
@@ -7816,7 +7818,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 134,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:26 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:hi/cd:1",
                 "office": null,
                 "phone": null,
@@ -7826,7 +7828,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1501"
                 ,"missed_votes_pct": 11.24,
-                "votes_with_party_pct": 94.71
+                "votes_with_party_pct": 94.89
               },
                           {
                 "id": "H001051",
@@ -7862,7 +7864,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 91,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:05 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:22",
                 "office": null,
                 "phone": null,
@@ -7872,7 +7874,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3622"
                 ,"missed_votes_pct": 7.63,
-                "votes_with_party_pct": 86.19
+                "votes_with_party_pct": 86.35
               },
                           {
                 "id": "H001045",
@@ -7908,7 +7910,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 23,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:51 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ms/cd:3",
                 "office": null,
                 "phone": null,
@@ -7918,7 +7920,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2803"
                 ,"missed_votes_pct": 1.93,
-                "votes_with_party_pct": 94.61
+                "votes_with_party_pct": 94.77
               },
                           {
                 "id": "H001052",
@@ -7954,7 +7956,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 20,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:15 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:md/cd:1",
                 "office": null,
                 "phone": null,
@@ -7964,7 +7966,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2401"
                 ,"missed_votes_pct": 1.68,
-                "votes_with_party_pct": 94.37
+                "votes_with_party_pct": 94.53
               },
                           {
                 "id": "H001053",
@@ -8000,7 +8002,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 65,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:58 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mo/cd:4",
                 "office": null,
                 "phone": null,
@@ -8010,7 +8012,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2904"
                 ,"missed_votes_pct": 5.45,
-                "votes_with_party_pct": 95.30
+                "votes_with_party_pct": 95.47
               },
                           {
                 "id": "H000329",
@@ -8046,7 +8048,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 24,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:44 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:4",
                 "office": null,
                 "phone": null,
@@ -8056,7 +8058,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5304"
                 ,"missed_votes_pct": 2.01,
-                "votes_with_party_pct": 93.92
+                "votes_with_party_pct": 94.08
               },
                           {
                 "id": "H000324",
@@ -8092,7 +8094,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 117,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:59 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:20",
                 "office": null,
                 "phone": null,
@@ -8102,7 +8104,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1220"
                 ,"missed_votes_pct": 9.82,
-                "votes_with_party_pct": 93.86
+                "votes_with_party_pct": 94.04
               },
                           {
                 "id": "H001055",
@@ -8138,7 +8140,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 10,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:56 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nv/cd:3",
                 "office": null,
                 "phone": null,
@@ -8148,7 +8150,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3203"
                 ,"missed_votes_pct": 0.84,
-                "votes_with_party_pct": 88.75
+                "votes_with_party_pct": 88.90
               },
                           {
                 "id": "H001064",
@@ -8184,7 +8186,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 41,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:10 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:10",
                 "office": null,
                 "phone": null,
@@ -8194,7 +8196,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5310"
                 ,"missed_votes_pct": 3.44,
-                "votes_with_party_pct": 94.79
+                "votes_with_party_pct": 94.95
               },
                           {
                 "id": "H001036",
@@ -8230,7 +8232,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:29 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:5",
                 "office": null,
                 "phone": null,
@@ -8240,7 +8242,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4805"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 95.76
+                "votes_with_party_pct": 95.92
               },
                           {
                 "id": "H001056",
@@ -8276,7 +8278,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 317,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:58 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:3",
                 "office": null,
                 "phone": null,
@@ -8286,7 +8288,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5303"
                 ,"missed_votes_pct": 26.59,
-                "votes_with_party_pct": 88.34
+                "votes_with_party_pct": 88.55
               },
                           {
                 "id": "H001038",
@@ -8322,7 +8324,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 67,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:58 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:26",
                 "office": null,
                 "phone": null,
@@ -8332,7 +8334,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3626"
                 ,"missed_votes_pct": 5.62,
-                "votes_with_party_pct": 95.82
+                "votes_with_party_pct": 95.99
               },
                           {
                 "id": "H001047",
@@ -8368,7 +8370,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 19,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:58 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ct/cd:4",
                 "office": null,
                 "phone": null,
@@ -8378,7 +8380,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0904"
                 ,"missed_votes_pct": 1.59,
-                "votes_with_party_pct": 92.41
+                "votes_with_party_pct": 92.57
               },
                           {
                 "id": "H000636",
@@ -8414,7 +8416,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 155,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:37 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:15",
                 "office": null,
                 "phone": null,
@@ -8424,7 +8426,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4815"
                 ,"missed_votes_pct": 13.00,
-                "votes_with_party_pct": 91.61
+                "votes_with_party_pct": 91.79
               },
                           {
                 "id": "H001065",
@@ -8460,7 +8462,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 16,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:10 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:13",
                 "office": null,
                 "phone": null,
@@ -8470,7 +8472,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3713"
                 ,"missed_votes_pct": 1.34,
-                "votes_with_party_pct": 93.79
+                "votes_with_party_pct": 93.95
               },
                           {
                 "id": "H001032",
@@ -8506,7 +8508,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 156,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:00 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:12",
                 "office": null,
                 "phone": null,
@@ -8516,7 +8518,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3412"
                 ,"missed_votes_pct": 13.09,
-                "votes_with_party_pct": 93.15
+                "votes_with_party_pct": 93.33
               },
                           {
                 "id": "H001034",
@@ -8552,7 +8554,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 93,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:11:59 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:17",
                 "office": null,
                 "phone": null,
@@ -8562,7 +8564,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0617"
                 ,"missed_votes_pct": 7.80,
-                "votes_with_party_pct": 91.90
+                "votes_with_party_pct": 92.07
               },
                           {
                 "id": "H001066",
@@ -8598,7 +8600,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 161,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:31 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nv/cd:4",
                 "office": null,
                 "phone": null,
@@ -8608,7 +8610,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3204"
                 ,"missed_votes_pct": 13.51,
-                "votes_with_party_pct": 94.57
+                "votes_with_party_pct": 94.75
               },
                           {
                 "id": "H000874",
@@ -8644,7 +8646,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 54,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:58 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:md/cd:5",
                 "office": null,
                 "phone": null,
@@ -8654,7 +8656,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2405"
                 ,"missed_votes_pct": 4.53,
-                "votes_with_party_pct": 92.18
+                "votes_with_party_pct": 92.34
               },
                           {
                 "id": "H001067",
@@ -8690,7 +8692,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 22,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:13 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:8",
                 "office": null,
                 "phone": null,
@@ -8700,7 +8702,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3708"
                 ,"missed_votes_pct": 1.85,
-                "votes_with_party_pct": 92.48
+                "votes_with_party_pct": 92.64
               },
                           {
                 "id": "H001057",
@@ -8736,7 +8738,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 20,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:36 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ks/cd:1",
                 "office": null,
                 "phone": null,
@@ -8746,7 +8748,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2001"
                 ,"missed_votes_pct": 1.68,
-                "votes_with_party_pct": 89.08
+                "votes_with_party_pct": 89.23
               },
                           {
                 "id": "H001068",
@@ -8782,7 +8784,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 35,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:15 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:2",
                 "office": null,
                 "phone": null,
@@ -8792,7 +8794,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0602"
                 ,"missed_votes_pct": 2.94,
-                "votes_with_party_pct": 93.95
+                "votes_with_party_pct": 94.11
               },
                           {
                 "id": "H001058",
@@ -8828,7 +8830,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 11,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:58 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:2",
                 "office": null,
                 "phone": null,
@@ -8838,7 +8840,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2602"
                 ,"missed_votes_pct": 0.92,
-                "votes_with_party_pct": 93.73
+                "votes_with_party_pct": 93.89
               },
                           {
                 "id": "H001059",
@@ -8874,7 +8876,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:29 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:14",
                 "office": null,
                 "phone": null,
@@ -8884,7 +8886,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1714"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 95.92
+                "votes_with_party_pct": 96.09
               },
                           {
                 "id": "H001048",
@@ -8920,7 +8922,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 79,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:58 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:50",
                 "office": null,
                 "phone": null,
@@ -8930,7 +8932,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0650"
                 ,"missed_votes_pct": 6.63,
-                "votes_with_party_pct": 94.43
+                "votes_with_party_pct": 94.60
               },
                           {
                 "id": "H001060",
@@ -8966,7 +8968,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 31,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:41 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:5",
                 "office": null,
                 "phone": null,
@@ -8976,7 +8978,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5105"
                 ,"missed_votes_pct": 2.60,
-                "votes_with_party_pct": 95.78
+                "votes_with_party_pct": 95.94
               },
                           {
                 "id": "I000057",
@@ -9012,7 +9014,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 18,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:02 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:3",
                 "office": null,
                 "phone": null,
@@ -9022,7 +9024,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3603"
                 ,"missed_votes_pct": 1.51,
-                "votes_with_party_pct": 91.91
+                "votes_with_party_pct": 92.06
               },
                           {
                 "id": "I000056",
@@ -9058,7 +9060,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 2,
-                "last_updated": "2018-07-08 18:12:00 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:49",
                 "office": null,
                 "phone": null,
@@ -9068,7 +9070,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0649"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 95.76
+                "votes_with_party_pct": 95.92
               },
                           {
                 "id": "J000032",
@@ -9104,7 +9106,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 90,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:57 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:18",
                 "office": null,
                 "phone": null,
@@ -9114,7 +9116,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4818"
                 ,"missed_votes_pct": 7.55,
-                "votes_with_party_pct": 93.01
+                "votes_with_party_pct": 93.18
               },
                           {
                 "id": "J000294",
@@ -9150,7 +9152,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 32,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:10 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:8",
                 "office": null,
                 "phone": null,
@@ -9160,7 +9162,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3608"
                 ,"missed_votes_pct": 2.68,
-                "votes_with_party_pct": 94.22
+                "votes_with_party_pct": 94.39
               },
                           {
                 "id": "J000290",
@@ -9196,7 +9198,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 3,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:36 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ks/cd:2",
                 "office": null,
                 "phone": null,
@@ -9206,7 +9208,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2002"
                 ,"missed_votes_pct": 0.25,
-                "votes_with_party_pct": 92.94
+                "votes_with_party_pct": 93.09
               },
                           {
                 "id": "J000292",
@@ -9242,7 +9244,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 1,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:56 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:6",
                 "office": null,
                 "phone": null,
@@ -9252,7 +9254,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3906"
                 ,"missed_votes_pct": 0.08,
-                "votes_with_party_pct": 93.53
+                "votes_with_party_pct": 93.69
               },
                           {
                 "id": "J000126",
@@ -9288,7 +9290,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 26,
                 "total_present": 4,
-                "last_updated": "2019-01-06 15:20:57 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:30",
                 "office": null,
                 "phone": null,
@@ -9298,7 +9300,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4830"
                 ,"missed_votes_pct": 2.18,
-                "votes_with_party_pct": 92.28
+                "votes_with_party_pct": 92.44
               },
                           {
                 "id": "J000288",
@@ -9334,7 +9336,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 64,
                 "total_present": 3,
-                "last_updated": "2019-01-06 15:20:57 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:4",
                 "office": null,
                 "phone": null,
@@ -9344,7 +9346,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1304"
                 ,"missed_votes_pct": 5.37,
-                "votes_with_party_pct": 93.35
+                "votes_with_party_pct": 93.52
               },
                           {
                 "id": "J000174",
@@ -9380,7 +9382,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 69,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:35 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:3",
                 "office": null,
                 "phone": null,
@@ -9390,7 +9392,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4803"
                 ,"missed_votes_pct": 5.79,
-                "votes_with_party_pct": 96.08
+                "votes_with_party_pct": 96.25
               },
                           {
                 "id": "J000296",
@@ -9426,7 +9428,7 @@ var data = {
                 "total_votes": 437,
                 "missed_votes": 0,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:22 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:13",
                 "office": null,
                 "phone": null,
@@ -9472,7 +9474,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 90,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:57 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:3",
                 "office": null,
                 "phone": null,
@@ -9482,7 +9484,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3703"
                 ,"missed_votes_pct": 7.55,
-                "votes_with_party_pct": 70.05
+                "votes_with_party_pct": 70.18
               },
                           {
                 "id": "J000289",
@@ -9518,7 +9520,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:57 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:4",
                 "office": null,
                 "phone": null,
@@ -9528,7 +9530,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3904"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 91.33
+                "votes_with_party_pct": 91.49
               },
                           {
                 "id": "J000295",
@@ -9564,7 +9566,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 20,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:10 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:14",
                 "office": null,
                 "phone": null,
@@ -9574,7 +9576,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3914"
                 ,"missed_votes_pct": 1.68,
-                "votes_with_party_pct": 89.33
+                "votes_with_party_pct": 89.49
               },
                           {
                 "id": "K000009",
@@ -9610,7 +9612,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 40,
                 "total_present": 2,
-                "last_updated": "2019-01-06 15:20:56 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:9",
                 "office": null,
                 "phone": null,
@@ -9620,7 +9622,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3909"
                 ,"missed_votes_pct": 3.36,
-                "votes_with_party_pct": 94.10
+                "votes_with_party_pct": 94.26
               },
                           {
                 "id": "K000375",
@@ -9656,7 +9658,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:56 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:9",
                 "office": null,
                 "phone": null,
@@ -9666,7 +9668,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2509"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 93.18
+                "votes_with_party_pct": 93.34
               },
                           {
                 "id": "K000385",
@@ -9702,7 +9704,7 @@ var data = {
                 "total_votes": 1095,
                 "missed_votes": 18,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:18 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:2",
                 "office": null,
                 "phone": null,
@@ -9712,7 +9714,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1702"
                 ,"missed_votes_pct": 1.64,
-                "votes_with_party_pct": 96.10
+                "votes_with_party_pct": 96.19
               },
                           {
                 "id": "K000376",
@@ -9748,7 +9750,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 5,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:56 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:3",
                 "office": null,
                 "phone": null,
@@ -9758,7 +9760,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4203"
                 ,"missed_votes_pct": 0.42,
-                "votes_with_party_pct": 95.03
+                "votes_with_party_pct": 95.19
               },
                           {
                 "id": "K000379",
@@ -9794,7 +9796,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 20,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:09 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:4",
                 "office": null,
                 "phone": null,
@@ -9804,7 +9806,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2504"
                 ,"missed_votes_pct": 1.68,
-                "votes_with_party_pct": 95.31
+                "votes_with_party_pct": 95.47
               },
                           {
                 "id": "K000380",
@@ -9840,7 +9842,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 3,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:12 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:5",
                 "office": null,
                 "phone": null,
@@ -9850,7 +9852,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2605"
                 ,"missed_votes_pct": 0.25,
-                "votes_with_party_pct": 95.54
+                "votes_with_party_pct": 95.70
               },
                           {
                 "id": "K000381",
@@ -9886,7 +9888,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:11 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:6",
                 "office": null,
                 "phone": null,
@@ -9896,7 +9898,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5306"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 90.75
+                "votes_with_party_pct": 90.90
               },
                           {
                 "id": "K000188",
@@ -9932,7 +9934,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:56 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wi/cd:3",
                 "office": null,
                 "phone": null,
@@ -9942,7 +9944,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5503"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 90.16
+                "votes_with_party_pct": 90.31
               },
                           {
                 "id": "K000362",
@@ -9978,7 +9980,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 40,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:56 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ia/cd:4",
                 "office": null,
                 "phone": null,
@@ -9988,7 +9990,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1904"
                 ,"missed_votes_pct": 3.36,
-                "votes_with_party_pct": 95.23
+                "votes_with_party_pct": 95.39
               },
                           {
                 "id": "K000210",
@@ -10024,7 +10026,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 26,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:07 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:2",
                 "office": null,
                 "phone": null,
@@ -10034,7 +10036,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3602"
                 ,"missed_votes_pct": 2.18,
-                "votes_with_party_pct": 89.02
+                "votes_with_party_pct": 89.18
               },
                           {
                 "id": "K000220",
@@ -10070,7 +10072,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 164,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:26 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:1",
                 "office": null,
                 "phone": null,
@@ -10080,7 +10082,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1301"
                 ,"missed_votes_pct": 13.76,
-                "votes_with_party_pct": 94.75
+                "votes_with_party_pct": 94.93
               },
                           {
                 "id": "K000378",
@@ -10116,7 +10118,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 10,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:56 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:16",
                 "office": null,
                 "phone": null,
@@ -10126,7 +10128,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1716"
                 ,"missed_votes_pct": 0.84,
-                "votes_with_party_pct": 90.52
+                "votes_with_party_pct": 90.68
               },
                           {
                 "id": "K000368",
@@ -10162,7 +10164,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 89,
                 "total_present": 1,
-                "last_updated": "2019-01-03 07:18:44 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:az/cd:1",
                 "office": null,
                 "phone": null,
@@ -10172,7 +10174,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0401"
                 ,"missed_votes_pct": 7.47,
-                "votes_with_party_pct": 86.85
+                "votes_with_party_pct": 87.01
               },
                           {
                 "id": "K000363",
@@ -10208,7 +10210,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 4,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:50 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mn/cd:2",
                 "office": null,
                 "phone": null,
@@ -10218,7 +10220,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2702"
                 ,"missed_votes_pct": 0.34,
-                "votes_with_party_pct": 95.79
+                "votes_with_party_pct": 95.95
               },
                           {
                 "id": "K000382",
@@ -10254,7 +10256,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:11 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nh/cd:2",
                 "office": null,
                 "phone": null,
@@ -10264,7 +10266,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3302"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 92.88
+                "votes_with_party_pct": 93.03
               },
                           {
                 "id": "L000573",
@@ -10300,7 +10302,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 50,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:27 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:id/cd:1",
                 "office": null,
                 "phone": null,
@@ -10310,7 +10312,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1601"
                 ,"missed_votes_pct": 4.19,
-                "votes_with_party_pct": 89.67
+                "votes_with_party_pct": 89.82
               },
                           {
                 "id": "L000578",
@@ -10346,7 +10348,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 31,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:04 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:1",
                 "office": null,
                 "phone": null,
@@ -10356,7 +10358,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0601"
                 ,"missed_votes_pct": 2.60,
-                "votes_with_party_pct": 96.47
+                "votes_with_party_pct": 96.64
               },
                           {
                 "id": "L000564",
@@ -10392,7 +10394,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:54 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:co/cd:5",
                 "office": null,
                 "phone": null,
@@ -10402,7 +10404,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0805"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 94.56
+                "votes_with_party_pct": 94.72
               },
                           {
                 "id": "L000567",
@@ -10438,7 +10440,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 0,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:58 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:7",
                 "office": null,
                 "phone": null,
@@ -10448,7 +10450,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3407"
                 ,"missed_votes_pct": 0.00,
-                "votes_with_party_pct": 90.10
+                "votes_with_party_pct": 90.25
               },
                           {
                 "id": "L000559",
@@ -10484,7 +10486,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:55 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ri/cd:2",
                 "office": null,
                 "phone": null,
@@ -10494,7 +10496,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4402"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 94.09
+                "votes_with_party_pct": 94.25
               },
                           {
                 "id": "L000575",
@@ -10530,7 +10532,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 111,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:53 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ok/cd:5",
                 "office": null,
                 "phone": null,
@@ -10540,7 +10542,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4005"
                 ,"missed_votes_pct": 9.31,
-                "votes_with_party_pct": 95.74
+                "votes_with_party_pct": 95.92
               },
                           {
                 "id": "L000560",
@@ -10576,7 +10578,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 67,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:54 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:2",
                 "office": null,
                 "phone": null,
@@ -10586,7 +10588,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5302"
                 ,"missed_votes_pct": 5.62,
-                "votes_with_party_pct": 93.96
+                "votes_with_party_pct": 94.12
               },
                           {
                 "id": "L000557",
@@ -10622,7 +10624,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 28,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:55 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ct/cd:1",
                 "office": null,
                 "phone": null,
@@ -10632,7 +10634,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0901"
                 ,"missed_votes_pct": 2.35,
-                "votes_with_party_pct": 95.36
+                "votes_with_party_pct": 95.53
               },
                           {
                 "id": "L000111",
@@ -10668,7 +10670,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:35 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ia/cd:3",
                 "office": null,
                 "phone": null,
@@ -10678,7 +10680,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1903"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 90.84
+                "votes_with_party_pct": 90.99
               },
                           {
                 "id": "L000566",
@@ -10714,7 +10716,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 3,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:54 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:5",
                 "office": null,
                 "phone": null,
@@ -10724,7 +10726,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3905"
                 ,"missed_votes_pct": 0.25,
-                "votes_with_party_pct": 97.14
+                "votes_with_party_pct": 97.30
               },
                           {
                 "id": "L000551",
@@ -10760,7 +10762,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 53,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:55 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:13",
                 "office": null,
                 "phone": null,
@@ -10770,7 +10772,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0613"
                 ,"missed_votes_pct": 4.45,
-                "votes_with_party_pct": 90.78
+                "votes_with_party_pct": 90.94
               },
                           {
                 "id": "L000263",
@@ -10806,7 +10808,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 2,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:46 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:9",
                 "office": null,
                 "phone": null,
@@ -10816,7 +10818,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2609"
                 ,"missed_votes_pct": 0.17,
-                "votes_with_party_pct": 94.37
+                "votes_with_party_pct": 94.53
               },
                           {
                 "id": "L000287",
@@ -10852,7 +10854,7 @@ var data = {
                 "total_votes": 1185,
                 "missed_votes": 144,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:55 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:5",
                 "office": null,
                 "phone": null,
@@ -10862,7 +10864,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1305"
                 ,"missed_votes_pct": 12.15,
-                "votes_with_party_pct": 92.70
+                "votes_with_party_pct": 92.88
               },
                           {
                 "id": "L000563",
@@ -10898,7 +10900,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 37,
                 "total_present": 3,
-                "last_updated": "2019-01-06 15:20:54 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:3",
                 "office": null,
                 "phone": null,
@@ -10908,7 +10910,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1703"
                 ,"missed_votes_pct": 3.10,
-                "votes_with_party_pct": 85.97
+                "votes_with_party_pct": 86.12
               },
                           {
                 "id": "L000554",
@@ -10944,7 +10946,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 4,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:59 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:2",
                 "office": null,
                 "phone": null,
@@ -10954,7 +10956,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3402"
                 ,"missed_votes_pct": 0.34,
-                "votes_with_party_pct": 85.02
+                "votes_with_party_pct": 85.16
               },
                           {
                 "id": "L000565",
@@ -10990,7 +10992,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:54 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ia/cd:2",
                 "office": null,
                 "phone": null,
@@ -11000,7 +11002,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1902"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 90.59
+                "votes_with_party_pct": 90.74
               },
                           {
                 "id": "L000397",
@@ -11036,7 +11038,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:55 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:19",
                 "office": null,
                 "phone": null,
@@ -11046,7 +11048,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0619"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 92.19
+                "votes_with_party_pct": 92.35
               },
                           {
                 "id": "L000576",
@@ -11082,7 +11084,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 0,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:53 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mo/cd:7",
                 "office": null,
                 "phone": null,
@@ -11092,7 +11094,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2907"
                 ,"missed_votes_pct": 0.00,
-                "votes_with_party_pct": 96.31
+                "votes_with_party_pct": 96.47
               },
                           {
                 "id": "L000579",
@@ -11128,7 +11130,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:11 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:47",
                 "office": null,
                 "phone": null,
@@ -11138,7 +11140,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0647"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 95.00
+                "votes_with_party_pct": 95.16
               },
                           {
                 "id": "L000480",
@@ -11174,7 +11176,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 9,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:55 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:17",
                 "office": null,
                 "phone": null,
@@ -11184,7 +11186,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3617"
                 ,"missed_votes_pct": 0.76,
-                "votes_with_party_pct": 95.18
+                "votes_with_party_pct": 95.34
               },
                           {
                 "id": "L000491",
@@ -11220,7 +11222,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 21,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:55 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ok/cd:3",
                 "office": null,
                 "phone": null,
@@ -11230,7 +11232,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4003"
                 ,"missed_votes_pct": 1.76,
-                "votes_with_party_pct": 94.19
+                "votes_with_party_pct": 94.35
               },
                           {
                 "id": "L000569",
@@ -11266,7 +11268,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 8,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:54 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mo/cd:3",
                 "office": null,
                 "phone": null,
@@ -11276,7 +11278,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2903"
                 ,"missed_votes_pct": 0.67,
-                "votes_with_party_pct": 96.20
+                "votes_with_party_pct": 96.36
               },
                           {
                 "id": "L000570",
@@ -11312,7 +11314,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:54 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nm/cd:3",
                 "office": null,
                 "phone": null,
@@ -11322,7 +11324,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3503"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 93.72
+                "votes_with_party_pct": 93.88
               },
                           {
                 "id": "L000580",
@@ -11358,7 +11360,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 33,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:01 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nm/cd:1",
                 "office": null,
                 "phone": null,
@@ -11368,7 +11370,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3501"
                 ,"missed_votes_pct": 2.77,
-                "votes_with_party_pct": 92.32
+                "votes_with_party_pct": 92.48
               },
                           {
                 "id": "L000571",
@@ -11404,7 +11406,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 42,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:48 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wy/cd:1",
                 "office": null,
                 "phone": null,
@@ -11414,7 +11416,7 @@ var data = {
                 "at_large": true,
                 "geoid": "5600"
                 ,"missed_votes_pct": 3.52,
-                "votes_with_party_pct": 90.35
+                "votes_with_party_pct": 90.51
               },
                           {
                 "id": "L000562",
@@ -11450,7 +11452,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 110,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:54 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:8",
                 "office": null,
                 "phone": null,
@@ -11460,7 +11462,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2508"
                 ,"missed_votes_pct": 9.23,
-                "votes_with_party_pct": 91.68
+                "votes_with_party_pct": 91.85
               },
                           {
                 "id": "M001171",
@@ -11496,7 +11498,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 9,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:04 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:24",
                 "office": null,
                 "phone": null,
@@ -11506,7 +11508,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3624"
                 ,"missed_votes_pct": 0.76,
-                "votes_with_party_pct": 79.88
+                "votes_with_party_pct": 80.02
               },
                           {
                 "id": "M001185",
@@ -11542,7 +11544,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 18,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:10 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:18",
                 "office": null,
                 "phone": null,
@@ -11552,7 +11554,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3618"
                 ,"missed_votes_pct": 1.51,
-                "votes_with_party_pct": 84.07
+                "votes_with_party_pct": 84.22
               },
                           {
                 "id": "M000087",
@@ -11588,7 +11590,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 54,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:53 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:12",
                 "office": null,
                 "phone": null,
@@ -11598,7 +11600,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3612"
                 ,"missed_votes_pct": 4.53,
-                "votes_with_party_pct": 94.11
+                "votes_with_party_pct": 94.28
               },
                           {
                 "id": "M001158",
@@ -11634,7 +11636,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 56,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:52 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:24",
                 "office": null,
                 "phone": null,
@@ -11644,7 +11646,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4824"
                 ,"missed_votes_pct": 4.70,
-                "votes_with_party_pct": 92.52
+                "votes_with_party_pct": 92.68
               },
                           {
                 "id": "M001179",
@@ -11680,7 +11682,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 18,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:51 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:10",
                 "office": null,
                 "phone": null,
@@ -11690,7 +11692,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4210"
                 ,"missed_votes_pct": 1.51,
-                "votes_with_party_pct": 94.29
+                "votes_with_party_pct": 94.45
               },
                           {
                 "id": "M000133",
@@ -11726,7 +11728,7 @@ var data = {
                 "total_votes": 353,
                 "missed_votes": 203,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:53 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:5",
                 "office": null,
                 "phone": null,
@@ -11736,7 +11738,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2505"
                 ,"missed_votes_pct": 57.51,
-                "votes_with_party_pct": 86.00
+                "votes_with_party_pct": 86.58
               },
                           {
                 "id": "M001184",
@@ -11772,7 +11774,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 1,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:17 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ky/cd:4",
                 "office": null,
                 "phone": null,
@@ -11782,7 +11784,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2104"
                 ,"missed_votes_pct": 0.08,
-                "votes_with_party_pct": 81.70
+                "votes_with_party_pct": 81.83
               },
                           {
                 "id": "M001142",
@@ -11818,7 +11820,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:38 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ut/cd:4",
                 "office": null,
                 "phone": null,
@@ -11828,7 +11830,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4904"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 60.27
+                "votes_with_party_pct": 60.37
               },
                           {
                 "id": "M001163",
@@ -11864,7 +11866,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 23,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:01 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:6",
                 "office": null,
                 "phone": null,
@@ -11874,7 +11876,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0606"
                 ,"missed_votes_pct": 1.93,
-                "votes_with_party_pct": 93.67
+                "votes_with_party_pct": 93.83
               },
                           {
                 "id": "M001192",
@@ -11910,7 +11912,7 @@ var data = {
                 "total_votes": 582,
                 "missed_votes": 52,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:39 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:la/cd:5",
                 "office": null,
                 "phone": null,
@@ -11920,7 +11922,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2205"
                 ,"missed_votes_pct": 8.93,
-                "votes_with_party_pct": 94.15
+                "votes_with_party_pct": 94.33
               },
                           {
                 "id": "M001165",
@@ -11956,7 +11958,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 1,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:51 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:23",
                 "office": null,
                 "phone": null,
@@ -11966,7 +11968,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0623"
                 ,"missed_votes_pct": 0.08,
-                "votes_with_party_pct": 96.14
+                "votes_with_party_pct": 96.30
               },
                           {
                 "id": "M000309",
@@ -12002,7 +12004,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 687,
                 "total_present": 1,
-                "last_updated": "2016-06-14 16:32:07 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:4",
                 "office": null,
                 "phone": null,
@@ -12012,7 +12014,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3604"
                 ,"missed_votes_pct": 57.63,
-                "votes_with_party_pct": 93.27
+                "votes_with_party_pct": 93.64
               },
                           {
                 "id": "M001157",
@@ -12048,7 +12050,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 27,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:52 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:10",
                 "office": null,
                 "phone": null,
@@ -12058,7 +12060,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4810"
                 ,"missed_votes_pct": 2.27,
-                "votes_with_party_pct": 97.00
+                "votes_with_party_pct": 97.16
               },
                           {
                 "id": "M001177",
@@ -12094,7 +12096,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:51 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:4",
                 "office": null,
                 "phone": null,
@@ -12104,7 +12106,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0604"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 90.42
+                "votes_with_party_pct": 90.57
               },
                           {
                 "id": "M001143",
@@ -12140,7 +12142,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 31,
                 "total_present": 2,
-                "last_updated": "2019-01-06 15:20:52 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mn/cd:4",
                 "office": null,
                 "phone": null,
@@ -12150,7 +12152,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2704"
                 ,"missed_votes_pct": 2.60,
-                "votes_with_party_pct": 93.37
+                "votes_with_party_pct": 93.53
               },
                           {
                 "id": "M000404",
@@ -12186,7 +12188,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 37,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:42 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:7",
                 "office": null,
                 "phone": null,
@@ -12196,7 +12198,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5307"
                 ,"missed_votes_pct": 3.10,
-                "votes_with_party_pct": 91.77
+                "votes_with_party_pct": 91.93
               },
                           {
                 "id": "M000312",
@@ -12232,7 +12234,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 22,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:53 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:2",
                 "office": null,
                 "phone": null,
@@ -12242,7 +12244,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2502"
                 ,"missed_votes_pct": 1.85,
-                "votes_with_party_pct": 91.88
+                "votes_with_party_pct": 92.04
               },
                           {
                 "id": "M001156",
@@ -12278,7 +12280,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 31,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:52 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:10",
                 "office": null,
                 "phone": null,
@@ -12288,7 +12290,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3710"
                 ,"missed_votes_pct": 2.60,
-                "votes_with_party_pct": 96.04
+                "votes_with_party_pct": 96.20
               },
                           {
                 "id": "M000485",
@@ -12324,7 +12326,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 53,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:12 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:7",
                 "office": null,
                 "phone": null,
@@ -12334,7 +12336,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3707"
                 ,"missed_votes_pct": 4.45,
-                "votes_with_party_pct": 66.99
+                "votes_with_party_pct": 67.11
               },
                           {
                 "id": "M000508",
@@ -12370,7 +12372,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 51,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:09 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:25",
                 "office": null,
                 "phone": null,
@@ -12380,7 +12382,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0625"
                 ,"missed_votes_pct": 4.28,
-                "votes_with_party_pct": 92.90
+                "votes_with_party_pct": 93.06
               },
                           {
                 "id": "M001180",
@@ -12416,7 +12418,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 0,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:51 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wv/cd:1",
                 "office": null,
                 "phone": null,
@@ -12426,7 +12428,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5401"
                 ,"missed_votes_pct": 0.00,
-                "votes_with_party_pct": 92.79
+                "votes_with_party_pct": 92.94
               },
                           {
                 "id": "M001159",
@@ -12462,7 +12464,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 49,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:52 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:5",
                 "office": null,
                 "phone": null,
@@ -12472,7 +12474,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5305"
                 ,"missed_votes_pct": 4.11,
-                "votes_with_party_pct": 96.50
+                "votes_with_party_pct": 96.67
               },
                           {
                 "id": "M001166",
@@ -12508,7 +12510,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 18,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:51 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:9",
                 "office": null,
                 "phone": null,
@@ -12518,7 +12520,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0609"
                 ,"missed_votes_pct": 1.51,
-                "votes_with_party_pct": 92.16
+                "votes_with_party_pct": 92.32
               },
                           {
                 "id": "M001187",
@@ -12554,7 +12556,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:12 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:11",
                 "office": null,
                 "phone": null,
@@ -12564,7 +12566,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3711"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 93.98
+                "votes_with_party_pct": 94.14
               },
                           {
                 "id": "M001181",
@@ -12600,7 +12602,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 5,
                 "total_present": 2,
-                "last_updated": "2018-07-08 18:13:21 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:7",
                 "office": null,
                 "phone": null,
@@ -12610,7 +12612,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4207"
                 ,"missed_votes_pct": 0.42,
-                "votes_with_party_pct": 90.99
+                "votes_with_party_pct": 91.14
               },
                           {
                 "id": "M001137",
@@ -12646,7 +12648,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 86,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:52 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:5",
                 "office": null,
                 "phone": null,
@@ -12656,7 +12658,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3605"
                 ,"missed_votes_pct": 7.21,
-                "votes_with_party_pct": 94.67
+                "votes_with_party_pct": 94.84
               },
                           {
                 "id": "M001188",
@@ -12692,7 +12694,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 70,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:10 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:6",
                 "office": null,
                 "phone": null,
@@ -12702,7 +12704,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3606"
                 ,"missed_votes_pct": 5.87,
-                "votes_with_party_pct": 94.56
+                "votes_with_party_pct": 94.73
               },
                           {
                 "id": "M001189",
@@ -12738,7 +12740,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 19,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:34 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:in/cd:6",
                 "office": null,
                 "phone": null,
@@ -12748,7 +12750,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1806"
                 ,"missed_votes_pct": 1.59,
-                "votes_with_party_pct": 95.82
+                "votes_with_party_pct": 95.99
               },
                           {
                 "id": "M000689",
@@ -12784,7 +12786,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 1,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:22 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:7",
                 "office": null,
                 "phone": null,
@@ -12794,7 +12796,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1207"
                 ,"missed_votes_pct": 0.08,
-                "votes_with_party_pct": 95.55
+                "votes_with_party_pct": 95.71
               },
                           {
                 "id": "M001149",
@@ -12830,7 +12832,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:40 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:me/cd:2",
                 "office": null,
                 "phone": null,
@@ -12840,7 +12842,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2302"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 92.92
+                "votes_with_party_pct": 93.07
               },
                           {
                 "id": "M001144",
@@ -12876,7 +12878,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 63,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:16 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:1",
                 "office": null,
                 "phone": null,
@@ -12886,7 +12888,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1201"
                 ,"missed_votes_pct": 5.29,
-                "votes_with_party_pct": 93.36
+                "votes_with_party_pct": 93.52
               },
                           {
                 "id": "M000725",
@@ -12922,7 +12924,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 103,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:11:58 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:11",
                 "office": null,
                 "phone": null,
@@ -12932,7 +12934,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0611"
                 ,"missed_votes_pct": 8.64,
-                "votes_with_party_pct": 91.00
+                "votes_with_party_pct": 91.17
               },
                           {
                 "id": "M001150",
@@ -12968,7 +12970,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 2,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:47 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:10",
                 "office": null,
                 "phone": null,
@@ -12978,7 +12980,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2610"
                 ,"missed_votes_pct": 0.17,
-                "votes_with_party_pct": 95.55
+                "votes_with_party_pct": 95.71
               },
                           {
                 "id": "M001139",
@@ -13014,7 +13016,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 414,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:12 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:31",
                 "office": null,
                 "phone": null,
@@ -13024,7 +13026,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0631"
                 ,"missed_votes_pct": 34.73,
-                "votes_with_party_pct": 95.50
+                "votes_with_party_pct": 95.75
               },
                           {
                 "id": "M001160",
@@ -13060,7 +13062,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 47,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:52 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wi/cd:4",
                 "office": null,
                 "phone": null,
@@ -13070,7 +13072,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5504"
                 ,"missed_votes_pct": 3.94,
-                "votes_with_party_pct": 92.93
+                "votes_with_party_pct": 93.09
               },
                           {
                 "id": "M000933",
@@ -13106,7 +13108,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 64,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:42 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:8",
                 "office": null,
                 "phone": null,
@@ -13116,7 +13118,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5108"
                 ,"missed_votes_pct": 5.37,
-                "votes_with_party_pct": 92.73
+                "votes_with_party_pct": 92.90
               },
                           {
                 "id": "M001190",
@@ -13152,7 +13154,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 30,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:09 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ok/cd:2",
                 "office": null,
                 "phone": null,
@@ -13162,7 +13164,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4002"
                 ,"missed_votes_pct": 2.52,
-                "votes_with_party_pct": 95.44
+                "votes_with_party_pct": 95.60
               },
                           {
                 "id": "M001182",
@@ -13198,7 +13200,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 45,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:25 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:sc/cd:5",
                 "office": null,
                 "phone": null,
@@ -13208,53 +13210,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4505"
                 ,"missed_votes_pct": 3.78,
-                "votes_with_party_pct": 89.80
-              },
-                          {
-                "id": "M001151",
-                "title": "Representative",
-                "short_title": "Rep.",
-                "api_uri":"https://api.propublica.org/congress/v1/members/M001151.json",
-                "first_name": "Tim",
-                "middle_name": null,
-                "last_name": "Murphy",
-                "suffix": null,
-                "date_of_birth": "1952-09-11",
-                "gender": "M",
-                "party": "R",
-                "leadership_role": null,
-                "twitter_account": "RepTimMurphy",
-                "facebook_account": "reptimmurphy",
-                "youtube_account": "TimMurphyPA18",
-                "govtrack_id": "400285",
-                "cspan_id": "1003612",
-                "votesmart_id": "9794",
-                "icpsr_id": "20346",
-                "crp_id": "N00024992",
-                "google_entity_id": "/m/0517t7",
-                "fec_candidate_id": "",
-                "url": "https://murphy.house.gov/",
-                "rss_url": null,
-                "contact_form": null,
-                "in_office": false,
-                "dw_nominate": 0.258,
-                "ideal_point": 0.871041381,
-                "seniority": "12",
-                "next_election": "2014",
-                "total_votes": 1192,
-                "missed_votes": 15,
-                "total_present": 0,
-                "last_updated": "2018-07-08 18:13:19 -0400",
-                "ocd_id": "ocd-division/country:us/state:pa/cd:18",
-                "office": null,
-                "phone": null,
-                "fax": null,
-                "state": "PA",
-                "district": "18",
-                "at_large": false,
-                "geoid": "4218"
-                ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 94.14
+                "votes_with_party_pct": 89.96
               },
                           {
                 "id": "M001191",
@@ -13290,7 +13246,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 17,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:21 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:18",
                 "office": null,
                 "phone": null,
@@ -13300,7 +13256,53 @@ var data = {
                 "at_large": false,
                 "geoid": "1218"
                 ,"missed_votes_pct": 1.43,
-                "votes_with_party_pct": 82.64
+                "votes_with_party_pct": 82.78
+              },
+                          {
+                "id": "M001151",
+                "title": "Representative",
+                "short_title": "Rep.",
+                "api_uri":"https://api.propublica.org/congress/v1/members/M001151.json",
+                "first_name": "Tim",
+                "middle_name": null,
+                "last_name": "Murphy",
+                "suffix": null,
+                "date_of_birth": "1952-09-11",
+                "gender": "M",
+                "party": "R",
+                "leadership_role": null,
+                "twitter_account": "RepTimMurphy",
+                "facebook_account": "reptimmurphy",
+                "youtube_account": "TimMurphyPA18",
+                "govtrack_id": "400285",
+                "cspan_id": "1003612",
+                "votesmart_id": "9794",
+                "icpsr_id": "20346",
+                "crp_id": "N00024992",
+                "google_entity_id": "/m/0517t7",
+                "fec_candidate_id": "",
+                "url": "https://murphy.house.gov/",
+                "rss_url": null,
+                "contact_form": null,
+                "in_office": false,
+                "dw_nominate": 0.258,
+                "ideal_point": 0.871041381,
+                "seniority": "12",
+                "next_election": "2014",
+                "total_votes": 1192,
+                "missed_votes": 15,
+                "total_present": 0,
+                "last_updated": "2019-04-08 11:02:26 -0400",
+                "ocd_id": "ocd-division/country:us/state:pa/cd:18",
+                "office": null,
+                "phone": null,
+                "fax": null,
+                "state": "PA",
+                "district": "18",
+                "at_large": false,
+                "geoid": "4218"
+                ,"missed_votes_pct": 1.26,
+                "votes_with_party_pct": 94.30
               },
                           {
                 "id": "N000002",
@@ -13336,7 +13338,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 40,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:50 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:10",
                 "office": null,
                 "phone": null,
@@ -13346,7 +13348,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3610"
                 ,"missed_votes_pct": 3.36,
-                "votes_with_party_pct": 94.36
+                "votes_with_party_pct": 94.52
               },
                           {
                 "id": "N000179",
@@ -13382,7 +13384,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 42,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:50 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:32",
                 "office": null,
                 "phone": null,
@@ -13392,7 +13394,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0632"
                 ,"missed_votes_pct": 3.52,
-                "votes_with_party_pct": 94.09
+                "votes_with_party_pct": 94.25
               },
                           {
                 "id": "N000015",
@@ -13428,7 +13430,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 74,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:50 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:1",
                 "office": null,
                 "phone": null,
@@ -13438,7 +13440,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2501"
                 ,"missed_votes_pct": 6.21,
-                "votes_with_party_pct": 94.19
+                "votes_with_party_pct": 94.35
               },
                           {
                 "id": "N000187",
@@ -13474,7 +13476,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 184,
                 "total_present": 3,
-                "last_updated": "2018-07-08 18:12:06 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:35",
                 "office": null,
                 "phone": null,
@@ -13484,7 +13486,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0635"
                 ,"missed_votes_pct": 15.44,
-                "votes_with_party_pct": 92.26
+                "votes_with_party_pct": 92.45
               },
                           {
                 "id": "N000182",
@@ -13520,7 +13522,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 10,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:30 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:19",
                 "office": null,
                 "phone": null,
@@ -13530,7 +13532,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4819"
                 ,"missed_votes_pct": 0.84,
-                "votes_with_party_pct": 95.69
+                "votes_with_party_pct": 95.85
               },
                           {
                 "id": "N000184",
@@ -13566,7 +13568,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 55,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:26 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:sd/cd:1",
                 "office": null,
                 "phone": null,
@@ -13576,7 +13578,7 @@ var data = {
                 "at_large": true,
                 "geoid": "4600"
                 ,"missed_votes_pct": 4.61,
-                "votes_with_party_pct": 94.90
+                "votes_with_party_pct": 95.07
               },
                           {
                 "id": "N000127",
@@ -13612,7 +13614,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 24,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:49 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mn/cd:8",
                 "office": null,
                 "phone": null,
@@ -13622,7 +13624,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2708"
                 ,"missed_votes_pct": 2.01,
-                "votes_with_party_pct": 90.15
+                "votes_with_party_pct": 90.31
               },
                           {
                 "id": "N000188",
@@ -13658,7 +13660,7 @@ var data = {
                 "total_votes": 48,
                 "missed_votes": 1,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:59 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:1",
                 "office": null,
                 "phone": null,
@@ -13750,7 +13752,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:19 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:11",
                 "office": null,
                 "phone": null,
@@ -13760,7 +13762,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1211"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 92.92
+                "votes_with_party_pct": 93.08
               },
                           {
                 "id": "N000181",
@@ -13796,7 +13798,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 29,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:00 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:22",
                 "office": null,
                 "phone": null,
@@ -13806,7 +13808,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0622"
                 ,"missed_votes_pct": 2.43,
-                "votes_with_party_pct": 95.27
+                "votes_with_party_pct": 95.44
               },
                           {
                 "id": "N000186",
@@ -13842,7 +13844,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 278,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:51 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ms/cd:1",
                 "office": null,
                 "phone": null,
@@ -13852,7 +13854,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2801"
                 ,"missed_votes_pct": 23.32,
-                "votes_with_party_pct": 96.83
+                "votes_with_party_pct": 97.04
               },
                           {
                 "id": "O000170",
@@ -13888,7 +13890,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 3,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:33 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:16",
                 "office": null,
                 "phone": null,
@@ -13898,7 +13900,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4816"
                 ,"missed_votes_pct": 0.25,
-                "votes_with_party_pct": 94.03
+                "votes_with_party_pct": 94.19
               },
                           {
                 "id": "O000168",
@@ -13934,7 +13936,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 27,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:50 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:22",
                 "office": null,
                 "phone": null,
@@ -13944,7 +13946,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4822"
                 ,"missed_votes_pct": 2.27,
-                "votes_with_party_pct": 96.57
+                "votes_with_party_pct": 96.73
               },
                           {
                 "id": "O000169",
@@ -13980,7 +13982,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 19,
                 "total_present": 31,
-                "last_updated": "2018-07-08 18:13:04 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:21",
                 "office": null,
                 "phone": null,
@@ -13990,7 +13992,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3621"
                 ,"missed_votes_pct": 1.59,
-                "votes_with_party_pct": 75.02
+                "votes_with_party_pct": 75.15
               },
                           {
                 "id": "P000601",
@@ -14026,7 +14028,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 68,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:49 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ms/cd:4",
                 "office": null,
                 "phone": null,
@@ -14036,7 +14038,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2804"
                 ,"missed_votes_pct": 5.70,
-                "votes_with_party_pct": 94.93
+                "votes_with_party_pct": 95.10
               },
                           {
                 "id": "P000034",
@@ -14072,7 +14074,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 82,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:50 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:6",
                 "office": null,
                 "phone": null,
@@ -14082,7 +14084,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3406"
                 ,"missed_votes_pct": 6.88,
-                "votes_with_party_pct": 92.70
+                "votes_with_party_pct": 92.87
               },
                           {
                 "id": "P000096",
@@ -14118,7 +14120,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 32,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:50 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:9",
                 "office": null,
                 "phone": null,
@@ -14128,7 +14130,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3409"
                 ,"missed_votes_pct": 2.68,
-                "votes_with_party_pct": 96.12
+                "votes_with_party_pct": 96.29
               },
                           {
                 "id": "P000099",
@@ -14164,7 +14166,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 147,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:11:57 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:az/cd:7",
                 "office": null,
                 "phone": null,
@@ -14174,7 +14176,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0407"
                 ,"missed_votes_pct": 12.33,
-                "votes_with_party_pct": 91.87
+                "votes_with_party_pct": 92.04
               },
                           {
                 "id": "P000594",
@@ -14210,7 +14212,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 4,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:51 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mn/cd:3",
                 "office": null,
                 "phone": null,
@@ -14220,7 +14222,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2703"
                 ,"missed_votes_pct": 0.34,
-                "votes_with_party_pct": 92.34
+                "votes_with_party_pct": 92.50
               },
                           {
                 "id": "P000604",
@@ -14256,7 +14258,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 38,
                 "total_present": 2,
-                "last_updated": "2019-01-06 15:21:15 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:10",
                 "office": null,
                 "phone": null,
@@ -14266,7 +14268,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3410"
                 ,"missed_votes_pct": 3.19,
-                "votes_with_party_pct": 94.37
+                "votes_with_party_pct": 94.53
               },
                           {
                 "id": "P000588",
@@ -14302,7 +14304,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 18,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:01 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nm/cd:2",
                 "office": null,
                 "phone": null,
@@ -14312,7 +14314,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3502"
                 ,"missed_votes_pct": 1.51,
-                "votes_with_party_pct": 91.91
+                "votes_with_party_pct": 92.06
               },
                           {
                 "id": "P000197",
@@ -14348,7 +14350,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 114,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:50 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:12",
                 "office": null,
                 "phone": null,
@@ -14358,7 +14360,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0612"
                 ,"missed_votes_pct": 9.56,
-                "votes_with_party_pct": 95.55
+                "votes_with_party_pct": 95.72
               },
                           {
                 "id": "P000593",
@@ -14394,7 +14396,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 71,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:49 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:co/cd:7",
                 "office": null,
                 "phone": null,
@@ -14404,7 +14406,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0807"
                 ,"missed_votes_pct": 5.96,
-                "votes_with_party_pct": 90.63
+                "votes_with_party_pct": 90.80
               },
                           {
                 "id": "P000605",
@@ -14440,7 +14442,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 9,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:13 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:4",
                 "office": null,
                 "phone": null,
@@ -14450,7 +14452,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4204"
                 ,"missed_votes_pct": 0.76,
-                "votes_with_party_pct": 93.32
+                "votes_with_party_pct": 93.48
               },
                           {
                 "id": "P000595",
@@ -14486,7 +14488,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 42,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:49 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:14",
                 "office": null,
                 "phone": null,
@@ -14496,7 +14498,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2614"
                 ,"missed_votes_pct": 3.52,
-                "votes_with_party_pct": 86.35
+                "votes_with_party_pct": 86.50
               },
                           {
                 "id": "P000608",
@@ -14532,7 +14534,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:15 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:52",
                 "office": null,
                 "phone": null,
@@ -14542,7 +14544,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0652"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 83.55
+                "votes_with_party_pct": 83.69
               },
                           {
                 "id": "P000258",
@@ -14578,7 +14580,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 5,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:51 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mn/cd:7",
                 "office": null,
                 "phone": null,
@@ -14588,7 +14590,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2707"
                 ,"missed_votes_pct": 0.42,
-                "votes_with_party_pct": 65.54
+                "votes_with_party_pct": 65.65
               },
                           {
                 "id": "P000265",
@@ -14624,7 +14626,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:46 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wi/cd:6",
                 "office": null,
                 "phone": null,
@@ -14634,7 +14636,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5506"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 91.32
+                "votes_with_party_pct": 91.47
               },
                           {
                 "id": "P000596",
@@ -14716,7 +14718,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 37,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:49 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:me/cd:1",
                 "office": null,
                 "phone": null,
@@ -14726,7 +14728,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2301"
                 ,"missed_votes_pct": 3.10,
-                "votes_with_party_pct": 94.20
+                "votes_with_party_pct": 94.36
               },
                           {
                 "id": "P000606",
@@ -14762,7 +14764,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 46,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:10 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:9",
                 "office": null,
                 "phone": null,
@@ -14772,7 +14774,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3709"
                 ,"missed_votes_pct": 3.86,
-                "votes_with_party_pct": 94.24
+                "votes_with_party_pct": 94.41
               },
                           {
                 "id": "P000373",
@@ -14808,7 +14810,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 20,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:23 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:16",
                 "office": null,
                 "phone": null,
@@ -14818,7 +14820,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4216"
                 ,"missed_votes_pct": 1.68,
-                "votes_with_party_pct": 94.54
+                "votes_with_party_pct": 94.70
               },
                           {
                 "id": "P000607",
@@ -14854,7 +14856,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 7,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:17 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wi/cd:2",
                 "office": null,
                 "phone": null,
@@ -14864,7 +14866,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5502"
                 ,"missed_votes_pct": 0.59,
-                "votes_with_party_pct": 94.60
+                "votes_with_party_pct": 94.76
               },
                           {
                 "id": "P000592",
@@ -14900,7 +14902,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 51,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:31 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:2",
                 "office": null,
                 "phone": null,
@@ -14910,7 +14912,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4802"
                 ,"missed_votes_pct": 4.28,
-                "votes_with_party_pct": 89.92
+                "votes_with_party_pct": 90.08
               },
                           {
                 "id": "P000598",
@@ -14946,7 +14948,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 106,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:13 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:co/cd:2",
                 "office": null,
                 "phone": null,
@@ -14956,7 +14958,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0802"
                 ,"missed_votes_pct": 8.89,
-                "votes_with_party_pct": 89.04
+                "votes_with_party_pct": 89.21
               },
                           {
                 "id": "P000602",
@@ -14992,7 +14994,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 79,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:36 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ks/cd:4",
                 "office": null,
                 "phone": null,
@@ -15002,7 +15004,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2004"
                 ,"missed_votes_pct": 6.63,
-                "votes_with_party_pct": 95.87
+                "votes_with_party_pct": 96.04
               },
                           {
                 "id": "P000599",
@@ -15038,7 +15040,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 5,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:49 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:8",
                 "office": null,
                 "phone": null,
@@ -15048,7 +15050,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1208"
                 ,"missed_votes_pct": 0.42,
-                "votes_with_party_pct": 91.24
+                "votes_with_party_pct": 91.39
               },
                           {
                 "id": "P000523",
@@ -15084,7 +15086,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 1,
                 "total_present": 1,
-                "last_updated": "2019-01-04 09:26:23 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:4",
                 "office": null,
                 "phone": null,
@@ -15094,7 +15096,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3704"
                 ,"missed_votes_pct": 0.08,
-                "votes_with_party_pct": 95.47
+                "votes_with_party_pct": 95.63
               },
                           {
                 "id": "P000591",
@@ -15130,7 +15132,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 12,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:24 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:6",
                 "office": null,
                 "phone": null,
@@ -15140,7 +15142,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1306"
                 ,"missed_votes_pct": 1.01,
-                "votes_with_party_pct": 92.97
+                "votes_with_party_pct": 93.12
               },
                           {
                 "id": "Q000023",
@@ -15176,7 +15178,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 35,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:49 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:5",
                 "office": null,
                 "phone": null,
@@ -15186,7 +15188,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1705"
                 ,"missed_votes_pct": 2.94,
-                "votes_with_party_pct": 95.85
+                "votes_with_party_pct": 96.02
               },
                           {
                 "id": "R000596",
@@ -15222,7 +15224,7 @@ var data = {
                 "total_votes": 655,
                 "missed_votes": 62,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:21 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:19",
                 "office": null,
                 "phone": null,
@@ -15232,7 +15234,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1219"
                 ,"missed_votes_pct": 9.47,
-                "votes_with_party_pct": 88.53
+                "votes_with_party_pct": 88.83
               },
                           {
                 "id": "R000011",
@@ -15268,7 +15270,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 12,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:45 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wv/cd:3",
                 "office": null,
                 "phone": null,
@@ -15278,7 +15280,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5403"
                 ,"missed_votes_pct": 1.01,
-                "votes_with_party_pct": 74.83
+                "votes_with_party_pct": 74.96
               },
                           {
                 "id": "R000053",
@@ -15314,7 +15316,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 191,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:01 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:13",
                 "office": null,
                 "phone": null,
@@ -15324,7 +15326,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3613"
                 ,"missed_votes_pct": 16.02,
-                "votes_with_party_pct": 94.91
+                "votes_with_party_pct": 95.10
               },
                           {
                 "id": "R000585",
@@ -15360,7 +15362,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 46,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:47 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:23",
                 "office": null,
                 "phone": null,
@@ -15370,7 +15372,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3623"
                 ,"missed_votes_pct": 3.86,
-                "votes_with_party_pct": 89.70
+                "votes_with_party_pct": 89.86
               },
                           {
                 "id": "R000578",
@@ -15406,7 +15408,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 5,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:43 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:8",
                 "office": null,
                 "phone": null,
@@ -15416,7 +15418,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5308"
                 ,"missed_votes_pct": 0.42,
-                "votes_with_party_pct": 89.13
+                "votes_with_party_pct": 89.28
               },
                           {
                 "id": "R000586",
@@ -15452,7 +15454,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 7,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:15 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:16",
                 "office": null,
                 "phone": null,
@@ -15462,7 +15464,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3916"
                 ,"missed_votes_pct": 0.59,
-                "votes_with_party_pct": 92.07
+                "votes_with_party_pct": 92.22
               },
                           {
                 "id": "R000587",
@@ -15498,7 +15500,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 4,
-                "last_updated": "2018-07-08 18:13:47 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wi/cd:8",
                 "office": null,
                 "phone": null,
@@ -15508,7 +15510,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5508"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 91.09
+                "votes_with_party_pct": 91.24
               },
                           {
                 "id": "R000597",
@@ -15544,7 +15546,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 26,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:10 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:sc/cd:7",
                 "office": null,
                 "phone": null,
@@ -15554,7 +15556,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4507"
                 ,"missed_votes_pct": 2.18,
-                "votes_with_party_pct": 94.08
+                "votes_with_party_pct": 94.24
               },
                           {
                 "id": "R000588",
@@ -15590,7 +15592,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 174,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:47 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:la/cd:2",
                 "office": null,
                 "phone": null,
@@ -15600,7 +15602,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2202"
                 ,"missed_votes_pct": 14.60,
-                "votes_with_party_pct": 91.26
+                "votes_with_party_pct": 91.44
               },
                           {
                 "id": "R000589",
@@ -15636,7 +15638,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 16,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:41 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:2",
                 "office": null,
                 "phone": null,
@@ -15646,7 +15648,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5102"
                 ,"missed_votes_pct": 1.34,
-                "votes_with_party_pct": 91.58
+                "votes_with_party_pct": 91.74
               },
                           {
                 "id": "R000591",
@@ -15682,7 +15684,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 11,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:47 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:al/cd:2",
                 "office": null,
                 "phone": null,
@@ -15692,7 +15694,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0102"
                 ,"missed_votes_pct": 0.92,
-                "votes_with_party_pct": 93.73
+                "votes_with_party_pct": 93.89
               },
                           {
                 "id": "R000582",
@@ -15728,7 +15730,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 12,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:47 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tn/cd:1",
                 "office": null,
                 "phone": null,
@@ -15738,7 +15740,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4701"
                 ,"missed_votes_pct": 1.01,
-                "votes_with_party_pct": 94.92
+                "votes_with_party_pct": 95.08
               },
                           {
                 "id": "R000575",
@@ -15774,7 +15776,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 31,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:48 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:al/cd:3",
                 "office": null,
                 "phone": null,
@@ -15784,7 +15786,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0103"
                 ,"missed_votes_pct": 2.60,
-                "votes_with_party_pct": 94.75
+                "votes_with_party_pct": 94.91
               },
                           {
                 "id": "R000572",
@@ -15820,7 +15822,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 80,
                 "total_present": 0,
-                "last_updated": "2019-01-04 09:26:27 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:8",
                 "office": null,
                 "phone": null,
@@ -15830,7 +15832,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2608"
                 ,"missed_votes_pct": 6.71,
-                "votes_with_party_pct": 94.60
+                "votes_with_party_pct": 94.77
               },
                           {
                 "id": "R000395",
@@ -15866,7 +15868,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 39,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:48 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ky/cd:5",
                 "office": null,
                 "phone": null,
@@ -15876,7 +15878,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2105"
                 ,"missed_votes_pct": 3.27,
-                "votes_with_party_pct": 93.58
+                "votes_with_party_pct": 93.74
               },
                           {
                 "id": "R000409",
@@ -15912,7 +15914,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 90,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:11:59 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:48",
                 "office": null,
                 "phone": null,
@@ -15922,7 +15924,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0648"
                 ,"missed_votes_pct": 7.55,
-                "votes_with_party_pct": 88.57
+                "votes_with_party_pct": 88.73
               },
                           {
                 "id": "R000592",
@@ -15958,7 +15960,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 51,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:33 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:in/cd:4",
                 "office": null,
                 "phone": null,
@@ -15968,7 +15970,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1804"
                 ,"missed_votes_pct": 4.28,
-                "votes_with_party_pct": 96.06
+                "votes_with_party_pct": 96.22
               },
                           {
                 "id": "R000583",
@@ -16004,7 +16006,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 21,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:18 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:17",
                 "office": null,
                 "phone": null,
@@ -16014,7 +16016,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1217"
                 ,"missed_votes_pct": 1.76,
-                "votes_with_party_pct": 91.72
+                "votes_with_party_pct": 91.87
               },
                           {
                 "id": "R000435",
@@ -16050,7 +16052,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 73,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:16 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:27",
                 "office": null,
                 "phone": null,
@@ -16060,7 +16062,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1227"
                 ,"missed_votes_pct": 6.12,
-                "votes_with_party_pct": 90.88
+                "votes_with_party_pct": 91.05
               },
                           {
                 "id": "R000580",
@@ -16096,7 +16098,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 20,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:28 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:6",
                 "office": null,
                 "phone": null,
@@ -16106,7 +16108,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1706"
                 ,"missed_votes_pct": 1.68,
-                "votes_with_party_pct": 95.56
+                "votes_with_party_pct": 95.73
               },
                           {
                 "id": "R000593",
@@ -16142,7 +16144,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 10,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:20 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:15",
                 "office": null,
                 "phone": null,
@@ -16152,7 +16154,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1215"
                 ,"missed_votes_pct": 0.84,
-                "votes_with_party_pct": 95.94
+                "votes_with_party_pct": 96.10
               },
                           {
                 "id": "R000598",
@@ -16188,7 +16190,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 1,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:22 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:12",
                 "office": null,
                 "phone": null,
@@ -16198,7 +16200,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4212"
                 ,"missed_votes_pct": 0.08,
-                "votes_with_party_pct": 95.38
+                "votes_with_party_pct": 95.54
               },
                           {
                 "id": "R000486",
@@ -16234,7 +16236,7 @@ var data = {
                 "total_votes": 1185,
                 "missed_votes": 22,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:48 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:40",
                 "office": null,
                 "phone": null,
@@ -16244,7 +16246,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0640"
                 ,"missed_votes_pct": 1.86,
-                "votes_with_party_pct": 95.61
+                "votes_with_party_pct": 95.78
               },
                           {
                 "id": "R000487",
@@ -16280,7 +16282,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:09 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:39",
                 "office": null,
                 "phone": null,
@@ -16290,7 +16292,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0639"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 95.37
+                "votes_with_party_pct": 95.54
               },
                           {
                 "id": "R000599",
@@ -16326,7 +16328,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 39,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:13 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:36",
                 "office": null,
                 "phone": null,
@@ -16336,7 +16338,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0636"
                 ,"missed_votes_pct": 3.27,
-                "votes_with_party_pct": 85.00
+                "votes_with_party_pct": 85.14
               },
                           {
                 "id": "R000594",
@@ -16372,7 +16374,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 70,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:58 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:3",
                 "office": null,
                 "phone": null,
@@ -16382,7 +16384,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3403"
                 ,"missed_votes_pct": 5.87,
-                "votes_with_party_pct": 89.22
+                "votes_with_party_pct": 89.38
               },
                           {
                 "id": "R000576",
@@ -16418,7 +16420,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 61,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:48 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:md/cd:2",
                 "office": null,
                 "phone": null,
@@ -16428,7 +16430,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2402"
                 ,"missed_votes_pct": 5.12,
-                "votes_with_party_pct": 92.57
+                "votes_with_party_pct": 92.74
               },
                           {
                 "id": "R000515",
@@ -16464,7 +16466,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 484,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:48 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:1",
                 "office": null,
                 "phone": null,
@@ -16474,7 +16476,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1701"
                 ,"missed_votes_pct": 40.60,
-                "votes_with_party_pct": 92.09
+                "votes_with_party_pct": 92.35
               },
                           {
                 "id": "R000570",
@@ -16510,7 +16512,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 4,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:48 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wi/cd:1",
                 "office": null,
                 "phone": null,
@@ -16520,7 +16522,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5501"
                 ,"missed_votes_pct": 0.34,
-                "votes_with_party_pct": 95.79
+                "votes_with_party_pct": 95.95
               },
                           {
                 "id": "R000577",
@@ -16556,7 +16558,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 72,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:48 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:13",
                 "office": null,
                 "phone": null,
@@ -16566,7 +16568,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3913"
                 ,"missed_votes_pct": 6.04,
-                "votes_with_party_pct": 90.36
+                "votes_with_party_pct": 90.52
               },
                           {
                 "id": "S001177",
@@ -16648,7 +16650,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 37,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:11:57 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:az/cd:5",
                 "office": null,
                 "phone": null,
@@ -16658,7 +16660,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0405"
                 ,"missed_votes_pct": 3.10,
-                "votes_with_party_pct": 91.26
+                "votes_with_party_pct": 91.41
               },
                           {
                 "id": "S001156",
@@ -16694,7 +16696,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 3,
-                "last_updated": "2019-01-06 15:20:45 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:38",
                 "office": null,
                 "phone": null,
@@ -16704,7 +16706,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0638"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 92.57
+                "votes_with_party_pct": 92.73
               },
                           {
                 "id": "S000030",
@@ -16740,7 +16742,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 82,
                 "total_present": 2,
-                "last_updated": "2018-07-08 18:12:10 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:46",
                 "office": null,
                 "phone": null,
@@ -16750,7 +16752,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0646"
                 ,"missed_votes_pct": 6.88,
-                "votes_with_party_pct": 91.26
+                "votes_with_party_pct": 91.43
               },
                           {
                 "id": "S000051",
@@ -16786,7 +16788,7 @@ var data = {
                 "total_votes": 1045,
                 "missed_votes": 15,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:25 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:sc/cd:1",
                 "office": null,
                 "phone": null,
@@ -16796,7 +16798,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4501"
                 ,"missed_votes_pct": 1.44,
-                "votes_with_party_pct": 86.12
+                "votes_with_party_pct": 86.20
               },
                           {
                 "id": "S001168",
@@ -16832,7 +16834,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 30,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:17 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:md/cd:3",
                 "office": null,
                 "phone": null,
@@ -16842,7 +16844,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2403"
                 ,"missed_votes_pct": 2.52,
-                "votes_with_party_pct": 92.77
+                "votes_with_party_pct": 92.93
               },
                           {
                 "id": "S001176",
@@ -16878,7 +16880,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 19,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:44 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:la/cd:1",
                 "office": null,
                 "phone": null,
@@ -16888,7 +16890,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2201"
                 ,"missed_votes_pct": 1.59,
-                "votes_with_party_pct": 96.25
+                "votes_with_party_pct": 96.41
               },
                           {
                 "id": "S001145",
@@ -16924,7 +16926,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 21,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:45 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:9",
                 "office": null,
                 "phone": null,
@@ -16934,7 +16936,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1709"
                 ,"missed_votes_pct": 1.76,
-                "votes_with_party_pct": 91.46
+                "votes_with_party_pct": 91.62
               },
                           {
                 "id": "S001150",
@@ -16970,7 +16972,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:45 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:28",
                 "office": null,
                 "phone": null,
@@ -16980,7 +16982,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0628"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 96.86
+                "votes_with_party_pct": 97.02
               },
                           {
                 "id": "S001190",
@@ -17016,7 +17018,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 23,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:26 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:10",
                 "office": null,
                 "phone": null,
@@ -17026,7 +17028,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1710"
                 ,"missed_votes_pct": 1.93,
-                "votes_with_party_pct": 89.31
+                "votes_with_party_pct": 89.46
               },
                           {
                 "id": "S001179",
@@ -17062,7 +17064,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 59,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:28 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:18",
                 "office": null,
                 "phone": null,
@@ -17072,7 +17074,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1718"
                 ,"missed_votes_pct": 4.95,
-                "votes_with_party_pct": 92.59
+                "votes_with_party_pct": 92.75
               },
                           {
                 "id": "S001180",
@@ -17108,7 +17110,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:44 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:or/cd:5",
                 "office": null,
                 "phone": null,
@@ -17118,7 +17120,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4105"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 83.72
+                "votes_with_party_pct": 83.86
               },
                           {
                 "id": "S001162",
@@ -17154,7 +17156,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 212,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:20 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:13",
                 "office": null,
                 "phone": null,
@@ -17164,7 +17166,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4213"
                 ,"missed_votes_pct": 17.79,
-                "votes_with_party_pct": 95.31
+                "votes_with_party_pct": 95.50
               },
                           {
                 "id": "S001183",
@@ -17200,7 +17202,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 35,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:44 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:az/cd:6",
                 "office": null,
                 "phone": null,
@@ -17210,7 +17212,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0406"
                 ,"missed_votes_pct": 2.94,
-                "votes_with_party_pct": 93.26
+                "votes_with_party_pct": 93.42
               },
                           {
                 "id": "S001157",
@@ -17246,7 +17248,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 46,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:45 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:13",
                 "office": null,
                 "phone": null,
@@ -17256,7 +17258,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1313"
                 ,"missed_votes_pct": 3.86,
-                "votes_with_party_pct": 92.23
+                "votes_with_party_pct": 92.40
               },
                           {
                 "id": "S001189",
@@ -17292,7 +17294,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 17,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:44 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:8",
                 "office": null,
                 "phone": null,
@@ -17302,7 +17304,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1308"
                 ,"missed_votes_pct": 1.43,
-                "votes_with_party_pct": 95.66
+                "votes_with_party_pct": 95.82
               },
                           {
                 "id": "S000185",
@@ -17338,7 +17340,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:46 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:3",
                 "office": null,
                 "phone": null,
@@ -17348,7 +17350,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5103"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 95.33
+                "votes_with_party_pct": 95.49
               },
                           {
                 "id": "S000244",
@@ -17384,7 +17386,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 17,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:46 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wi/cd:5",
                 "office": null,
                 "phone": null,
@@ -17394,7 +17396,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5505"
                 ,"missed_votes_pct": 1.43,
-                "votes_with_party_pct": 91.23
+                "votes_with_party_pct": 91.39
               },
                           {
                 "id": "S000248",
@@ -17430,7 +17432,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 21,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:46 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:15",
                 "office": null,
                 "phone": null,
@@ -17440,7 +17442,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3615"
                 ,"missed_votes_pct": 1.76,
-                "votes_with_party_pct": 94.62
+                "votes_with_party_pct": 94.78
               },
                           {
                 "id": "S000250",
@@ -17476,7 +17478,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 11,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:36 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:32",
                 "office": null,
                 "phone": null,
@@ -17486,7 +17488,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4832"
                 ,"missed_votes_pct": 0.92,
-                "votes_with_party_pct": 96.61
+                "votes_with_party_pct": 96.78
               },
                           {
                 "id": "S001185",
@@ -17522,7 +17524,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 30,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:44 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:al/cd:7",
                 "office": null,
                 "phone": null,
@@ -17532,7 +17534,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0107"
                 ,"missed_votes_pct": 2.52,
-                "votes_with_party_pct": 90.10
+                "votes_with_party_pct": 90.26
               },
                           {
                 "id": "S001170",
@@ -17568,7 +17570,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 40,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:57 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nh/cd:1",
                 "office": null,
                 "phone": null,
@@ -17578,7 +17580,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3301"
                 ,"missed_votes_pct": 3.36,
-                "votes_with_party_pct": 93.75
+                "votes_with_party_pct": 93.91
               },
                           {
                 "id": "S000344",
@@ -17614,7 +17616,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 11,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:46 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:30",
                 "office": null,
                 "phone": null,
@@ -17624,7 +17626,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0630"
                 ,"missed_votes_pct": 0.92,
-                "votes_with_party_pct": 94.07
+                "votes_with_party_pct": 94.23
               },
                           {
                 "id": "S000364",
@@ -17660,7 +17662,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 69,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:46 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:il/cd:15",
                 "office": null,
                 "phone": null,
@@ -17670,7 +17672,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1715"
                 ,"missed_votes_pct": 5.79,
-                "votes_with_party_pct": 93.41
+                "votes_with_party_pct": 93.58
               },
                           {
                 "id": "S001154",
@@ -17706,7 +17708,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 53,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:19 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:9",
                 "office": null,
                 "phone": null,
@@ -17716,7 +17718,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4209"
                 ,"missed_votes_pct": 4.45,
-                "votes_with_party_pct": 94.56
+                "votes_with_party_pct": 94.72
               },
                           {
                 "id": "S001148",
@@ -17752,7 +17754,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 25,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:45 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:id/cd:2",
                 "office": null,
                 "phone": null,
@@ -17762,7 +17764,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1602"
                 ,"missed_votes_pct": 2.10,
-                "votes_with_party_pct": 93.49
+                "votes_with_party_pct": 93.65
               },
                           {
                 "id": "S001191",
@@ -17798,7 +17800,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 32,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:16 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:az/cd:9",
                 "office": null,
                 "phone": null,
@@ -17808,7 +17810,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0409"
                 ,"missed_votes_pct": 2.68,
-                "votes_with_party_pct": 80.26
+                "votes_with_party_pct": 80.40
               },
                           {
                 "id": "S001165",
@@ -17844,7 +17846,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 84,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:45 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:8",
                 "office": null,
                 "phone": null,
@@ -17854,7 +17856,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3408"
                 ,"missed_votes_pct": 7.05,
-                "votes_with_party_pct": 93.50
+                "votes_with_party_pct": 93.67
               },
                           {
                 "id": "S000480",
@@ -17890,7 +17892,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 99,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:02 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:25",
                 "office": null,
                 "phone": null,
@@ -17900,7 +17902,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3625"
                 ,"missed_votes_pct": 8.31,
-                "votes_with_party_pct": 91.22
+                "votes_with_party_pct": 91.38
               },
                           {
                 "id": "S001195",
@@ -17936,7 +17938,7 @@ var data = {
                 "total_votes": 995,
                 "missed_votes": 8,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:18 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mo/cd:8",
                 "office": null,
                 "phone": null,
@@ -17946,7 +17948,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2908"
                 ,"missed_votes_pct": 0.80,
-                "votes_with_party_pct": 96.15
+                "votes_with_party_pct": 96.25
               },
                           {
                 "id": "S000510",
@@ -17982,7 +17984,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 130,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:46 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:wa/cd:9",
                 "office": null,
                 "phone": null,
@@ -17992,7 +17994,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5309"
                 ,"missed_votes_pct": 10.91,
-                "votes_with_party_pct": 92.94
+                "votes_with_party_pct": 93.11
               },
                           {
                 "id": "S000583",
@@ -18028,7 +18030,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 24,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:29 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:21",
                 "office": null,
                 "phone": null,
@@ -18038,7 +18040,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4821"
                 ,"missed_votes_pct": 2.01,
-                "votes_with_party_pct": 97.26
+                "votes_with_party_pct": 97.43
               },
                           {
                 "id": "S000522",
@@ -18074,7 +18076,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 30,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:18 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nj/cd:4",
                 "office": null,
                 "phone": null,
@@ -18084,7 +18086,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3404"
                 ,"missed_votes_pct": 2.52,
-                "votes_with_party_pct": 89.76
+                "votes_with_party_pct": 89.91
               },
                           {
                 "id": "S001172",
@@ -18120,7 +18122,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:55 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ne/cd:3",
                 "office": null,
                 "phone": null,
@@ -18130,7 +18132,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3103"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 97.03
+                "votes_with_party_pct": 97.19
               },
                           {
                 "id": "S001186",
@@ -18166,7 +18168,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:19 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:2",
                 "office": null,
                 "phone": null,
@@ -18176,7 +18178,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1202"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 95.67
+                "votes_with_party_pct": 95.83
               },
                           {
                 "id": "S001175",
@@ -18212,7 +18214,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 84,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:45 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:14",
                 "office": null,
                 "phone": null,
@@ -18222,7 +18224,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0614"
                 ,"missed_votes_pct": 7.05,
-                "votes_with_party_pct": 93.95
+                "votes_with_party_pct": 94.12
               },
                           {
                 "id": "S001192",
@@ -18258,7 +18260,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 31,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:14 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ut/cd:2",
                 "office": null,
                 "phone": null,
@@ -18268,7 +18270,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4902"
                 ,"missed_votes_pct": 2.60,
-                "votes_with_party_pct": 95.18
+                "votes_with_party_pct": 95.34
               },
                           {
                 "id": "S001187",
@@ -18304,7 +18306,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:44 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:15",
                 "office": null,
                 "phone": null,
@@ -18314,7 +18316,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3915"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 91.36
+                "votes_with_party_pct": 91.52
               },
                           {
                 "id": "S000937",
@@ -18350,7 +18352,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 63,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:35 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:36",
                 "office": null,
                 "phone": null,
@@ -18360,7 +18362,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4836"
                 ,"missed_votes_pct": 5.29,
-                "votes_with_party_pct": 85.39
+                "votes_with_party_pct": 85.54
               },
                           {
                 "id": "S001188",
@@ -18396,7 +18398,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:33 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:in/cd:3",
                 "office": null,
                 "phone": null,
@@ -18406,7 +18408,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1803"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 93.78
+                "votes_with_party_pct": 93.94
               },
                           {
                 "id": "S001193",
@@ -18442,7 +18444,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:09 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:15",
                 "office": null,
                 "phone": null,
@@ -18452,7 +18454,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0615"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 92.75
+                "votes_with_party_pct": 92.91
               },
                           {
                 "id": "T000472",
@@ -18488,7 +18490,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 2,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:10 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:41",
                 "office": null,
                 "phone": null,
@@ -18498,7 +18500,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0641"
                 ,"missed_votes_pct": 0.17,
-                "votes_with_party_pct": 94.54
+                "votes_with_party_pct": 94.70
               },
                           {
                 "id": "T000459",
@@ -18534,7 +18536,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 8,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:55 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ne/cd:2",
                 "office": null,
                 "phone": null,
@@ -18544,7 +18546,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3102"
                 ,"missed_votes_pct": 0.67,
-                "votes_with_party_pct": 92.15
+                "votes_with_party_pct": 92.30
               },
                           {
                 "id": "T000193",
@@ -18580,7 +18582,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 51,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:43 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ms/cd:2",
                 "office": null,
                 "phone": null,
@@ -18590,7 +18592,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2802"
                 ,"missed_votes_pct": 4.28,
-                "votes_with_party_pct": 91.50
+                "votes_with_party_pct": 91.66
               },
                           {
                 "id": "T000467",
@@ -18626,7 +18628,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 19,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:43 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:pa/cd:5",
                 "office": null,
                 "phone": null,
@@ -18636,7 +18638,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4205"
                 ,"missed_votes_pct": 1.59,
-                "votes_with_party_pct": 91.30
+                "votes_with_party_pct": 91.46
               },
                           {
                 "id": "T000460",
@@ -18672,7 +18674,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 18,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:43 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:5",
                 "office": null,
                 "phone": null,
@@ -18682,7 +18684,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0605"
                 ,"missed_votes_pct": 1.51,
-                "votes_with_party_pct": 91.91
+                "votes_with_party_pct": 92.06
               },
                           {
                 "id": "T000238",
@@ -18718,7 +18720,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:43 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:13",
                 "office": null,
                 "phone": null,
@@ -18728,7 +18730,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4813"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 96.37
+                "votes_with_party_pct": 96.54
               },
                           {
                 "id": "T000462",
@@ -18764,7 +18766,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:13 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:12",
                 "office": null,
                 "phone": null,
@@ -18774,7 +18776,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3912"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 92.92
+                "votes_with_party_pct": 93.08
               },
                           {
                 "id": "T000266",
@@ -18810,7 +18812,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 40,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:45 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:6",
                 "office": null,
                 "phone": null,
@@ -18820,7 +18822,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2506"
                 ,"missed_votes_pct": 3.36,
-                "votes_with_party_pct": 92.80
+                "votes_with_party_pct": 92.96
               },
                           {
                 "id": "T000470",
@@ -18856,7 +18858,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 33,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:42 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:co/cd:3",
                 "office": null,
                 "phone": null,
@@ -18866,7 +18868,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0803"
                 ,"missed_votes_pct": 2.77,
-                "votes_with_party_pct": 92.49
+                "votes_with_party_pct": 92.65
               },
                           {
                 "id": "T000468",
@@ -18902,7 +18904,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 7,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:42 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nv/cd:1",
                 "office": null,
                 "phone": null,
@@ -18912,7 +18914,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3201"
                 ,"missed_votes_pct": 0.59,
-                "votes_with_party_pct": 94.85
+                "votes_with_party_pct": 95.01
               },
                           {
                 "id": "T000469",
@@ -18948,7 +18950,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 3,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:42 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:20",
                 "office": null,
                 "phone": null,
@@ -18958,7 +18960,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3620"
                 ,"missed_votes_pct": 0.25,
-                "votes_with_party_pct": 95.37
+                "votes_with_party_pct": 95.54
               },
                           {
                 "id": "T000465",
@@ -18994,7 +18996,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 53,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:43 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ma/cd:3",
                 "office": null,
                 "phone": null,
@@ -19004,7 +19006,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2503"
                 ,"missed_votes_pct": 4.45,
-                "votes_with_party_pct": 95.08
+                "votes_with_party_pct": 95.25
               },
                           {
                 "id": "T000463",
@@ -19040,7 +19042,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 9,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:43 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:10",
                 "office": null,
                 "phone": null,
@@ -19050,7 +19052,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3910"
                 ,"missed_votes_pct": 0.76,
-                "votes_with_party_pct": 90.62
+                "votes_with_party_pct": 90.77
               },
                           {
                 "id": "U000031",
@@ -19086,7 +19088,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 20,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:42 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:6",
                 "office": null,
                 "phone": null,
@@ -19096,7 +19098,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2606"
                 ,"missed_votes_pct": 1.68,
-                "votes_with_party_pct": 93.60
+                "votes_with_party_pct": 93.76
               },
                           {
                 "id": "V000129",
@@ -19132,7 +19134,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:05 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:21",
                 "office": null,
                 "phone": null,
@@ -19142,7 +19144,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0621"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 89.46
+                "votes_with_party_pct": 89.61
               },
                           {
                 "id": "V000128",
@@ -19178,7 +19180,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:42 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:md/cd:8",
                 "office": null,
                 "phone": null,
@@ -19188,7 +19190,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2408"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 95.41
+                "votes_with_party_pct": 95.57
               },
                           {
                 "id": "V000130",
@@ -19224,7 +19226,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 23,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:17 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:51",
                 "office": null,
                 "phone": null,
@@ -19234,7 +19236,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0651"
                 ,"missed_votes_pct": 1.93,
-                "votes_with_party_pct": 93.41
+                "votes_with_party_pct": 93.57
               },
                           {
                 "id": "V000131",
@@ -19270,7 +19272,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:13 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:33",
                 "office": null,
                 "phone": null,
@@ -19280,7 +19282,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4833"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 92.11
+                "votes_with_party_pct": 92.26
               },
                           {
                 "id": "V000132",
@@ -19316,7 +19318,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 30,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:21:13 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:34",
                 "office": null,
                 "phone": null,
@@ -19326,7 +19328,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4834"
                 ,"missed_votes_pct": 2.52,
-                "votes_with_party_pct": 85.54
+                "votes_with_party_pct": 85.69
               },
                           {
                 "id": "V000081",
@@ -19362,7 +19364,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 64,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:42 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ny/cd:7",
                 "office": null,
                 "phone": null,
@@ -19372,7 +19374,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3607"
                 ,"missed_votes_pct": 5.37,
-                "votes_with_party_pct": 92.20
+                "votes_with_party_pct": 92.36
               },
                           {
                 "id": "V000108",
@@ -19408,7 +19410,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 34,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:42 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:in/cd:1",
                 "office": null,
                 "phone": null,
@@ -19418,7 +19420,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1801"
                 ,"missed_votes_pct": 2.85,
-                "votes_with_party_pct": 89.90
+                "votes_with_party_pct": 90.05
               },
                           {
                 "id": "W000812",
@@ -19454,7 +19456,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 28,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:13 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mo/cd:2",
                 "office": null,
                 "phone": null,
@@ -19464,7 +19466,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2902"
                 ,"missed_votes_pct": 2.35,
-                "votes_with_party_pct": 96.91
+                "votes_with_party_pct": 97.07
               },
                           {
                 "id": "W000798",
@@ -19500,7 +19502,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 19,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:41 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mi/cd:7",
                 "office": null,
                 "phone": null,
@@ -19510,7 +19512,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2607"
                 ,"missed_votes_pct": 1.59,
-                "votes_with_party_pct": 94.29
+                "votes_with_party_pct": 94.45
               },
                           {
                 "id": "W000791",
@@ -19546,7 +19548,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 12,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:41 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:or/cd:2",
                 "office": null,
                 "phone": null,
@@ -19556,7 +19558,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4102"
                 ,"missed_votes_pct": 1.01,
-                "votes_with_party_pct": 93.47
+                "votes_with_party_pct": 93.63
               },
                           {
                 "id": "W000813",
@@ -19592,7 +19594,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 11,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:10 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:in/cd:2",
                 "office": null,
                 "phone": null,
@@ -19602,7 +19604,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1802"
                 ,"missed_votes_pct": 0.92,
-                "votes_with_party_pct": 95.43
+                "votes_with_party_pct": 95.59
               },
                           {
                 "id": "W000799",
@@ -19638,7 +19640,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 27,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:12:50 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:mn/cd:1",
                 "office": null,
                 "phone": null,
@@ -19648,7 +19650,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2701"
                 ,"missed_votes_pct": 2.27,
-                "votes_with_party_pct": 89.79
+                "votes_with_party_pct": 89.94
               },
                           {
                 "id": "W000797",
@@ -19684,7 +19686,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 88,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:41 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:23",
                 "office": null,
                 "phone": null,
@@ -19694,7 +19696,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1223"
                 ,"missed_votes_pct": 7.38,
-                "votes_with_party_pct": 93.30
+                "votes_with_party_pct": 93.47
               },
                           {
                 "id": "W000187",
@@ -19730,7 +19732,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 83,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:41 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:43",
                 "office": null,
                 "phone": null,
@@ -19740,7 +19742,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0643"
                 ,"missed_votes_pct": 6.96,
-                "votes_with_party_pct": 93.96
+                "votes_with_party_pct": 94.13
               },
                           {
                 "id": "W000207",
@@ -19776,7 +19778,7 @@ var data = {
                 "total_votes": 641,
                 "missed_votes": 29,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:13:11 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:nc/cd:12",
                 "office": null,
                 "phone": null,
@@ -19786,7 +19788,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3712"
                 ,"missed_votes_pct": 4.52,
-                "votes_with_party_pct": 93.79
+                "votes_with_party_pct": 93.94
               },
                           {
                 "id": "W000215",
@@ -19822,7 +19824,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 84,
                 "total_present": 1,
-                "last_updated": "2018-07-08 18:11:58 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ca/cd:33",
                 "office": null,
                 "phone": null,
@@ -19832,7 +19834,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0633"
                 ,"missed_votes_pct": 7.05,
-                "votes_with_party_pct": 94.86
+                "votes_with_party_pct": 95.03
               },
                           {
                 "id": "W000814",
@@ -19868,7 +19870,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:11 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:14",
                 "office": null,
                 "phone": null,
@@ -19878,7 +19880,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4814"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 91.74
+                "votes_with_party_pct": 91.89
               },
                           {
                 "id": "W000806",
@@ -19914,7 +19916,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 40,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:40 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:10",
                 "office": null,
                 "phone": null,
@@ -19924,7 +19926,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1210"
                 ,"missed_votes_pct": 3.36,
-                "votes_with_party_pct": 95.05
+                "votes_with_party_pct": 95.22
               },
                           {
                 "id": "W000800",
@@ -19960,7 +19962,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:41 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:vt/cd:1",
                 "office": null,
                 "phone": null,
@@ -19970,7 +19972,7 @@ var data = {
                 "at_large": true,
                 "geoid": "5000"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 93.29
+                "votes_with_party_pct": 93.45
               },
                           {
                 "id": "W000815",
@@ -20006,7 +20008,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 14,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:16 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:oh/cd:2",
                 "office": null,
                 "phone": null,
@@ -20016,7 +20018,7 @@ var data = {
                 "at_large": false,
                 "geoid": "3902"
                 ,"missed_votes_pct": 1.17,
-                "votes_with_party_pct": 95.33
+                "votes_with_party_pct": 95.49
               },
                           {
                 "id": "W000796",
@@ -20052,7 +20054,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 72,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:24 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:3",
                 "office": null,
                 "phone": null,
@@ -20062,7 +20064,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1303"
                 ,"missed_votes_pct": 6.04,
-                "votes_with_party_pct": 93.30
+                "votes_with_party_pct": 93.47
               },
                           {
                 "id": "W000413",
@@ -20098,7 +20100,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 45,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:38 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ky/cd:1",
                 "office": null,
                 "phone": null,
@@ -20108,7 +20110,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2101"
                 ,"missed_votes_pct": 3.78,
-                "votes_with_party_pct": 93.03
+                "votes_with_party_pct": 93.19
               },
                           {
                 "id": "W000816",
@@ -20144,7 +20146,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 44,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:15 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:tx/cd:25",
                 "office": null,
                 "phone": null,
@@ -20154,7 +20156,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4825"
                 ,"missed_votes_pct": 3.69,
-                "votes_with_party_pct": 96.86
+                "votes_with_party_pct": 97.03
               },
                           {
                 "id": "W000808",
@@ -20190,7 +20192,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 29,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:40 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:24",
                 "office": null,
                 "phone": null,
@@ -20200,7 +20202,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1224"
                 ,"missed_votes_pct": 2.43,
-                "votes_with_party_pct": 96.65
+                "votes_with_party_pct": 96.81
               },
                           {
                 "id": "W000795",
@@ -20236,7 +20238,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 35,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:41 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:sc/cd:2",
                 "office": null,
                 "phone": null,
@@ -20246,7 +20248,7 @@ var data = {
                 "at_large": false,
                 "geoid": "4502"
                 ,"missed_votes_pct": 2.94,
-                "votes_with_party_pct": 95.85
+                "votes_with_party_pct": 96.02
               },
                           {
                 "id": "W000804",
@@ -20282,7 +20284,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 6,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:40 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:1",
                 "office": null,
                 "phone": null,
@@ -20292,7 +20294,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5101"
                 ,"missed_votes_pct": 0.50,
-                "votes_with_party_pct": 93.76
+                "votes_with_party_pct": 93.92
               },
                           {
                 "id": "W000672",
@@ -20328,7 +20330,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 24,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:13:39 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:va/cd:10",
                 "office": null,
                 "phone": null,
@@ -20338,7 +20340,7 @@ var data = {
                 "at_large": false,
                 "geoid": "5110"
                 ,"missed_votes_pct": 2.01,
-                "votes_with_party_pct": 91.18
+                "votes_with_party_pct": 91.34
               },
                           {
                 "id": "W000809",
@@ -20374,7 +20376,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 0,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:40 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ar/cd:3",
                 "office": null,
                 "phone": null,
@@ -20384,7 +20386,7 @@ var data = {
                 "at_large": false,
                 "geoid": "0503"
                 ,"missed_votes_pct": 0.00,
-                "votes_with_party_pct": 95.47
+                "votes_with_party_pct": 95.63
               },
                           {
                 "id": "W000810",
@@ -20420,7 +20422,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 15,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:15 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ga/cd:7",
                 "office": null,
                 "phone": null,
@@ -20430,7 +20432,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1307"
                 ,"missed_votes_pct": 1.26,
-                "votes_with_party_pct": 90.82
+                "votes_with_party_pct": 90.98
               },
                           {
                 "id": "Y000062",
@@ -20466,7 +20468,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 47,
                 "total_present": 1,
-                "last_updated": "2019-01-06 15:20:40 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ky/cd:3",
                 "office": null,
                 "phone": null,
@@ -20476,7 +20478,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2103"
                 ,"missed_votes_pct": 3.94,
-                "votes_with_party_pct": 95.28
+                "votes_with_party_pct": 95.45
               },
                           {
                 "id": "Y000063",
@@ -20512,7 +20514,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 12,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:36 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ks/cd:3",
                 "office": null,
                 "phone": null,
@@ -20522,7 +20524,7 @@ var data = {
                 "at_large": false,
                 "geoid": "2003"
                 ,"missed_votes_pct": 1.01,
-                "votes_with_party_pct": 93.39
+                "votes_with_party_pct": 93.55
               },
                           {
                 "id": "Y000065",
@@ -20558,7 +20560,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 9,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:21:11 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:3",
                 "office": null,
                 "phone": null,
@@ -20568,7 +20570,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1203"
                 ,"missed_votes_pct": 0.76,
-                "votes_with_party_pct": 91.21
+                "votes_with_party_pct": 91.36
               },
                           {
                 "id": "Y000064",
@@ -20604,7 +20606,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 13,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:39 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:in/cd:9",
                 "office": null,
                 "phone": null,
@@ -20614,7 +20616,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1809"
                 ,"missed_votes_pct": 1.09,
-                "votes_with_party_pct": 95.17
+                "votes_with_party_pct": 95.33
               },
                           {
                 "id": "Y000033",
@@ -20650,7 +20652,7 @@ var data = {
                 "total_votes": 1192,
                 "missed_votes": 95,
                 "total_present": 0,
-                "last_updated": "2019-01-06 15:20:40 -0500",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:ak/cd:1",
                 "office": null,
                 "phone": null,
@@ -20660,7 +20662,7 @@ var data = {
                 "at_large": true,
                 "geoid": "0200"
                 ,"missed_votes_pct": 7.97,
-                "votes_with_party_pct": 88.42
+                "votes_with_party_pct": 88.58
               },
                           {
                 "id": "Y000031",
@@ -20696,7 +20698,7 @@ var data = {
                 "total_votes": 550,
                 "missed_votes": 177,
                 "total_present": 0,
-                "last_updated": "2018-07-08 18:12:15 -0400",
+                "last_updated": "2019-04-08 11:02:26 -0400",
                 "ocd_id": "ocd-division/country:us/state:fl/cd:13",
                 "office": null,
                 "phone": null,
@@ -20706,7 +20708,7 @@ var data = {
                 "at_large": false,
                 "geoid": "1213"
                 ,"missed_votes_pct": 32.18,
-                "votes_with_party_pct": 91.15
+                "votes_with_party_pct": 91.40
               }
             ]
      }
