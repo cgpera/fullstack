@@ -1,4 +1,4 @@
-var data = {
+/*var data = {
   "status":"OK",
   "copyright":" Copyright (c) 2019 Pro Publica Inc. All Rights Reserved.",
   "results":[
@@ -4843,7 +4843,7 @@ var data = {
             ]
      }
   ]
-}
+}*/
 /*var encab = '<table id="senate-data">' +
   '<thead>' + '<tr>' + '<th scope="col">Order</th>' +
   '<th scope="col" colspan="1">Name</th>' +
@@ -4867,13 +4867,15 @@ document.getElementById("senate-data").innerHTML += '<tbody>'
 // nuevo
 //document.getElementById("senate-data").innerHTML += data.results[0].members.map(show_array (arreglo, indice))
 //require("./data.js")
-
-function show_array(array) { 
+var moduleData=require("./pro-congress-113-senate")
+var data=moduleData.data
+console.log(data)
+/*function show_array(array) { */
   //return array.map(`<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a>
   //</td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>`)
-  return array.map(`<tr><td> 1 </td> <td> <a href= ${array.url}> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a>
+  /*return array.map(`<tr><td> 1 </td> <td> <a href= ${array.url}> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a>
   </td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>`)
-}
+}*/
 
-var nuevo_arreglo = show_array(data.results[0].members)
-console.log(nuevo_arreglo)
+//var nuevo_arreglo = show_array(data.results[0].members)
+console.log(data.results[0].members)
