@@ -26,49 +26,46 @@ document.getElementById("senate-data").innerHTML += '<tbody>'
 
 var miembros = data.results[0].members
 
-var checkedBoxes = document.querySelectorAll('input[name=party]:checked');
-var partido = Array.from(checkedBoxes).map(element => element.value)
-console.log(partido)
+//var checkedBoxes = document.querySelectorAll('input[name=party]:checked');
+//var partido = Array.from(checkedBoxes).map(element => element.value)
+
+// miembros: array de senadores
+// partido: array de partidos posibles
+
 document.getElementById("filtro").addEventListener("change", filtByParty)
-//document.getElementById("filtro").onchange = filtByParty()
-/*function filtByParty() {
-  for (var i = 0; i < partido.length; i++) {
-    //filtrar array por partido
-    var result = miembros.filter((array) => array.party == partido[i])
-    //arrayresultado = arrayresultado.concat(arrayfiltrado)
-  }
-*/
-
-/*function filtByParty() {
-  var temparray = []
-  for (var i = 0; i < miembros.length; i++) {
-    for (var j = 0; j < partido.length; j++) {
-      console.log(miembros[i].party, partido[j])
-      if (miembros[i].party == partido[j]) {
-        temparray.push(miembros[i])
-        break;
-        console.log(temparray)
-      }
-      else {
-        console.log(temparray)
-        continue
-      }
-//      return temparray
-      //})
-    }
-  }
-  console.log(temparray)
-}
-*/
-
+var arrayfinal = []
 function filtByParty() {
-  var temparray = []
-  for (var i = 0; i < partido.length; i++) {
-    temparray.push(miembros.filter(miembro => { miembro.party == partido[i]; console.log(miembro.party) }))
+  var checkedBoxes = document.querySelectorAll('input[name=party]:checked');
+  var partido = Array.from(checkedBoxes).map(element => element.value)
+  for (i = 0; i < partido.length; i++) {
+    // si miembros[i].party 
+    //console.log(miembros.map(element => (element.party == partido[i])?element:null))
+    var arrayaux = miembros.map(element => (element.party == partido[i])?element:null)
+    var arraysinnull = arrayaux.filter(Boolean)
+    console.log(arraysinnull)
   }
-  console.log(temparray)
+  arrayfinal = arraysinnull
 }
 
-data.results[0].members.map(function (array, index) { document.getElementById("senate-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
+/*var busqueda = document.getElementById('filtro');
+
+var table = document.getElementById("senate-data").tBodies[0];
+
+    buscaTabla = function(){
+      texto = busqueda.value.toLowerCase();
+      var r=0;
+      while(row = table.rows[r++])
+      {
+        if ( row.innerText.toLowerCase().indexOf(texto) !== -1 )
+          row.style.display = null;
+        else
+          row.style.display = 'none';
+      }
+    }
+
+    busqueda.addEventListener('keyup', buscaTabla);
+*/
+
+arrayfinal.map(function (array, index) { document.getElementById("senate-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
 //  data.results[0].members.map(function (array, index) { document.getElementById("senate-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
 document.getElementById("senate-data").innerHTML += pie
