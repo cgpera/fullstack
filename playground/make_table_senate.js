@@ -33,20 +33,20 @@ var miembros = data.results[0].members
 // partido: array de partidos posibles
 
 document.getElementById("filtro").addEventListener("change", filtByParty)
-var arrayfinal = []
+var arrayaux = []
 function filtByParty() {
   var checkedBoxes = document.querySelectorAll('input[name=party]:checked');
   var partido = Array.from(checkedBoxes).map(element => element.value)
+  
   for (i = 0; i < partido.length; i++) {
-    // si miembros[i].party 
-    //console.log(miembros.map(element => (element.party == partido[i])?element:null))
-    var arrayaux = miembros.map(element => (element.party == partido[i])?element:null)
-    var arraysinnull = arrayaux.filter(Boolean)
-    console.log(arraysinnull)
-  }
-  arrayfinal = arraysinnull
-}
+    var arrayaux = miembros.map(element => (element.party === partido[i]) ? element : null)
 
+    //    var arraysinnull = arrayaux.filter(Boolean)
+    //    console.log("sin null", arraysinnull)
+    //  arrayfinal = arraysinnull
+    //  console.log("arrayfinal", arrayfinal)
+  }
+}
 /*var busqueda = document.getElementById('filtro');
 
 var table = document.getElementById("senate-data").tBodies[0];
@@ -66,6 +66,6 @@ var table = document.getElementById("senate-data").tBodies[0];
     busqueda.addEventListener('keyup', buscaTabla);
 */
 
-arrayfinal.map(function (array, index) { document.getElementById("senate-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
+miembros.map(function (array, index) { document.getElementById("senate-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
 //  data.results[0].members.map(function (array, index) { document.getElementById("senate-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
 document.getElementById("senate-data").innerHTML += pie
