@@ -113,7 +113,7 @@ function unicos(array) {
   var lst= []
   console.log(lst)
   array.sort()
-  for(var i = 0; i < array.length; i++) {
+  for(var i = 0; i < array.length-1; i++) {
     if(array[i] !== array[i+1]) {
       if((i+1) !== array.length) { // último elemento, si no crea un elemento nulo
         lst.push(array[i+1])
@@ -133,6 +133,27 @@ var set_array = unicos(dup)
 console.log("arreglo original", arreglo)
 console.log("array de elementos duplicados", dup)
 console.log("array de elementos duplicados únicos", set_array)
+
+function unicos2(array) {
+  var lst= []
+  array.sort()
+  for(var i = 1; i <= array.length; i++) {
+    if(array[i-1] !== array[i]) {
+//      if((i+1) !== array.length) { // último elemento, si no crea un elemento nulo
+        lst.push(array[i-1])
+//      }
+//      console.log(lst)
+    }
+//    else {
+//      lst.push(array[i])
+//      console.log(lst)
+//    }
+  }
+  return lst
+}
+
+
+console.log("unicos 2", unicos2(arreglo))
 
 
 // ej 7

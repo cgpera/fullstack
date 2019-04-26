@@ -1,0 +1,21 @@
+.data {
+  clear: both;
+  width: 100%;
+}
+
+#senate-data {
+  border-collapse: collapse;
+}
+
+#senate-data th, td {
+  padding: 10px 15px;
+}
+
+header{
+  margin: 10px 15px;
+  position: relative;
+}
+
+div {
+  margin-left: 15px;
+}

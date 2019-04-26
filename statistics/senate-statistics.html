@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Statistics</title>
+</head>
+
+<body>
+  <h1>Estadisticas</h1>
+  <script src="../javascript/pro-congress-113-senate.js"></script>
+  <script>
+    var miembros = data.results[0].members
+    var arrayaux = miembros.map(element => element.party)
+    let uniques = (names) => names.filter((el, idx) => names.indexOf(el) === idx)
+    var party = uniques(arrayaux)
+    //    console.log(party, party.length)
+
+    var mem_party = []
+    for (i = 0; i < party.length; i++) {
+      //      console.log("cons", miembros.filter(el => el.party == party[i]))
+      mem_party.push(miembros.filter(el => el.party == party[i]))
+    }
+    // qué hace la línea siguiente?
+    mem_party.forEach(element => element.length)
+    console.log(mem_party)
+</script>
+</body>
+
+</html>
