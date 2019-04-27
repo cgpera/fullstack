@@ -16,17 +16,40 @@
     var arrayaux = miembros.map(element => element.party)
     let uniques = (names) => names.filter((el, idx) => names.indexOf(el) === idx)
     var party = uniques(arrayaux)
-    //    console.log(party, party.length)
-
     var mem_party = []
     for (i = 0; i < party.length; i++) {
       //      console.log("cons", miembros.filter(el => el.party == party[i]))
       mem_party.push(miembros.filter(el => el.party == party[i]))
+      /*mem_prom = mem_party.reduce(suma) / mem_party[i].length */
     }
-    // qué hace la línea siguiente?
+
+    //console.log(mem_party, typeof (mem_party))
+
+    mem_party.forEach((element, index) => {
+      //  var summ = element.reduce(suma)
+      console.log(element[index])
+//      Array.from(element.votes_with_party_pct).reduce(suma)
+//      console.log(Array.from(element))
+    })
+
+
+    /*for (i = 0; i < mem_party.length; i++) {
+      sum_votos = mem_party[i].reduce(suma, 0)
+      console.log(sum_votos)
+      prom = sum_votos / mem_party[i].length
+      console.log(prom)
+    }*/
+
+    function suma(el) {
+      let total = 0
+      console.log(total + el)
+      return total + el
+    }
     mem_party.forEach(element => element.length)
-    console.log(mem_party)
-</script>
+    var mem_pct = mem_party.map(el => el.votes_with_party_pct)
+
+  //  console.log(mem_party[0][0].votes_with_party_pct)
+  </script>
 </body>
 
 </html>
