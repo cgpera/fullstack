@@ -23,15 +23,7 @@
       /*mem_prom = mem_party.reduce(suma) / mem_party[i].length */
     }
 
-    //console.log(mem_party, typeof (mem_party))
-
-    mem_party.forEach((element, index) => {
-      //  var summ = element.reduce(suma)
-      console.log(element[index])
-//      Array.from(element.votes_with_party_pct).reduce(suma)
-//      console.log(Array.from(element))
-    })
-
+    //    console.log(mem_party, typeof (mem_party))
 
     /*for (i = 0; i < mem_party.length; i++) {
       sum_votos = mem_party[i].reduce(suma, 0)
@@ -45,10 +37,20 @@
       console.log(total + el)
       return total + el
     }
-    mem_party.forEach(element => element.length)
-    var mem_pct = mem_party.map(el => el.votes_with_party_pct)
 
-  //  console.log(mem_party[0][0].votes_with_party_pct)
+    mem_party.forEach(element => prom(element))
+
+    function prom(el) {
+      let suma = 0
+      //    el.forEach((ele, i) => console.log(ele.votes_with_party_pct, i))
+      for (let index = 0; index < el.length; index++) {
+        //      console.log(el[index])
+        suma += el[index].votes_with_party_pct;
+      }
+      console.log(suma / el.length)
+      return suma / el.length
+    }
+
   </script>
 </body>
 
