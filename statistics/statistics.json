@@ -4,12 +4,13 @@
   "number of senators": 105,
   "statistics": 
   {
-    "data": 
+    "data": [
     {
       "party_name": "",
       "total_members": 0,
       "members": []
-    },
+    }
+  ],
     "Less Loyalty": [],
     "More Loyalty": [],
     "Least Engaged": [],

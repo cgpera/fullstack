@@ -11,47 +11,7 @@
 <body>
   <h1>Estadisticas</h1>
   <script src="../javascript/pro-congress-113-senate.js"></script>
-  <script>
-    var miembros = data.results[0].members
-    var arrayaux = miembros.map(element => element.party)
-    let uniques = (names) => names.filter((el, idx) => names.indexOf(el) === idx)
-    var party = uniques(arrayaux)
-    var mem_party = []
-    for (i = 0; i < party.length; i++) {
-      //      console.log("cons", miembros.filter(el => el.party == party[i]))
-      mem_party.push(miembros.filter(el => el.party == party[i]))
-      /*mem_prom = mem_party.reduce(suma) / mem_party[i].length */
-    }
-
-    //    console.log(mem_party, typeof (mem_party))
-
-    /*for (i = 0; i < mem_party.length; i++) {
-      sum_votos = mem_party[i].reduce(suma, 0)
-      console.log(sum_votos)
-      prom = sum_votos / mem_party[i].length
-      console.log(prom)
-    }*/
-
-    function suma(el) {
-      let total = 0
-      console.log(total + el)
-      return total + el
-    }
-
-    mem_party.forEach(element => prom(element))
-
-    function prom(el) {
-      let suma = 0
-      //    el.forEach((ele, i) => console.log(ele.votes_with_party_pct, i))
-      for (let index = 0; index < el.length; index++) {
-        //      console.log(el[index])
-        suma += el[index].votes_with_party_pct;
-      }
-      console.log(suma / el.length)
-      return suma / el.length
-    }
-
-  </script>
+  <script src="mk_stat.js"></script>
 </body>
 
 </html>
