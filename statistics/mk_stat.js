@@ -2,15 +2,15 @@ var json_stat = {
   "congress": "113",
   "chamber": "Senate",
   "number of senators": 105,
-  "statistics": 
+  "statistics":
   {
-    "datos": [
-    {
-      "party_name": "",
-      "total_members": 0,
-      "members": []
-    }
-  ],
+    "datos": [],
+    /*    {
+          "party_name": "",
+          "total_members": 0,
+          "members": []
+        }
+      ],*/
     "Less Loyalty": [],
     "More Loyalty": [],
     "Least Engaged": [],
@@ -24,39 +24,43 @@ var arrayaux = miembros.map(element => element.party)
 let uniques = (names) => names.filter((el, idx) => names.indexOf(el) === idx)
 var party = uniques(arrayaux) // cantidad e inicial de partidos representados
 
-console.log(json_stat.statistics.datos[0])
 var mem_party = []
 for (i = 0; i < party.length; i++) {
-  //      console.log("cons", miembros.filter(el => el.party == party[i]))
-//  json_stat.statistics.datos[i].party_name = party[i]
-//  json_stat.statistics.datos[i].total_members = party.length
   mem_party.push(miembros.filter(el => el.party == party[i]))
-
-  /*mem_prom = mem_party.reduce(suma) / mem_party[i].length */
 }
 console.log("mem_party (array de congresistas ordenados por partido ", mem_party)
 //console.log("Inicial del partido: ", json_stat.statistics.datos)
 //console.log("json: ", json_stat.statistics.datos.party_name, json_stat.statistics.datos.members)
+var obj_datos = {
+  "party_name": "",
+  "total_members": 0,
+  "avg_votes": 0,
+  "Less Loyalty": [],
+  "More Loyalty": [],
+  "Least Engaged": [],
+  "Most Engaged": [],
+  "members": []
+}
 
-party.forEach((el, index) => console.log(json_stat.statistics.datos[index]))
+//party.forEach((el, index) => console.log("json", json_stat.statistics.datos))
+console.log("longitud de arrays: ", party.length, mem_party.length)
+//document.getElementById("datahtml").innerHTML = ""
+for (i = 0; i < mem_party.length; i++) {
+  obj_datos.party_name = mem_party[i][0].party
 
-mem_party.forEach(el => console.log(el))
-console.log(party.length)
-  //      console.log("cons", miembros.filter(el => el.party == party[i]))
-//  json_stat.statistics.datos[i].party_name = party[i]
-//  json_stat.statistics.datos[i].total_members = party.length
-//  mem_party.push(miembros.filter(el => el.party == party[i]))
+  for (j = 0; j < mem_party[i].length; j++) {
+    //    console.log(mem_party[i][j].party)
+    //    obj_datos.party_name = mem_party[i][j].party
+    obj_datos.members[j] = mem_party[i][j]
+//    console.log(obj_datos.members[j]) //despues descomentar
+  }
+  obj_datos.total_members = mem_party[i].length
+  ten_pct = Math.round( obj_datos.total_members / 10 )
+  console.log(obj_datos.total_members, ten_pct)
+  document.getElementById("datahtml").innerHTML += "<p>" + obj_datos.total_members + "</p>"
+  document.getElementById("canthtml").innerHTML += "<p>" + obj_datos.party_name + "</p>"
+}
 
-  /*mem_prom = mem_party.reduce(suma) / mem_party[i].length */
-
-//    console.log(mem_party, typeof (mem_party))
-
-/*for (i = 0; i < mem_party.length; i++) {
-  sum_votos = mem_party[i].reduce(suma, 0)
-  console.log(sum_votos)
-  prom = sum_votos / mem_party[i].length
-  console.log(prom)
-}*/
 
 function suma(el) {
   let total = 0
@@ -72,15 +76,19 @@ function prom(el) {
   for (let index = 0; index < el.length; index++) {
 //    console.log(el[index])
     suma += el[index].votes_with_party_pct;
-//    json_stat.statistics.data.party_name = el[index].party
-
-    //    json_stat.statistics.data.members = el[index]
-
-//    json_stat.statistics.data.members.push(el[index])
-
   }
-//  console.log("json en promedio: ", json_stat.statistics.data.party_name, json_stat.statistics.data.members)
+  //  console.log("json en promedio: ", json_stat.statistics.data.party_name, json_stat.statistics.data.members)
   //  console.log(json_stat.statistics.data.prom = suma / el.length) // no existe en el json
-//  console.log("json: ", json_stat.chamber, json_stat.statistics.data.members, json_stat.statistics.data.party_name)
+  //  console.log("json: ", json_stat.chamber, json_stat.statistics.data.members, json_stat.statistics.data.party_name)
+  obj_datos.avg_votes = suma / el.length
+  document.getElementById("promhtml").innerHTML += "<p>" + obj_datos.avg_votes + "</p>"
   return suma / el.length
+}
+
+mem_party.forEach((element, id, array) => less(element, id, array))
+
+function less(el, index, arr) {
+  //  ten_pct = Math.trunc(arr.length / 10)
+  ten_pct = arr.length
+  console.log(ten_pct)
 }
