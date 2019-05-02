@@ -40,6 +40,7 @@ var less_vote_w_party = []
 
 var array_less = mem_votes_w_party.slice(0, Math.round(mem_votes_w_party.length/10))
 var indice = Math.round(mem_votes_w_party.length/10)
+console.log(indice)
 valor_limite = array_less[indice-1][0] //ultimo elemento, para saber si tengo que seguir incorporando elemento con el mismo valor
 
 while(mem_votes_w_party[indice][0] === valor_limite && indice < mem_votes_w_party.length) {
