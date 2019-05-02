@@ -1,21 +1,12 @@
-var json_stat = {
-  "congress": "113",
-  "chamber": "Senate",
-  "number of senators": 105,
-  "statistics":
-  {
-    "datos": [],
-    /*    {
-          "party_name": "",
-          "total_members": 0,
-          "members": []
-        }
-      ],*/
-    "Less Loyalty": [],
-    "More Loyalty": [],
-    "Least Engaged": [],
-    "Most Engaged": []
-  }
+var obj_datos = {
+  "party_name": "",
+  "total_members": 0,
+  "avg_votes": 0,
+  "less_loyalty": [],
+  "more_loyalty": [],
+  "least_engaged": [],
+  "most_engaged": [],
+  "members": []
 }
 
 // obtener lista de partidos y miembros de c/u
@@ -28,23 +19,38 @@ var mem_party = []
 for (i = 0; i < party.length; i++) {
   mem_party.push(miembros.filter(el => el.party == party[i]))
 }
-console.log("mem_party (array de congresistas ordenados por partido ", mem_party)
-//console.log("Inicial del partido: ", json_stat.statistics.datos)
-//console.log("json: ", json_stat.statistics.datos.party_name, json_stat.statistics.datos.members)
-var obj_datos = {
-  "party_name": "",
-  "total_members": 0,
-  "avg_votes": 0,
-  "Less Loyalty": [],
-  "More Loyalty": [],
-  "Least Engaged": [],
-  "Most Engaged": [],
-  "members": []
+console.log("mem_party (congresistas por partido ", mem_party)
+var mem_votes_w_party = miembros.map(el => [el.votes_with_party_pct, `${el.first_name} ${el.last_name}`]).sort()
+// no ordena correctamente, ordena según strings
+//console.log(mem_votes_w_party)
+
+function sort_num (a, b) {
+  if (a > b) {
+    return 1;
+  }
+  if (a < b) {
+    return -1;
+  }
+  return 0;
 }
 
-//party.forEach((el, index) => console.log("json", json_stat.statistics.datos))
-console.log("longitud de arrays: ", party.length, mem_party.length)
-//document.getElementById("datahtml").innerHTML = ""
+// obtener array de los que menos votan con su partido:
+var less_vote_w_party = []
+//mem_votes_w_party.forEach(less_loyals)
+
+var array_less = mem_votes_w_party.slice(0, Math.round(mem_votes_w_party.length/10))
+var indice = Math.round(mem_votes_w_party.length/10)
+valor_limite = array_less[indice-1][0] //ultimo elemento, para saber si tengo que seguir incorporando elemento con el mismo valor
+
+while(mem_votes_w_party[indice][0] === valor_limite && indice < mem_votes_w_party.length) {
+  array_less.push(mem_votes_w_party[indice])
+  indice++
+}
+
+obj_datos.less_loyalty = array_less
+console.log(obj_datos.less_loyalty)
+
+
 for (i = 0; i < mem_party.length; i++) {
   obj_datos.party_name = mem_party[i][0].party
 
@@ -54,14 +60,15 @@ for (i = 0; i < mem_party.length; i++) {
     obj_datos.members[j] = mem_party[i][j]
 //    console.log(obj_datos.members[j]) //despues descomentar
   }
+  // tomado por partido, miembros que menos votan, creo que hay que tomarlo en general
   obj_datos.total_members = mem_party[i].length
-  ten_pct = Math.round( obj_datos.total_members / 10 )
-  console.log(obj_datos.total_members, ten_pct)
+  //ten_pct = Math.round( obj_datos.total_members / 10 )
+  console.log(obj_datos.total_members)
   document.getElementById("datahtml").innerHTML += "<p>" + obj_datos.total_members + "</p>"
   document.getElementById("canthtml").innerHTML += "<p>" + obj_datos.party_name + "</p>"
 }
 
-
+// no la uso, tendría que usar forEach()
 function suma(el) {
   let total = 0
   console.log(total + el)
