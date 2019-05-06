@@ -48,7 +48,7 @@ while(mem_votes_w_party[indice][0] === valor_inf && indice < mem_votes_w_party.l
 // dibujo tabla de los que menos votan con el partido
 obj_datos.less_engaged = array_less
 console.log(obj_datos.less_engaged)
-document.getElementById("less_engaged").innerHTML = '<thead> <tr><th scope="col">Num</th> <th scope="col" colspan=1>Names</th>' + 
+document.getElementById("less_engaged").innerHTML += '<thead> <tr><th scope="col">Num</th> <th scope="col" colspan=1>Names</th>' + 
 '<th scope="col">% Missed Votes</th> <th scope="col">Missed Votes</th></tr></thead><tbody>'
 console.log("array_less", array_less)
 array_less.map(function (el, index, array) { document.getElementById("less_engaged").innerHTML += `<tr><td> ${index+1} </td> <td> ${array[index][2]} ${array[index][3]}</td><td> ${array[index][0]}</td><td> ${array[index][1]}</td></tr>` })
