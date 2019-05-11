@@ -1,13 +1,9 @@
 // miembros: array de senadores
 // partido: array de partidos posibles
 
-var encab = '<table id="senate-data">' +
-  '<thead>' + '<tr>' + '<th scope="col">Order</th>' +
-  '<th scope="col" colspan="1">Name</th>' +
-  '<th scope="col">Party</th>' +
-  '<th scope="col">State</th>' +
-  '<th scope="col">Seniority</th>' +
-  '<th scope="col">Votes w/Party</th>' + '</tr>' + '</thead>' + '<tbody>'
+var encab = '<thead class="thead-dark"><tr><th scope="col">Order</th><th scope="col" colspan="1">Name</th>' +
+  '<th scope="col">Party</th><th scope="col">State</th><th scope="col">Seniority</th>' +
+  '<th scope="col">Votes w/Party</th></tr></thead><tbody>'
 var pie = '</tbody></table>'
 
 var miembros = data.results[0].members

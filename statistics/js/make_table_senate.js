@@ -1,26 +1,26 @@
-// miembros: array de congresistas
+// miembros: array de senadores
 // partido: array de partidos posibles
 
 var encab = '<thead class="thead-dark"><tr><th scope="col">Order</th><th scope="col" colspan="1">Name</th>' +
   '<th scope="col">Party</th><th scope="col">State</th><th scope="col">Seniority</th>' +
-  '<th scope="col">Votes w/Party</th>' + '</tr>' + '</thead>' + '<tbody>'
+  '<th scope="col">Votes w/Party</th></tr></thead><tbody>'
 var pie = '</tbody></table>'
 
 var miembros = data.results[0].members
 
-document.getElementById("house-data").innerHTML = encab
+document.getElementById("senate-data").innerHTML = encab
 
 // visualizo todos los miembros en el html
-miembros.map(function (array, index) { document.getElementById("house-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
+miembros.map(function (array, index) { document.getElementById("senate-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
 
 document.getElementById("state").addEventListener("change", filter)
 document.getElementById("filtro").addEventListener("change", filter)
 
 // HACE LA LISTA DE ESTADOS
 var estados = Array.from(miembros).map(element => element.state)
-estados.sort()
 //var filtrados = estados.filter((element, index) => (index %2 !== 0)) // hacer función que devuelva únicos
 let x = (names) => names.filter((v, i) => names.indexOf(v) === i)
+estados.sort()
 var filtrados = x(estados)
 filtrados.unshift("All")
 document.getElementById("state").innerHTML = ""
@@ -34,8 +34,8 @@ function filter() {
   var checkedBoxes = document.querySelectorAll('input[name=party]:checked');
   var partido = Array.from(checkedBoxes).map(element => element.value)
   var selectedState = document.querySelector("#state").value
-  document.getElementById("house-data").innerHTML = ""
-  document.getElementById("house-data").innerHTML = encab
+  document.getElementById("senate-data").innerHTML = ""
+  document.getElementById("senate-data").innerHTML = encab
 
   for (i = 0; i < partido.length; i++) {
     arrayaux = miembros.filter(element => element.party === partido[i])
@@ -57,8 +57,8 @@ function filter() {
   else {
     arrayst = arraytemp.filter(element => element.state === selectedState)
   }
-  arrayst.forEach(function (array, index) { document.getElementById("house-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
-  //render(arrayst, "house-data") falta acomodar las filas
+  arrayst.forEach(function (array, index) { document.getElementById("senate-data").innerHTML += `<tr><td> ${index + 1} </td> <td> <a href= ${array.url} target='_blank'> ${array.first_name} ${array.middle_name || ''} ${array.last_name} </a></td><td> ${array.party} </td><td> ${array.state} </td><td> ${array.seniority} </td><td> ${array.votes_with_party_pct} % </td></tr>` })
+  //render(arrayst, "senate-data") //falta acomodar las filas
 }
 
 function render(array, filtroHTML) {

@@ -8,19 +8,20 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--<link rel="stylesheet" href="styles/main.css">-->
+  <link rel="stylesheet" href="styles/main.css">
 
   <title>Statistics</title>
 </head>
 
 
-<body>
-  <header style="margin-top: 10px; position: relative;"> 
-    <div class="container list-inline">
-      <img class="img-fluid list-inline-item"
-        src="https://2.bp.blogspot.com/-7TRil0yuMIg/V8HENbmDjdI/AAAAAAABVY0/UQCHNzKNESYUtrXmNqw6R5qhz6UNxd2nACLcB/s1600/DISCURSO%2BDE%2BTIBERIO%2BEN%2BEL%2BSENADO%2BEXPRESANDO%2BC%25C3%2593MO%2BDESEABA%2BSER%2BRECORDADO.%2BBLOG%2BIMPERIO%2BROMANO%2BDE%2BXAVIER%2BVALDERAS.%2BEMPERADOR%2BTIBERIO.%2BTIBERIO%2BCLAUDIO%2BNER%25C3%2593N%2B%25281%2529.jpeg"
-        alt="logo" width="300px">
-      <h1 class="list-inline-item font-italic text-center" style="margin-left: 10px">Transparent Government In Fact</h1>
+<body class="container">
+  <header style="position:relative;">
+    <div class="encabezado list-inline">
+      <a href="https://www.whitehouse.gov"><img class="imagen img-fluid list-inline-item"
+          src="https://2.bp.blogspot.com/-7TRil0yuMIg/V8HENbmDjdI/AAAAAAABVY0/UQCHNzKNESYUtrXmNqw6R5qhz6UNxd2nACLcB/s1600/DISCURSO%2BDE%2BTIBERIO%2BEN%2BEL%2BSENADO%2BEXPRESANDO%2BC%25C3%2593MO%2BDESEABA%2BSER%2BRECORDADO.%2BBLOG%2BIMPERIO%2BROMANO%2BDE%2BXAVIER%2BVALDERAS.%2BEMPERADOR%2BTIBERIO.%2BTIBERIO%2BCLAUDIO%2BNER%25C3%2593N%2B%25281%2529.jpeg"
+          alt="logo" width="400px" style="margin: 5px;">
+        <h1 class="encabezado list-inline-item"><em> Transparent Government In Fact</em></h1>
+      </a>
     </div>
   </header>
 
@@ -45,7 +46,6 @@
           <a class="dropdown-item" href="./senate-statistics-attendance.html">Senate</a>
         </div>
       </li>
-
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Loyalty</a>
         <div class="dropdown-menu">
@@ -53,10 +53,8 @@
           <a class="dropdown-item" href="./senate-statistics-loyalty.html">Senate</a>
         </div>
       </li>
-
     </ul>
   </nav>
-
 
   <h1>Estadisticas</h1>
   <div class="row">
@@ -67,19 +65,19 @@
       laborum fuga.</p>
     </div>
     <div class="col-xl-4">
-      <h4>Senate at a Glance</h4>
-      <table id="datahtml"></table>
+      <h4 style="text-align:center;">Senate at a Glance</h4>
+      <table id="datahtml" class="table table-hover"></table>
     </div>
   </div>
   <p></p>
   <div class="row">
-    <div class="col-x-4" style="margin-left:40px">
-      <h4> Senators voting least w/Party</h4>
-      <table id="less_voted" class="thead-light"></table>
+    <div class="col-xl-6">
+      <h4 style="text-align:center;"> Senators voting least w/Party</h4>
+      <table id="less_voted" class="table table-hover"></table>
     </div>
-    <div class="col-x-4" style="margin-left:40px">
-      <h4> Senators voting most w/Party</h4>
-      <table id="most_voted" class="thead-light"></table>
+    <div class="col-xl-6">
+      <h4 style="text-align:center;"> Senators voting most w/Party</h4>
+      <table id="most_voted" class="table table-hover"></table>
     </div>
   </div>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

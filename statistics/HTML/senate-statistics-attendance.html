@@ -3,13 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/main.css">
-  <title>Senate</title>
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <title>Statistics</title>
 </head>
 
 <body class="container">
@@ -24,65 +25,63 @@
   </header>
 
   <nav class="navbar navbar-expand-sm bg-dark">
-    <!--<ul class="nav nav-tabs">-->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="home.html">Home</a>
+        <a class="nav-link active" href="../HTML/home.html">Home</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Congress 113</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="house.html">House</a>
-          <a class="dropdown-item" href="senate.html">Senate</a>
+          <a class="dropdown-item" href="../HTML/house.html">House</a>
+          <a class="dropdown-item" href="../HTML/senate.html">Senate</a>
         </div>
       </li>
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Attendance</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="./house-statistics-attendance.html">House</a>
-          <a class="dropdown-item" href="./senate-statistics-attendance.html">Senate</a>
+          <a class="dropdown-item" href="../HTML/house-statistics-attendance.html">House</a>
+          <a class="dropdown-item" href="../HTML/senate-statistics-attendance.html">Senate</a>
         </div>
       </li>
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Loyalty</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="./house-statistics-loyalty.html">House</a>
-          <a class="dropdown-item" href="./senate-statistics-loyalty.html">Senate</a>
+          <a class="dropdown-item" href="../HTML/house-statistics-loyalty.html">House</a>
+          <a class="dropdown-item" href="../HTML/senate-statistics-loyalty.html">Senate</a>
         </div>
       </li>
+
     </ul>
   </nav>
 
-  <!--Table container-->
-  <div>
-    <h2>Senators</h2>
-    <p>First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S.
-      Constitution. Each state is represented by two senators, regardless of population, who serve staggered six-year
-      terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as a
-      precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries, federal
-      judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other federal
-      uniformed officers, as well as trial of federal officials impeached by the House.</p>
 
-    <form action="#" class="row">
-      <!--<div style="margin-left:15px; width: 60%">-->
-
-      <div class="col-8" id="filtro">
-        <label for="party">Filter by Party: </label>
-        <input type="checkbox" name="party" value="D" checked>Democrats
-        <input type="checkbox" name="party" value="R" checked>Republicans
-        <input type="checkbox" name="party" value="I" checked>Independents
-      </div>
-      <div class="col-4">
-        <label for="states">States</label>
-        <select name="state" id="state">
-          <!--<option value="All">All</option>-->
-        </select>
-
-      </div>
+<!--<body style="margin-left: 20px;">-->
+  <h1>Estadisticas</h1>
+  <div class="row">
+    <div class="col-xl-7">
+        <h4>Summary</h4>
+      <p> ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae necessitatibus aut velit, blanditiis
+      facilis corrupti quo neque explicabo aperiam repellendus molestiae asperiores a suscipit sint, libero laudantium
+      laborum fuga.</p>
+    </div>
+    <div class="col-xl-4">
+      <h4>Senate at a Glance</h4>
+      <table id="datahtml"></table>
+    </div>
   </div>
-  </form>
-
-  <table id="senate-data" class="table table-hover"></table>
+  <p></p>
+  <div class="row">
+    <div class="col-x-4" style="margin-left:20px">
+      <h4> Senator least Engaged</h4>
+      <table id="less_engaged" class="table table-hover"></table>
+    </div>
+    <div class="col-x-4" style="margin-left:50px">
+      <h4> Senator most Engaged</h4>
+      <table id="most_engaged" class="table table-hover"></table>
+    </div>
+  </div>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -93,8 +92,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="pro-congress-113-senate.js"></script>
-  <script src="make_table_senate.js"></script>
+
+  <script src="../js/pro-congress-113-senate.js"></script>
+  <script src="../js/mk_stat.js"></script>
+  <script src="../js/mk_stat_attendance.js"></script>
 </body>
 
 </html>

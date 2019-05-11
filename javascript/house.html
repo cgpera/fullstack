@@ -8,17 +8,19 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
 
   <title>Congressmen</title>
 </head>
 
-<body>
-  <header style="margin-top: 10px; position: relative;"> 
-    <div class="container list-inline">
-      <img class="img-fluid list-inline-item"
-        src="https://2.bp.blogspot.com/-7TRil0yuMIg/V8HENbmDjdI/AAAAAAABVY0/UQCHNzKNESYUtrXmNqw6R5qhz6UNxd2nACLcB/s1600/DISCURSO%2BDE%2BTIBERIO%2BEN%2BEL%2BSENADO%2BEXPRESANDO%2BC%25C3%2593MO%2BDESEABA%2BSER%2BRECORDADO.%2BBLOG%2BIMPERIO%2BROMANO%2BDE%2BXAVIER%2BVALDERAS.%2BEMPERADOR%2BTIBERIO.%2BTIBERIO%2BCLAUDIO%2BNER%25C3%2593N%2B%25281%2529.jpeg"
-        alt="logo" width="300px">
-      <h1 class="list-inline-item font-italic text-center" style="margin-left: 10px">Transparent Government In Fact</h1>
+<body class="container">
+  <header style="position:relative;">
+    <div class="encabezado list-inline">
+      <a href="https://www.whitehouse.gov"><img class="imagen img-fluid list-inline-item"
+          src="https://2.bp.blogspot.com/-7TRil0yuMIg/V8HENbmDjdI/AAAAAAABVY0/UQCHNzKNESYUtrXmNqw6R5qhz6UNxd2nACLcB/s1600/DISCURSO%2BDE%2BTIBERIO%2BEN%2BEL%2BSENADO%2BEXPRESANDO%2BC%25C3%2593MO%2BDESEABA%2BSER%2BRECORDADO.%2BBLOG%2BIMPERIO%2BROMANO%2BDE%2BXAVIER%2BVALDERAS.%2BEMPERADOR%2BTIBERIO.%2BTIBERIO%2BCLAUDIO%2BNER%25C3%2593N%2B%25281%2529.jpeg"
+          alt="logo" width="400px" style="margin: 5px;">
+        <h1 class="encabezado list-inline-item"><em> Transparent Government In Fact</em></h1>
+      </a>
     </div>
   </header>
 
@@ -56,7 +58,7 @@
   </nav>
 
   <!--Table container-->
-  <div style="margin-left: 15px">
+  <div>
     <h2>Congressmen</h2>
     <p>The major power of the House is to pass federal legislation that affects the entire country, although its bills
       must also be passed by the Senate and further agreed to by the U.S. President before becoming law (unless both the
@@ -71,7 +73,7 @@
     <!--<div style="margin-left:15px; width: 60%">-->
 
     <div class="col-8" id="filtro">
-      <label for="party">Filter by Party: </label>
+      <label for="party" style="margin-left:15px;">Filter by Party: </label>
       <input type="checkbox" name="party" value="D" checked>Democrats
       <input type="checkbox" name="party" value="R" checked>Republicans
       <input type="checkbox" name="party" value="I" checked>Independents
@@ -86,7 +88,7 @@
     </div>
   </form>
 
-  <table id="house-data" class="table-hover" style="margin-left:15px; width: 100%"></table>
+  <table id="house-data" class="table table-hover"></table>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

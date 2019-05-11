@@ -3,12 +3,15 @@ var obj_datos = {
   "total_members": 0,
   "avg_votes": 0,
   "prom": 0,
-  "less_loyalty": [],
-  "more_loyalty": [],
-  "least_engaged": [],
-  "most_engaged": [],
   "members": []
 }
+var obj_estad = {
+"less_loyalty": [],
+"more_loyalty": [],
+"least_engaged": [],
+"most_engaged": []
+}
+
 
 // obtener lista de partidos y miembros de c/u
 var miembros = data.results[0].members
@@ -63,7 +66,7 @@ document.getElementById("most_voted").innerHTML += '</tbody></table>'
 console.log("array_most", array_most)
 */
 //tabla estadísticas
-document.getElementById("datahtml").innerHTML = '<thead> <tr><th scope="col">Number</th> <th scope="col">Party</th>' + 
+document.getElementById("datahtml").innerHTML = '<thead class="table"> <tr><th scope="col">Number</th> <th scope="col">Party</th>' + 
 '<th scope="col">Prom/Party</th></tr></thead><tbody>'
 for (i = 0; i < mem_party.length; i++) {
   obj_datos.party_name = mem_party[i][0].party

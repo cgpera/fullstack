@@ -1,26 +1,4 @@
-/*var obj_datos = {
-  "party_name": "",
-  "total_members": 0,
-  "avg_votes": 0,
-  "prom": 0,
-  "less_loyalty": [],
-  "more_loyalty": [],
-  "least_engaged": [],
-  "most_engaged": [],
-  "members": []
-}
 
-// obtener lista de partidos y miembros de c/u
-var miembros = data.results[0].members
-var arrayaux = miembros.map(element => element.party)
-let uniques = (names) => names.filter((el, idx) => names.indexOf(el) === idx)
-var party = uniques(arrayaux) // cantidad e inicial de partidos representados
-
-var mem_party = []
-for (i = 0; i < party.length; i++) {
-  mem_party.push(miembros.filter(el => el.party == party[i]))
-}
-*/
 var mem_votes_w_party = miembros.map(el => [el.missed_votes_pct, el.missed_votes, el.first_name, el.last_name]).sort(ordenar_num)
 
 function ordenar_num (a, b) {
@@ -74,37 +52,3 @@ document.getElementById("most_engaged").innerHTML = '<thead class="thead-light">
 array_most.map(function (el, index, array) { document.getElementById("most_engaged").innerHTML +=  `<tr><td> ${index+1} </td> <td> ${array[index][2]} ${array[index][3]}</td><td> ${array[index][0]}</td><td> ${array[index][1]}</td></tr>` })
 document.getElementById("most_engaged").innerHTML += '</tbody></table>'
 console.log("array_most", array_most)
-
-//tabla estadísticas
-/*document.getElementById("datahtml").innerHTML = '<thead> <tr><th scope="col">Number</th> <th scope="col">Party</th>' + 
-'<th scope="col">Prom/Party</th></tr></thead><tbody>'
-
-//console.log(mem_party.length)
-for (i = 0; i < mem_party.length; i++) {
-  obj_datos.party_name = mem_party[i][0].party
-  let summ = 0
-  for (j = 0; j < mem_party[i].length; j++) {
-    obj_datos.members[j] = mem_party[i][j]
-    summ += mem_party[i][j].votes_with_party_pct
-  }
-  obj_datos.total_members = mem_party[i].length
-  obj_datos.prom = summ /mem_party[i].length
-  document.getElementById("datahtml").innerHTML += "<tr> <td>" + obj_datos.total_members + "</td><td>" + obj_datos.party_name + "</td><td>" + obj_datos.prom.toFixed(4) + "</td></tr>"
-}
-document.getElementById("datahtml").innerHTML += '</tbody></table>'
-
-//console.log(mem_party[0])
-obj_datos.members = []
-for (i = 0; i < mem_party.length; i++) {
-  var sum = 0
-
-  mem_party[i].map(elem => sum += elem.votes_with_party_pct)
-  obj_datos.prom = sum / mem_party[i].length
-//  obj_datos.members = mem_party[i]
-  obj_datos.party_name = mem_party[i][0].party
-  obj_datos.total_members = mem_party[i].length
-  console.log
-  obj_datos.members.concat(mem_party[i])
-}
-console.log(obj_datos.prom, obj_datos.prom, obj_datos.members, obj_datos.party_name, obj_datos.total_members)
-*/
