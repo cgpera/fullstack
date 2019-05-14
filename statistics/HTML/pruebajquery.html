@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="fade">
+    <h2>Prueba de jQuery</h2>
+  </div>
+  <img src="senado.jpeg" alt="imagen" class="imagen">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script>
+    $(".fade").html("Me desaparezco!....").fadeOut(5000)
+    $(".fade").html("Acá de nuevo...").fadeIn(5000)
+    $(function() {
+      alert("Hola")
+    })
+    $('img').on('click', function() { window.open($(this).attr('src')) });
+  </script>
+</body>
+</html>

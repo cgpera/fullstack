@@ -1,6 +1,32 @@
 // miembros: array de senadores
 // partido: array de partidos posibles
 
+$function() {
+  
+  var data
+
+  $ajax({
+    beforeSend: function(xhr){
+      if(xhr.overrideMimeType) {
+        xhr.overrideMimeType("application/json")
+      }
+    }
+  })
+
+  function loadDataTable() {
+    $.getJson('datos/example.json')
+    .done(function(datos) {
+      data = datos
+    }).fail(function(){
+      $('#event').html('Sorry, no data')
+    })
+  }
+  loadDataTable()
+}
+
+
+
+
 var encab = '<thead class="thead-dark"><tr><th scope="col">Order</th><th scope="col" colspan="1">Name</th>' +
   '<th scope="col">Party</th><th scope="col">State</th><th scope="col">Seniority</th>' +
   '<th scope="col">Votes w/Party</th></tr></thead><tbody>'

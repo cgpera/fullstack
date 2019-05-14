@@ -71,8 +71,8 @@ function render(array, filtroHTML) {
     //  if (array.state == filtrados) {
     var s = document.getElementById(filtroHTML).appendChild(p)
     temp += s
-    console.log("s", s)
-    console.log("temp", temp)
+//    console.log("s", s)
+//    console.log("temp", temp)
     //  }
     //    return temp
   })

@@ -13,7 +13,6 @@
   <title>Statistics</title>
 </head>
 
-
 <body class="container">
   <header style="position:relative;">
     <div class="encabezado list-inline">
@@ -57,28 +56,30 @@
     </ul>
   </nav>
 
+
+  <!--<body style="margin-left: 20px;">-->
   <h1>Estadisticas</h1>
   <div class="row">
     <div class="col-xl-7">
-        <h4>Summary</h4>
+      <h4>Summary</h4>
       <p> ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae necessitatibus aut velit, blanditiis
-      facilis corrupti quo neque explicabo aperiam repellendus molestiae asperiores a suscipit sint, libero laudantium
-      laborum fuga.</p>
+        facilis corrupti quo neque explicabo aperiam repellendus molestiae asperiores a suscipit sint, libero laudantium
+        laborum fuga.</p>
     </div>
     <div class="col-xl-4">
-      <h4 style="text-align:center;">Senate at a Glance</h4>
-      <table id="datahtml" class="table table-hover"></table>
+      <h4>Senate at a Glance</h4>
+      <table id="datahtml"></table>
     </div>
   </div>
   <p></p>
   <div class="row">
-    <div class="col-xl-6">
-      <h4 style="text-align:center;"> Senators voting least w/Party</h4>
-      <table id="less_voted" class="table table-hover"></table>
+    <div class="col-x-4" style="margin-left:20px">
+      <h4> Senator least Engaged</h4>
+      <table id="less_engaged" class="table table-hover"></table>
     </div>
-    <div class="col-xl-6">
-      <h4 style="text-align:center;"> Senators voting most w/Party</h4>
-      <table id="most_voted" class="table table-hover"></table>
+    <div class="col-x-4" style="margin-left:50px">
+      <h4> Senator most Engaged</h4>
+      <table id="most_engaged" class="table table-hover"></table>
     </div>
   </div>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -92,9 +93,11 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-  <script src="../js/pro-congress-113-senate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<!--  <script src="../js/pro-congress-113-senate.js"></script>
   <script src="../js/mk_stat.js"></script>
-  <script src="../js/mk_stat_loyalty.js"></script>
+  <script src="../js/mk_stat_attendance.js"></script>-->
+  <script src="../js/mkStatAttendance.js"></script>
 </body>
 
 </html>
