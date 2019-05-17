@@ -1,103 +1,98 @@
+</html>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="../styles/main.css">
-
-  <title>Statistics</title>
+  <title>Senate Statistics Attendance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="container">
-  <header style="position:relative;">
-    <div class="encabezado list-inline">
-      <a href="https://www.whitehouse.gov"><img class="imagen img-fluid list-inline-item"
-          src="https://2.bp.blogspot.com/-7TRil0yuMIg/V8HENbmDjdI/AAAAAAABVY0/UQCHNzKNESYUtrXmNqw6R5qhz6UNxd2nACLcB/s1600/DISCURSO%2BDE%2BTIBERIO%2BEN%2BEL%2BSENADO%2BEXPRESANDO%2BC%25C3%2593MO%2BDESEABA%2BSER%2BRECORDADO.%2BBLOG%2BIMPERIO%2BROMANO%2BDE%2BXAVIER%2BVALDERAS.%2BEMPERADOR%2BTIBERIO.%2BTIBERIO%2BCLAUDIO%2BNER%25C3%2593N%2B%25281%2529.jpeg"
-          alt="logo" width="400px" style="margin: 5px;">
-        <h1 class="encabezado list-inline-item"><em> Transparent Government In Fact</em></h1>
-      </a>
-    </div>
-  </header>
-
-  <nav class="navbar navbar-expand-sm bg-dark">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" href="../HTML/home.html">Home</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Congress 113</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="../HTML/house.html">House</a>
-          <a class="dropdown-item" href="../HTML/senate.html">Senate</a>
-        </div>
-      </li>
-
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Attendance</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="../HTML/house-statistics-attendance.html">House</a>
-          <a class="dropdown-item" href="../HTML/senate-statistics-attendance.html">Senate</a>
-        </div>
-      </li>
-
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Loyalty</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="../HTML/house-statistics-loyalty.html">House</a>
-          <a class="dropdown-item" href="../HTML/senate-statistics-loyalty.html">Senate</a>
-        </div>
-      </li>
-
-    </ul>
-  </nav>
-
-
-  <!--<body style="margin-left: 20px;">-->
-  <h1>Estadisticas</h1>
-  <div class="row">
-    <div class="col-xl-7">
-      <h4>Summary</h4>
-      <p> ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae necessitatibus aut velit, blanditiis
-        facilis corrupti quo neque explicabo aperiam repellendus molestiae asperiores a suscipit sint, libero laudantium
-        laborum fuga.</p>
-    </div>
-    <div class="col-xl-4">
-      <h4>Senate at a Glance</h4>
-      <table id="datahtml"></table>
-    </div>
+<body>
+  <div class="container" id="app">
+<!--    <table class="table table-hover">
+      <tr>
+        <th>Name</th>
+        <th>Party</th>
+        <th>Rate</th>
+      </tr>
+      <tr v-for="miembro in miembros">
+        <td>{{`${miembro.first_name} ${miembro.last_name}`}}</td>
+        <td>{{miembro.last_name}}</td>
+        <td>{{miembro.party}}</td>
+      </tr>
+    </table>-->
+    <table>
+      <tr><th>Name</th><th>id</th><th>Votos</th></tr>
+      <tr v-for="least in leastEngagedMembers">
+        <td>{{ least }}</td>
+      </tr>
+    </table>
+    <p>{{ estadistica }}</p>
   </div>
-  <p></p>
-  <div class="row">
-    <div class="col-x-4" style="margin-left:20px">
-      <h4> Senator least Engaged</h4>
-      <table id="less_engaged" class="table table-hover"></table>
-    </div>
-    <div class="col-x-4" style="margin-left:50px">
-      <h4> Senator most Engaged</h4>
-      <table id="most_engaged" class="table table-hover"></table>
-    </div>
-  </div>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <p id="app2">hola {{ saludo }}</p>
+<!--  <div class="container" id="app2">
+    <table class="table table-hover">
+      <tr>
+        <th>Name</th>
+        <th>Party</th>
+        <th>Rate</th>
+      </tr>
+      <tr v-for="less in leastengaged">
+        <td>{{`${less.first_name} ${less.last_name}`}}</td>
+        <td>{{less.last_name}}</td>
+        <td>{{less.party}}</td>
+      </tr>
+    </table>
+  </div>-->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <!--<script src="../js/mkStat.js"></script>-->
+  <script>
+    const url = 'https://api.propublica.org/congress/v1/113/senate/members.json'
+    const init_str = {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-API-Key': 'L6x2Gbl9kawrKwFw4kQp75kCXLgCQokZEtDC1zFN',
+      },
+      mode: 'cors',
+    }
 
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<!--  <script src="../js/pro-congress-113-senate.js"></script>
-  <script src="../js/mk_stat.js"></script>
-  <script src="../js/mk_stat_attendance.js"></script>-->
-  <script src="../js/mkStatAttendance.js"></script>
+    new Vue({
+      el: '#app',
+      data: {
+        miembros: [],
+        leastEngagedMembers: []
+      },
+      computed: {
+        estadistica () {
+          a = this.miembros.reduce(suma, 0)
+          return a
+        },
+        least_engaged: function() {
+          console.log(miembros)
+          return leastEngagedMembers = this.miembros.filter(el => el.votes_with_party_pct)
+        }
+      },
+      created() {
+        fetch(url, init_str)
+          .then(response => response.json())
+          .then(json => this.miembros = json.results[0].members)
+      }
+    })
+
+    function suma(total, ele) {
+      return total + ele.votes_with_party_pct
+    } 
+    new Vue({
+      el: '#app2',
+      data: {
+        saludo: 'lindo!!!'
+      },
+    })
+//    leastengaged = statistics.least_engaged
+
+  </script>
 </body>
 
 </html>
