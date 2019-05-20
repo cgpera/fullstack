@@ -10,41 +10,24 @@
 
 <body>
   <div class="container" id="app">
-<!--    <table class="table table-hover">
-      <tr>
-        <th>Name</th>
-        <th>Party</th>
-        <th>Rate</th>
-      </tr>
-      <tr v-for="miembro in miembros">
-        <td>{{`${miembro.first_name} ${miembro.last_name}`}}</td>
-        <td>{{miembro.last_name}}</td>
-        <td>{{miembro.party}}</td>
-      </tr>
-    </table>-->
-    <table>
-      <tr><th>Name</th><th>id</th><th>Votos</th></tr>
-      <tr v-for="least in leastEngagedMembers">
-        <td>{{ least }}</td>
-      </tr>
-    </table>
-    <p>{{ estadistica }}</p>
-  </div>
-  <p id="app2">hola {{ saludo }}</p>
-<!--  <div class="container" id="app2">
     <table class="table table-hover">
       <tr>
         <th>Name</th>
         <th>Party</th>
         <th>Rate</th>
+        <th>% Votes w/party</th>
       </tr>
-      <tr v-for="less in leastengaged">
-        <td>{{`${less.first_name} ${less.last_name}`}}</td>
-        <td>{{less.last_name}}</td>
-        <td>{{less.party}}</td>
+      <tr v-for="miembro in miembros">
+        <td>{{`${miembro.first_name} ${miembro.last_name}`}}</td>
+        <td>{{miembro.last_name}}</td>
+        <td>{{miembro.missed_votes_pct}}</td>
+        <td>{{miembro.votes_with_party_pct}}</td>
       </tr>
     </table>
-  </div>-->
+   
+  </div>
+
+
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <!--<script src="../js/mkStat.js"></script>-->
   <script>
@@ -58,20 +41,18 @@
       mode: 'cors',
     }
 
-    new Vue({
+    var app = new Vue({
       el: '#app',
       data: {
         miembros: [],
-        leastEngagedMembers: []
+        sortedMembers: []
       },
       computed: {
-        estadistica () {
-          a = this.miembros.reduce(suma, 0)
-          return a
+        estadistica() {
+          return this.miembros.reduce(suma, 0)
         },
-        least_engaged: function() {
-          console.log(miembros)
-          return leastEngagedMembers = this.miembros.filter(el => el.votes_with_party_pct)
+        ordenar() {
+          return this.miembros.sort(ordenarMissedPct)
         }
       },
       created() {
@@ -83,15 +64,11 @@
 
     function suma(total, ele) {
       return total + ele.votes_with_party_pct
-    } 
-    new Vue({
-      el: '#app2',
-      data: {
-        saludo: 'lindo!!!'
-      },
-    })
-//    leastengaged = statistics.least_engaged
+    }
 
+    function ordenarMissedPct(a, b) {
+      return ((a.missed_votes_pct > b.missed_votes_pct) ? 1 : -1)
+    }
   </script>
 </body>
 
