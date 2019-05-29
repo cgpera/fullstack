@@ -18,18 +18,12 @@ fetch(url, init_str)
     app.miembrosFiltered = json.results[0].members
   })
   .catch(error => console.log(error))
-//console.log(app.miembros)
 var app = new Vue({
   el: '#app',
   data: {
     miembros: [],
     miembrosFiltered: [],
     listState: 'All',
-  },
-  created() {
-    /*    fetch(url, init_str)
-          .then(response => response.json())
-          .then(json => this.miembros = json.results[0].members);*/
   },
   computed: {
     listaEstados: function () {
@@ -41,37 +35,6 @@ var app = new Vue({
     }
   },
   methods: {
-    filterByParty: function() {
-      var checkedBoxes = document.querySelectorAll('input[name=party]:checked');
-      //var checkedBoxes = document.querySelectorAll('input[type=checkbox]:checked');
-      var partidos = Array.from(checkedBoxes).map(element => element.value)
-      this.miembrosFiltered = this.miembros
-      let aux = []
-      let result = []
-      partidos.forEach(partido => {
-        aux = this.miembrosFiltered.filter(miembro => miembro.party === partido)
-        result = result.concat(aux)
-      })
-      result.sort((a, b) => (a.last_name > b.last_name ? 1 : -1))
-      return this.miembrosFiltered = result
-    },
-    filterByState: function() { 
-      let aux = []
-      var listState = document.querySelector("#state").value
-      console.log(listState)
-      this.miembrosFiltered = this.miembros
-      //console.log(this.miembrosFiltered)
-      if(listState === 'All') {
-        return this.miembrosFiltered
-      }
-      else {
-        //console.log("else", this.miembrosFiltered)
-        aux = this.miembrosFiltered.filter(el => el.state === listState)
-        console.log(aux)
-        this.miembrosFiltered = aux
-        return this.miembrosFiltered
-      }
-    },
     filter: function() {
       let aux = []
       let result = []
@@ -81,7 +44,7 @@ var app = new Vue({
       var listState = document.querySelector("#state").value
       partidos.forEach(partido => {
         if(listState === 'All') {
-          aux = this.miembrosFiltered.filter(miembro => miembro.party)
+          aux = this.miembrosFiltered.filter(miembro => miembro.party === partido)
         }
         else {
         aux = this.miembrosFiltered.filter(miembro => miembro.party === partido && miembro.state === listState)

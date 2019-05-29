@@ -56,46 +56,103 @@
     </ul>
   </nav>
 
-
-  <!--<body style="margin-left: 20px;">-->
-  <h1>Estadisticas</h1>
+  <h1>Statistics</h1>
   <div id="app">
     <div class="row">
-      <div class="col-xl-6">
+      <div class="col-xl-7">
         <h4>Summary</h4>
         <p> ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae necessitatibus aut velit, blanditiis
           facilis corrupti quo neque explicabo aperiam repellendus molestiae asperiores a suscipit sint, libero
           laudantium
           laborum fuga.</p>
       </div>
-      <div class="col-xl-4">
-        <h4>Senate at a Glance</h4>
+      <div class="col-xl-5">
+        <h4 style="text-align: center">House at a Glance</h4>
         <table id="datahtml"></table>
         <table class="table table-hover">
-          <thead class="table"> <tr><th scope="col">Number</th> <th scope="col">Party</th><th scope="col">Prom/Party</th></tr></thead><tbody>
-          <tr v-for="miembro in miembros">
-            <td>{{`${miembro.first_name} ${miembro.last_name}`}}</td>
-            <td>{{miembro.last_name}}</td>
-            <td>{{miembro.missed_votes_pct}}</td>
-            <td>{{miembro.votes_with_party_pct}}</td>
-          </tr>
+          <thead class="table">
+            <tr>
+              <th scope="col">Party</th>
+              <th scope="col">Number</th>
+              <th scope="col">Prom/Party</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Democrats</td>
+              <td>{{statistics.number_of_democrats}}</td>
+              <td>{{statistics.democrats_average_votes_with_party}}</td>
+            </tr>
+            <tr>
+              <td>Republicans</td>
+              <td>{{statistics.number_of_republicans}}</td>
+              <td>{{statistics.republicans_average_votes_with_party}}</td>
+            </tr>
+            <tr>
+              <td>Independents</td>
+              <td>{{statistics.number_of_independents}}</td>
+              <td>{{statistics.independents_average_votes_with_party}}</td>
+            </tr>
+            <tr>
+              <td>Totals</td>
+              <td>{{statistics.total}}</td>
+              <td>{{statistics.total_average}}</td>
+            </tr>
         </table>
-    
+
       </div>
     </div>
     <p></p>
     <div class="row">
-      <div class="col-x-4" style="margin-left:20px">
-        <h4> Senator least Engaged</h4>
-        <table id="less_engaged" class="table table-hover"></table>
-      </div>
-      <div class="col-x-4" style="margin-left:50px">
-        <h4> Senator most Engaged</h4>
-        <table id="most_engaged" class="table table-hover">
-
+      <div class="col-x-4" style="margin-left:0px">
+        <h4 style="text-align: center">House representants most Engaged</h4>
+        <table id="less_engaged" class="table table-hover">
+          <thead class="thead-light">
+            <tr>
+              <!--              <th scope="col">Num</th>-->
+              <th scope="col" colspan=1>Names</th>
+              <th scope="col">Party</th>
+              <th scope="col">State</th>
+              <th scope="col">% Missed</th>
+              <th scope="col">Missed Votes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(item, key) in statistics.least_engaged">
+              <!--<td>{{ key+1 }}</td>-->
+              <td><a v-bind:href=item.url>{{ item.first_name + " " + item.last_name }}</a></td>
+              <td>{{ item.party }}</td>
+              <td>{{ item.state }}</td>
+              <td>{{ item.missed_votes_pct }}</td>
+              <td>{{ item.missed_votes }}</td>
+            </tr>
+          </tbody>
         </table>
-        <p>{{ statistics.total }}</p>
-        <p>{{ statistics.number_of_independents }}</p>
+      </div>
+      <div class="col-x-4" style="margin-left:30px">
+        <h4 style="text-align: center">House representants least Engaged</h4>
+        <table id="most_engaged" class="table table-hover">
+          <thead class="thead-light">
+            <tr>
+              <!--     <th scope="col">Num</th>-->
+              <th scope="col" colspan=1>Names</th>
+              <th scope="col">Party</th>
+              <th scope="col">State</th>
+              <th scope="col">% Missed</th>
+              <th scope="col">Missed Votes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(item, key) in statistics.most_engaged">
+              <!--<td>{{ key+1 }}</td>-->
+              <td><a v-bind:href=item.url>{{ item.first_name + " " + item.last_name }}</a></td>
+              <td>{{ item.party }}</td>
+              <td>{{ item.state }}</td>
+              <td>{{ item.missed_votes_pct }}</td>
+              <td>{{ item.missed_votes }}</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
@@ -110,6 +167,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="../js/pro-congress-113-housev2.js"></script>
   <script src="../js/mkStatv2.js"></script>
 </body>
 
