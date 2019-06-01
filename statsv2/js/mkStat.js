@@ -68,13 +68,6 @@ function ordenar_x_party_pct(a, b) {
 
 function ordenar_x_missed_pct(a, b) {
   return ((a.missed_votes_pct > b.missed_votes_pct)? 1: -1)
-/*if(a.missed_votes_pct > b.missed_votes_pct) {
-  return 1
-}
-if(a.missed_votes_pct < b.missed_votes_pct) {
-  return -1
-}
-return 0*/
 }
 
 function sumar (sum, e) {return (sum + e.votes_with_party_pct)}
