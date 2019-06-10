@@ -1,4 +1,5 @@
-module.exports = {
+module.exports = { 
+// o bien: module.exports.data = { y después importo con var data = require(); data.data.results[0] ....
   "status":"OK",
   "copyright":" Copyright (c) 2019 Pro Publica Inc. All Rights Reserved.",
   "results":[

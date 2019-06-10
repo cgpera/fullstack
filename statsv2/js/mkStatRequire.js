@@ -19,8 +19,7 @@ var statistics = {
 // obtener lista de partidos y miembros de c/u
 
 const data = require('./dataStatistics.js')
-console.log(data.results[0].members)
-//var miembros = require('dataStatistics.js')
+
 var miembros = data.results[0].members
 statistics.members_dem = miembros.filter(ele => ele.party === "D")
 statistics.number_of_democrats = statistics.members_dem.length
