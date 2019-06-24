@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Welcome to NYSL</title>
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/6.2.0/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/6.2.0/firebase-auth.js"></script>
+  <script defer src="/__/firebase/6.2.0/firebase-database.js"></script>
+  <script defer src="/__/firebase/6.2.0/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/6.2.0/firebase-storage.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="row sticky-top sticky-offset">
+      <div class="col">
+        <img src="images/nysl_logo.png" alt="logo" sizes="" style="width:100px;height:100px;">
+      </div>
+      <div class="col">
+        <h2 class="titulo">Welcome to NYSL</h2>
+      </div>
+    </header>
+    <br>
+    <section>
+      <h4><strong><em>Fall Schedule</em></strong></h3>
+      <p><u>* All games take place on Saturday.</u></p>
+    </section>
+
+    <section class="sched">
+      <h3><strong><em>Fall Schedule</em></strong></h3>
+      <p><u><em>* All games take place on Saturday.</em></u></p>
+      <!-- </section> -->
+      <table>
+        <tr>
+          <th scope="col"><strong><u>SEPTEMBER</u></strong></th>
+          <th scope="col"><strong><u>Teams</u></strong></th>
+          <th scope="col" colspan="2"><strong><u>Locations</u></strong></th>
+          <th scope="col"><strong><u>Times</u></strong></th>
+        </tr>
+        <tr>
+          <td>9/01</td>
+          <td>U1 and U4</td>
+          <td>AJ Katzenmaier</td>
+          <td id="details"><a class=" " href="#loc"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></a></td>
+          <td>9:30 a.m.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>U3 and U2</td>
+          <td>Greenbay</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>1:00 p.m.</td>
+        </tr>
+        <tr>
+          <td>9/08</td>
+          <td>U5 and U6</td>
+          <td>Howard A Yeager</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>9:30 a.m.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>U6 and U1</td>
+          <td>Marjorie P Hart</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>1:00 p.m.</td>
+        </tr>
+
+        <tr>
+          <td>9/15</td>
+          <td>U2 and U4</td>
+          <td>North</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>9:30 a.m.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>U3 and U5</td>
+          <td>AJ Katzenmaier</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>1:00 p.m.</td>
+        </tr>
+        <tr>
+          <td>9/22</td>
+          <td>U1 and U3</td>
+          <td>South</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>9:30 a.m.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>U2 and U6</td>
+          <td>Howard A Yeager</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>1:00 p.m.</td>
+        </tr>
+        <tr>
+          <td>9/29</td>
+          <td>U3 and U2</td>
+          <td>Greenbay</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>1:00 p.m.</td>
+        </tr>
+        <tr>
+          <th scope="col"><strong><u>OCTOBER</u></strong></th>
+          <th scope="col"><strong><u>Teams</u></strong></th>
+          <th scope="col" colspan="2"><strong><u>Locations</u></strong></th>
+          <th scope="col"><strong><u>Times</u></strong></th>
+        </tr>
+        <tr>
+          <td>10/06</td>
+          <td>U2 and U5</td>
+          <td>Marjorie P Hart</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>9:30 a.m.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>U1 and U6</td>
+          <td>South</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>1:00 p.m.</td>
+        </tr>
+        <tr>
+          <td>10/13</td>
+          <td>U3 and U4</td>
+          <td>Howard A Yeager</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>9:30 a.m.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>U5 and U1</td>
+          <td>Greenbay</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>1:00 p.m.</td>
+        </tr>
+        <tr>
+          <td>10/20</td>
+          <td>U6 and U3</td>
+          <td>North</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>9:30 a.m.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>U2 and U4</td>
+          <td>Marjorie P Hart</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>1:00 p.m.</td>
+        </tr>
+        <tr>
+          <td>10/27</td>
+          <td>U3 and U1</td>
+          <td>AJ Katzenmaier</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>9:30 a.m.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>U5 and U6</td>
+          <td>Howard A Yeager</td>
+          <td id="details"><img src="http://assets.stickpng.com/thumbs/58889257bc2fc2ef3a1860ac.png" alt="map" sizes="" style="width:40px;height:40px;"></td>
+          <td>1:00 p.m.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+    </section>
+  </div>
+  <div class="row sticky-bottom">
+    <div class="col">
+      <a class=" " href="#home"><img src="https://cdn.pixabay.com/photo/2017/06/05/19/05/house-2374925_960_720.png" alt="home" sizes="" style="width:60px;height:60px;"></a>
+    </div>
+    <div class="col">
+      <a class=" " href="#locations"><img src="https://cdn.pixabay.com/photo/2017/06/05/19/05/house-2374925_960_720.png" alt="home" sizes="" style="width:60px;height:60px;"></a>
+    </div>
+  </div>
+  <p id="load">Firebase SDK Loading&hellip;</p>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // // The Firebase SDK is initialized and available here!
+      //
+      // firebase.auth().onAuthStateChanged(user => { });
+      // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+      // firebase.messaging().requestPermission().then(() => { });
+      // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+      //
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      try {
+        let app = firebase.app();
+        let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] ===
+          'function');
+        document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+      } catch (e) {
+        console.error(e);
+        document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+      }
+    });
+  </script>
+</body>
+
+</html>
